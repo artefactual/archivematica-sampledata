@@ -1,0 +1,121 @@
+Operating on file: {18c812c3-5943-4734-a849-c416e6030721}WFPC01 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/WFPC01.GIF" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/18c812c3-5943-4734-a849-c416e6030721.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/18c812c3-5943-4734-a849-c416e6030721.jpg
+verificationCommand: 1
+ 
+Operating on file: {75426a8c-dd65-42c6-8096-60acfa4b2366}G31DS 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/G31DS.TIF" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/75426a8c-dd65-42c6-8096-60acfa4b2366.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/75426a8c-dd65-42c6-8096-60acfa4b2366.jpg
+verificationCommand: 1
+ 
+Operating on file: {cb6d7e83-f7f9-40f8-9810-906808950d32}Nemastylis_geminiflora_Flower 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/cb6d7e83-f7f9-40f8-9810-906808950d32.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/cb6d7e83-f7f9-40f8-9810-906808950d32.jpg
+verificationCommand: 1
+ 
+ 
+convert: Ignoring gAMA chunk with gamma=0 `/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set negative chromaticity value `/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set cHRM RGB triangle with zero area `/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring gAMA chunk with gamma=0 `/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set negative chromaticity value `/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set cHRM RGB triangle with zero area `/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+Operating on file: {7d29ace1-f2dc-45f3-810f-82e90231c6d9}oakland03 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/oakland03.jp2" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/7d29ace1-f2dc-45f3-810f-82e90231c6d9.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/7d29ace1-f2dc-45f3-810f-82e90231c6d9.jpg
+verificationCommand: 1
+ 
+Operating on file: {66315110-9cb1-47e4-ab59-ac4231b4afc4}Landing_zone 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/More_images/Landing_zone.jpg" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/66315110-9cb1-47e4-ab59-ac4231b4afc4.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/66315110-9cb1-47e4-ab59-ac4231b4afc4.jpg
+verificationCommand: 1
+ 
+Operating on file: {868e2be5-f98f-467f-b9ab-ffc18910f149}lion 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 6
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/868e2be5-f98f-467f-b9ab-ffc18910f149.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/868e2be5-f98f-467f-b9ab-ffc18910f149.jpg
+verificationCommand: None 
+Operating on file: {8f8f23c2-d561-4fed-bf09-fe111ecee165}BBhelmet 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 6
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/8f8f23c2-d561-4fed-bf09-fe111ecee165.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/8f8f23c2-d561-4fed-bf09-fe111ecee165.jpg
+verificationCommand: None 
+Operating on file: {c26c1090-6836-4d9c-855b-c0254ebfccaf}Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 6
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/c26c1090-6836-4d9c-855b-c0254ebfccaf.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/c26c1090-6836-4d9c-855b-c0254ebfccaf.jpg
+verificationCommand: None 
+Operating on file: {746cd430-c738-4d36-b09d-e512673a52ba}799px-Euroleague-LE_Roma_vs_Toulouse_IC-27 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/799px-Euroleague-LE_Roma_vs_Toulouse_IC-27.bmp" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/746cd430-c738-4d36-b09d-e512673a52ba.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/746cd430-c738-4d36-b09d-e512673a52ba.jpg
+verificationCommand: 1
+ 
+Operating on file: {7cabde5d-cadd-4992-87e7-ff1664ac0058}MARBLES 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 19
+Type: command
+command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/objects/More_images/MARBLES.TGA" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/7cabde5d-cadd-4992-87e7-ff1664ac0058.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/7cabde5d-cadd-4992-87e7-ff1664ac0058.jpg
+verificationCommand: 1
+ 

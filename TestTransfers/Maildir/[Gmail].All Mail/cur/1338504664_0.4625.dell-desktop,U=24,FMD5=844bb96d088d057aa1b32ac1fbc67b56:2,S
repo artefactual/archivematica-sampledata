@@ -1,0 +1,44 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp3461oet;
+        Tue, 10 Apr 2012 11:56:04 -0700 (PDT)
+Return-Path: <epmclellan@gmail.com>
+Received-SPF: pass (google.com: domain of epmclellan@gmail.com designates 10.52.67.14 as permitted sender) client-ip=10.52.67.14;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of epmclellan@gmail.com designates 10.52.67.14 as permitted sender) smtp.mail=epmclellan@gmail.com; dkim=pass header.i=epmclellan@gmail.com
+Received: from mr.google.com ([10.52.67.14])
+        by 10.52.67.14 with SMTP id j14mr5076036vdt.66.1334084163808 (num_hops = 1);
+        Tue, 10 Apr 2012 11:56:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        bh=o5h87zlqmiSL2prm9rXdIYNLwYrjl7OTwIbXVCApxKg=;
+        b=C0Wndb9FQezheAYc6Ay4r4EEndjki06JDhloaY/omooed7SZCnAx65UdTa9UG7uV9C
+         KuD3m+kRCrGnqQc2QhRmvfVpkcEWo5A5gFUDSCyVM3+xXDm8OG/Qsn56+bqrQ/faEs1Y
+         krUgGhOpynjs5w9DqagCAJX8SlPJ5UuuukZy84EWdZ75CLuWoFSVRHq5WB2d/MRNcw0p
+         m4bmSwBU9CYuN6PR1GBV+EmdHpPaGsHiTGMsariUgJGG4bdhI7kD9492v1QfmSa/LyKA
+         ZyG80Fe9IR5zzuTC4xHAqxL89lIhX7rRgXWvy8kLumdliGL8p4BgJzXqGXCoWhWf9QC/
+         9Dwg==
+MIME-Version: 1.0
+Received: by 10.52.67.14 with SMTP id j14mr5076036vdt.66.1334084163803; Tue,
+ 10 Apr 2012 11:56:03 -0700 (PDT)
+Sender: epmclellan@gmail.com
+Received: by 10.52.92.228 with HTTP; Tue, 10 Apr 2012 11:56:03 -0700 (PDT)
+Date: Tue, 10 Apr 2012 11:56:03 -0700
+X-Google-Sender-Auth: _uXiRDt-kzlNqwVj7Uo15qMZOpw
+Message-ID: <CAJan5r16FiSXj-sFodEJxtdK4ecCiER5kc21MXSmUs=_zSqncg@mail.gmail.com>
+Subject: Movie this weekend
+From: Evelyn McLellan <evelyn@artefactual.com>
+To: Evelyn McLellan <mclellanevelyn@gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi, we should go see the Hunger Games. I've read the books and I've
+heard the movie is quite good.
+
+E
+
+-- 
+Evelyn McLellan
+Systems Archivist
+Artefactual Systems Inc.
+www.artefactual.com
+604.527.2056

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='ASCII'?>
+<mets xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+  <fileSec>
+    <fileGrp USE="original">
+      <file ID="file-746cd430-c738-4d36-b09d-e512673a52ba">
+        <FLocat xlink:href="objects/799px-Euroleague-LE Roma vs Toulouse IC-27.bmp" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-8f8f23c2-d561-4fed-bf09-fe111ecee165">
+        <FLocat xlink:href="objects/BBhelmet.ai" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-75426a8c-dd65-42c6-8096-60acfa4b2366">
+        <FLocat xlink:href="objects/G31DS.TIF" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-cb6d7e83-f7f9-40f8-9810-906808950d32">
+        <FLocat xlink:href="objects/Nemastylis_geminiflora_Flower.PNG" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-c26c1090-6836-4d9c-855b-c0254ebfccaf">
+        <FLocat xlink:href="objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.eps" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-18c812c3-5943-4734-a849-c416e6030721">
+        <FLocat xlink:href="objects/WFPC01.GIF" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-868e2be5-f98f-467f-b9ab-ffc18910f149">
+        <FLocat xlink:href="objects/lion.svg" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-7d29ace1-f2dc-45f3-810f-82e90231c6d9">
+        <FLocat xlink:href="objects/oakland03.jp2" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-66315110-9cb1-47e4-ab59-ac4231b4afc4">
+        <FLocat xlink:href="objects/More images/Landing zone.jpg" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+      <file ID="file-7cabde5d-cadd-4992-87e7-ff1664ac0058">
+        <FLocat xlink:href="objects/More images/MARBLES.TGA" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="physical">
+    <div TYPE="directory" LABEL="Images2-1a453000-835c-4b42-a264-62f76f5bf033">
+      <div TYPE="directory" LABEL="objects">
+        <fptr FILEID="file-746cd430-c738-4d36-b09d-e512673a52ba"/>
+        <fptr FILEID="file-8f8f23c2-d561-4fed-bf09-fe111ecee165"/>
+        <fptr FILEID="file-75426a8c-dd65-42c6-8096-60acfa4b2366"/>
+        <fptr FILEID="file-cb6d7e83-f7f9-40f8-9810-906808950d32"/>
+        <fptr FILEID="file-c26c1090-6836-4d9c-855b-c0254ebfccaf"/>
+        <fptr FILEID="file-18c812c3-5943-4734-a849-c416e6030721"/>
+        <fptr FILEID="file-868e2be5-f98f-467f-b9ab-ffc18910f149"/>
+        <fptr FILEID="file-7d29ace1-f2dc-45f3-810f-82e90231c6d9"/>
+        <div TYPE="directory" LABEL="More images">
+          <fptr FILEID="file-66315110-9cb1-47e4-ab59-ac4231b4afc4"/>
+          <fptr FILEID="file-7cabde5d-cadd-4992-87e7-ff1664ac0058"/>
+        </div>
+      </div>
+    </div>
+  </structMap>
+</mets>

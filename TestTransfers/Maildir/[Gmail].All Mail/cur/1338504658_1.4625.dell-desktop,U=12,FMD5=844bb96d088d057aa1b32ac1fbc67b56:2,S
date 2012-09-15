@@ -1,0 +1,108 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp3441oet;
+        Tue, 10 Apr 2012 11:38:37 -0700 (PDT)
+Return-Path: <epmclellan@gmail.com>
+Received-SPF: pass (google.com: domain of epmclellan@gmail.com designates 10.220.115.2 as permitted sender) client-ip=10.220.115.2;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of epmclellan@gmail.com designates 10.220.115.2 as permitted sender) smtp.mail=epmclellan@gmail.com; dkim=pass header.i=epmclellan@gmail.com
+Received: from mr.google.com ([10.220.115.2])
+        by 10.220.115.2 with SMTP id g2mr2422391vcq.37.1334083116587 (num_hops = 1);
+        Tue, 10 Apr 2012 11:38:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=kkfyiMuWYQF4+dYthyjn+63U6sqG5K6AiFoiweRxRdw=;
+        b=buf90hmQP0mD78N09OZW5yszCkoS24PP5IDHfOeH7se0qHI7/XhECQHcf6YqjNaiAf
+         7apVe9Rq529pNR6pPl2jAE01KsiKDvqOf+igCEnOt5OwWv4ZfWbWeTeBUgqWcR1ALR2t
+         d+GhmoU4niHUVwdGoQSktom5DNt3feyVWo9iONCaR3+FhuKi0c9dVcOeNrLf9fICXIVS
+         wn0bMROkNfoywL22iLyWmGUr5y3SLDaJ5edM/7KJYbjfdb6ci/uSGAdp7gMEJHs4QNyF
+         Lkh7Ul3I+rrBzl0751fRDrF1nM8ksJpH7zUmbgn/Lr9dZA82ZddPK4APPQp8/cmAAvZU
+         0GQw==
+MIME-Version: 1.0
+Received: by 10.220.115.2 with SMTP id g2mr2422391vcq.37.1334083116582; Tue,
+ 10 Apr 2012 11:38:36 -0700 (PDT)
+Sender: epmclellan@gmail.com
+Received: by 10.52.92.228 with HTTP; Tue, 10 Apr 2012 11:38:36 -0700 (PDT)
+In-Reply-To: <CAPG__NibowAsU6=MY+nT9MMpV2MpQB2CFmXC_C_Q=uwR+Z1hhA@mail.gmail.com>
+References: <CAPG__NimyaLYkAjJdNTFPY7CkTyZ7s1d=A5AccR43sKrASir7Q@mail.gmail.com>
+	<CAPG__NibowAsU6=MY+nT9MMpV2MpQB2CFmXC_C_Q=uwR+Z1hhA@mail.gmail.com>
+Date: Tue, 10 Apr 2012 11:38:36 -0700
+X-Google-Sender-Auth: KgnsvQnptFkpVoTVGVJ2akwNn68
+Message-ID: <CAJan5r2NFHaOoG3_MUVuoDP1KH8ucm1C6p-GbV327vzHPBzR6A@mail.gmail.com>
+Subject: Fwd: [Archives-bc] AABC AGM package available online
+From: Evelyn McLellan <evelyn@artefactual.com>
+To: mclellanevelyn@gmail.com
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Here is the message I said I would forward.
+
+
+---------- Forwarded message ----------
+From: Jennifer Pecho <jenn.pecho@gmail.com>
+Date: Tue, Apr 10, 2012 at 11:37 AM
+Subject: [Archives-bc] AABC AGM package available online
+To: Archives-bc <archives-bc@lists.aabc.ca>
+
+
+Dear Colleagues,
+
+The AABC Annual General Meeting will be held at 10:30 am on Saturday, April
+21 at the Irving K. Barber Learning Centre, University of British Columbia,
+Vancouver.
+
+The AGM package containing draft minutes of the 2011 AGM meeting, 2011-12
+year-end reports, and annual Financial Statements has been available online
+on the AABC website since Thursday under the conference page.
+http://aabc.ca/events/annual-general-meeting-2012/
+
+Please bring this package with you to the meeting.
+
+If you are unable to attend the AGM and would like to vote on any issue,
+you may fill out the Proxy voting form that is included in the AGM package
+and submit it to the Secretary at the following address:
+
+Jennifer Pecho, AABC Secretary
+150 Robson Street
+Vancouver, BC
+V6B 2A7
+Fax: 604-683-4288
+email: jenn.pecho@gmail.com
+
+If you have questions about the AGM package or any reports contained within
+it, please don't hesitate to contact myself or any member of the Executive.
+
+Cheers,
+
+Jennifer
+
+
+
+Secretary
+
+Archives Association of British Columbia
+
+34A-2755 Lougheed Highway
+
+Suite #249
+
+Port Coquitlam, B.C. =A0V3B 5Y9
+
+Work: 604-683-0281
+
+jenn.pecho@gmail.com
+
+Work: jpecho@rcav.org
+_______________________________________________
+archives-bc-aabc.ca mailing list
+archives-bc-aabc.ca@lists.aabc.ca
+http://lists.aabc.ca/cgi-bin/mailman/listinfo/archives-bc-aabc.ca
+
+
+--=20
+Evelyn McLellan
+Systems Archivist
+Artefactual Systems Inc.
+www.artefactual.com
+604.527.2056

@@ -1,0 +1,28 @@
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/logs/METS.xml"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/More images/Landing zone.jpg"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/799px-Euroleague-LE Roma vs Toulouse IC-27.bmp"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/G31DS.TIF"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/WFPC01.GIF"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/lion.svg"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/Nemastylis_geminiflora_Flower.PNG"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/BBhelmet.ai"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/oakland03.jp2"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/More images/MARBLES.TGA"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/processingMCP.xml"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.eps"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/logs/FileUUIDs.log"
+
+clamdscan  - <"/var/archivematica/sharedDirectory/currentlyProcessing/Images2-1a453000-835c-4b42-a264-62f76f5bf033/logs/extraction.log"
+

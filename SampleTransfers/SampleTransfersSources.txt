@@ -1,0 +1,38 @@
+DigitizationOutput
+Created by Artefactual Systems staff member
+
+DSpaceExport 
+University of British Columbia Library
+
+Images
+-799px-Euroleague-LE Roma vs Toulouse IC-27.bmp from http://en.wikipedia.org/wiki/File:Euroleague_-_LE_Roma_vs_Toulouse_IC-27.jpg (converted from jpeg)
+-003.JPG created by Artefactual Systems staff member
+-Archivematica-architecture-7May2010-2.jpg www.archivematica.org
+-BBhelmet.ai from a private collection
+-G31DS.TIF http://www.fileformat.info/format/tiff/sample/index.htm
+-lion.svg http://croczilla.com/bits_and_pieces/svg/samples/
+-MARBLES.TGA http://www.fileformat.info/format/tga/sample/index.htm
+-Nemastylis_geminiflora_Flower.PNG http://en.wikipedia.org/wiki/File:Nemastylis_geminiflora_Flower.PNG
+-oakland03.jp2 http://www.microimages.com/gallery/jp2/
+-Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.eps http://vector4free.com/vectors/id/413
+-WFPC01.GIF http://www.fileformat.info/format/gif/sample/index.htm
+
+Multimedia
+-0239.mpg http://open-video.org/details.php?videoid=4639
+-BigTeen Short1.mp3 http://abmp3.com/download/2735313-bigteen-short-1.html
+-BlastOff.wmv http://open-video.org/details.php?videoid=6581 (downloaded as mpg file and converted for testing purposes)
+-funky_breakbeat_4.wav http://www.loopasonic.com/drums.htm
+-j6059_02.wma "Juno Riff" http://www.loopasonic.com/users.htm (downloaded as wav file and converted for testing purposes)
+-MakeUp.mov http://h10025.www1.hp.com/ewfrf/wc/document?docname=lpg40911&lc=en&cc=us&product=81685&dlc=
+-sample.aif http://www.nch.com.au/acm/formats.html
+
+OfficeDocs
+-article.pdf http://www.ijdc.net/index.php/ijdc/article/view/110/87
+-Club-Report.doc http://busrc.com/wp/wp-content/uploads/2011/05/Club-Report.doc
+-[datavibe-l]_FW__job_vacancy.rtf created by Artefactual Systems staff member
+-FRPEnForm.pdf http://www.iccs-ciec.ca/pages/z_pdfs/FEP_FRP/FRPEnForm.pdf
+-MS-OfficeOpenXML-samples.zip http://openxmldeveloper.org/articles/SampleDocsAugust2007.aspx
+-Project.zip created by Artefactual Systems staff member
+
+RawCamera
+http://www.rawsamples.ch/

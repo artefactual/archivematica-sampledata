@@ -1,0 +1,73 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp3439oet;
+        Tue, 10 Apr 2012 11:38:04 -0700 (PDT)
+Return-Path: <epmclellan@gmail.com>
+Received-SPF: pass (google.com: domain of epmclellan@gmail.com designates 10.52.98.8 as permitted sender) client-ip=10.52.98.8;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of epmclellan@gmail.com designates 10.52.98.8 as permitted sender) smtp.mail=epmclellan@gmail.com; dkim=pass header.i=epmclellan@gmail.com
+Received: from mr.google.com ([10.52.98.8])
+        by 10.52.98.8 with SMTP id ee8mr5133878vdb.49.1334083083902 (num_hops = 1);
+        Tue, 10 Apr 2012 11:38:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=WGv7EISnwfMTQrUiPv8v7kY5IGcdIpgNHD+hafb+Pxw=;
+        b=dO+Whd+URE5kFyrgjn3VDLtIdfiSCpUdBNdIAwutFz5PrGtlAI1k5hw1tdUSUtX4PL
+         ulyDNfP88GPwRkp0X5hzk/lhmiKo2QH1NKulFULeOFsUQmIvXzZP9D6J6GyCs/G9+qOp
+         pUzSTliKMQJB5IGQ7gLXQVnKfWaKhm7F26W8xebqcu4f6qUsY4G4Jr+khFt3FMkc53XV
+         hKu+2igMxO+Ce5mN76+C890KK1ZG8Plwfkj7rYAw1gQD9UjXPqxhRtoCmoCtC32d1rWj
+         wfxQutmyhE/R4NgplZocs8BeUvD5x0PqiMeuzKUTHigrMMeA3QQnKZ3MRPm0OaeKrB+c
+         5pPw==
+MIME-Version: 1.0
+Received: by 10.52.98.8 with SMTP id ee8mr5133878vdb.49.1334083083897; Tue, 10
+ Apr 2012 11:38:03 -0700 (PDT)
+Sender: epmclellan@gmail.com
+Received: by 10.52.92.228 with HTTP; Tue, 10 Apr 2012 11:38:03 -0700 (PDT)
+In-Reply-To: <a5d0658d-a6e2-4041-9a86-23fb225c0ce6@cds008.dcs.int.inet>
+References: <90a453fb-224f-442d-bbe0-ef1e292c1e64@cds008.dcs.int.inet>
+	<a5d0658d-a6e2-4041-9a86-23fb225c0ce6@cds008.dcs.int.inet>
+Date: Tue, 10 Apr 2012 11:38:03 -0700
+X-Google-Sender-Auth: Znlmmgvb5Qmxy_MznKKaE-vykgs
+Message-ID: <CAJan5r1yFF-+F7xYn-BqaDKQXUpoGJm0uhu+my7kSeYJ0ohAjQ@mail.gmail.com>
+Subject: Fwd: [Arcan-l] ASA 2012 Archives Institute - Waitlist established
+From: Evelyn McLellan <evelyn@artefactual.com>
+To: mclellanevelyn@gmail.com
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: Michael Gourlie <mgourlie@shaw.ca>
+Date: Tue, Apr 10, 2012 at 11:35 AM
+Subject: [Arcan-l] ASA 2012 Archives Institute - Waitlist established
+To: asa-l@mailman.srv.ualberta.ca, arcan-l@mailman.srv.ualberta.ca,
+jerome-l@mailman.srv.ualberta.ca, main-l@mailman.srv.ualberta.ca
+
+
+listserv subscribers (with apologies for cross-postings):
+
+The Archives Society of Alberta has reached the minimum registration
+number required to proceed with the 2012 Archives Institute in
+Edmonton. =A0Payments received to date will be processed in the coming
+days. =A0In fact, the 2012 Institute is full, and a waitlist has been
+established.
+
+Please contact the ASA if you have any questions or want to be added
+to the waitlist.
+
+Thanks!
+
+Michael Gourlie
+Archives Society of Alberta
+_______________________________________________
+Arcan-l mailing list
+Arcan-l@mailman.srv.ualberta.ca
+http://www.mailman.srv.ualberta.ca/mailman/listinfo/arcan-l
+
+
+--=20
+Evelyn McLellan
+Systems Archivist
+Artefactual Systems Inc.
+www.artefactual.com
+604.527.2056

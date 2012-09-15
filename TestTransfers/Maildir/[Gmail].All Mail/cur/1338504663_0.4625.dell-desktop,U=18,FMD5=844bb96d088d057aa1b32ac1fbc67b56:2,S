@@ -1,0 +1,89 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp3445oet;
+        Tue, 10 Apr 2012 11:43:48 -0700 (PDT)
+Return-Path: <epmclellan@gmail.com>
+Received-SPF: pass (google.com: domain of epmclellan@gmail.com designates 10.52.98.8 as permitted sender) client-ip=10.52.98.8;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of epmclellan@gmail.com designates 10.52.98.8 as permitted sender) smtp.mail=epmclellan@gmail.com; dkim=pass header.i=epmclellan@gmail.com
+Received: from mr.google.com ([10.52.98.8])
+        by 10.52.98.8 with SMTP id ee8mr5142116vdb.49.1334083428545 (num_hops = 1);
+        Tue, 10 Apr 2012 11:43:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type:content-transfer-encoding;
+        bh=9eW0keE1VqZHcOGZ5ReAIlWHzkwoL5JlWPzsmjdioJ8=;
+        b=iBrGWud6R9wqd0re2M+dw/o1xN9pP202NFu5exybdaAJKGmzL0a3dtLEHquuSwTwd/
+         y4oGGYJDqIkYx/deSEA9iGX5zZNfUgjnBaP/vgi/Bc+fTucgTLFHUEOfvW53ZvUQcmnt
+         oCEpLAjmw1P6K7NWbcDO7wfu/WP9J1impPVX9yDJi6+p4pwE8wSeoFPLUV/XRPyWM7ew
+         1+6Z8hrcXf27sEAIF2kXjEQlZIJaEYKQrOnupKF0Ce0QUgc8YxLahVlEdwWqaVCaNUFR
+         jgQ13uS2AoOREmIewAEYGuuG0x0oKbD+ldEekpIEYgFP71AwW9JcVYHGgYaog/JwUi8x
+         C2EA==
+MIME-Version: 1.0
+Received: by 10.52.98.8 with SMTP id ee8mr5142116vdb.49.1334083428540; Tue, 10
+ Apr 2012 11:43:48 -0700 (PDT)
+Sender: epmclellan@gmail.com
+Received: by 10.52.92.228 with HTTP; Tue, 10 Apr 2012 11:43:48 -0700 (PDT)
+Date: Tue, 10 Apr 2012 11:43:48 -0700
+X-Google-Sender-Auth: ijjJy8YEJrp9SA4Bctjuq8Fmm8I
+Message-ID: <CAJan5r1e4e33Jb7TwccDB5NuQs5g5gYk68fRS8re2NBqHa8vcQ@mail.gmail.com>
+Subject: Swedish bread
+From: Evelyn McLellan <evelyn@artefactual.com>
+To: mclellanevelyn@gmail.com
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+FENNEL-CARAWAY SWEDISH LIMPE=09
+5 to 5 1/2 cups all purpose flour
+2 pkg. dry yeast
+2 cups water
+1/2 cup brown sugar
+2 tsp. salt
+1 1/2 tsp. caraway seed
+1 1/2 tsp. fennel seed
+2 tsp. freshly grated orange rind
+2 tbsp. vegetable, peanut or canola oil
+2 eggs
+2 cups rye flour
+butter (for brushing)
+
+Stir together 3 cups flour and yeast.
+
+In a saucepan, bring water to a boil with sugar, salt, caraway and
+fennel seeds, orange rind and oil; boil for 3 minutes, then remove
+from heat. Allow to cool until lukewarm (about 115=B0F).
+
+Gradually add to flour/yeast mixture and knead with electric mixer for
+about 2 minutes. Mix in eggs. Add 1 cup flour and knead for 1 minute.
+
+Stir in rye flour and enough of the all purpose flour to make a
+moderately stiff dough. If dough is very sticky, add a little more
+flour, but try not to add too much flour or the bread will be heavy.
+It's easier to add more flour than it is to add more liquid to a dry
+dough.
+
+Knead with dough hook for 5 minutes or until dough is smooth and
+elastic (8-10 minutes by hand).
+
+Shape into a ball and place in lightly greased bowl, turning to grease
+all sides. Cover and allow to rise in a warm place until doubled,
+about 1 hour (or however long it takes - this takes more time on cold
+or humid days).
+
+Bake in a preheated 400=B0F for 30 to 35 minutes or until done (tap loaf
+on bottom and it should sound hollow).
+
+Remove from pans immediately and brush with melted butter.
+
+Note: Half of the white flour can be replaced with white whole wheat
+or stone ground whole wheat flour, if desired. Makes a wonderful
+Easter or Christmas bread and it was often served in my family on
+those holidays.
+
+Makes 2 loaves.
+
+--=20
+Evelyn McLellan
+Systems Archivist
+Artefactual Systems Inc.
+www.artefactual.com
+604.527.2056

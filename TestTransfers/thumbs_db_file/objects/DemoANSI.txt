@@ -1,0 +1,24 @@
+Try the online demo
+
+The online demo is the easiest way for you to try out the ICA-AtoM software 
+right away. 
+It is available at http://ica-atom.org/demo/. 
+Using a default demo user name and password you will be able to navigate through 
+the 
+software like an administrator user. The demo website refreshes every hour with 
+default 
+data so you are free to make any changes you like.
+ 
+Download and burn a DemoCD
+
+ICA-AtoM is web-based software which requires a web server and database server 
+to 
+operate. However, we created the ICA-AtoM DemoCD to make it easy for you to demo 
+the ICA-AtoM software on your own local computer. It is available for download 
+at 
+http://ica-atom.org/democd. You can burn and make as many CD copies as you like. 
+The Demo CD will run on any computer. It temporarily loads the Ubuntu Linux 
+operating system into memory, along with the necessary web server, database 
+server, 
+Firefox browser and ICA-AtoM application. When you are finished the demo, your 
+computer restarts using your regular operating system and configuration. 

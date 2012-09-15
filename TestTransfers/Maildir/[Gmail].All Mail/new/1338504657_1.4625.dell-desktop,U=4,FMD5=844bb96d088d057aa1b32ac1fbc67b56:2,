@@ -1,0 +1,174 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp3425oet;
+        Tue, 10 Apr 2012 11:27:25 -0700 (PDT)
+Received: by 10.50.193.199 with SMTP id hq7mr3351248igc.49.1334082444799;
+        Tue, 10 Apr 2012 11:27:24 -0700 (PDT)
+Return-Path: <noreply-daa26fef@plus.google.com>
+Received: from mail-iy0-f200.google.com (mail-iy0-f200.google.com [209.85.210.200])
+        by mx.google.com with ESMTPS id o9si101573icw.19.2012.04.10.11.27.24
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 10 Apr 2012 11:27:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply-daa26fef@plus.google.com designates 209.85.210.200 as permitted sender) client-ip=209.85.210.200;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of noreply-daa26fef@plus.google.com designates 209.85.210.200 as permitted sender) smtp.mail=noreply-daa26fef@plus.google.com; dkim=pass header.i=@plus.google.com
+Received: by mail-iy0-f200.google.com with SMTP id o4so201405iae.3
+        for <mclellanevelyn@gmail.com>; Tue, 10 Apr 2012 11:27:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=beta;
+        h=mime-version:x-notifications:x-all-senders-in-circles:date
+         :message-id:subject:from:to:content-type;
+        bh=RFemAaHjWJN/ChFiApwIdaCOoYwIPP4u3ZWSvmICj+E=;
+        b=CodKJ22zdH2FK0vPclu7wZBXX40pjg6X/ExZXPZGpk9xLPXFmFZaZs4L6bjnngt0ix
+         24aET5sJzO4fZuHh+1cWT57IoljA6ykZeh17Qh3BHAzuCfAe6vK1ztwlVKTyF2d4GOyD
+         B012L3BrwkQlrL00P90i5ZUecR+qOHyoYgAmY=
+MIME-Version: 1.0
+Received: by 10.50.6.167 with SMTP id c7mr2762366iga.1.1334082444625; Tue, 10
+ Apr 2012 11:27:24 -0700 (PDT)
+X-Notifications: XEAAAAFhBSX06YWpe978NHHu7w4I
+X-All-Senders-In-Circles: 1
+Date: Tue, 10 Apr 2012 11:27:24 -0700 (PDT)
+Message-ID: <CNu62bH0qq8CFW8HQAodkDEAAA@plus.google.com>
+Subject: Create circles to make Gmail even better
+From: "Google+ team" <noreply-daa26fef@plus.google.com>
+To: mclellanevelyn@gmail.com
+Content-Type: multipart/alternative; boundary=e89a8f6465d13689bb04bd5746d4
+
+--e89a8f6465d13689bb04bd5746d4
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+Q3JlYXRlIGNpcmNsZXMgdG8gbWFrZSBHbWFpbCBldmVuIGJldHRlcg0KR2V0IHN0YXJ0ZWQgIA0K
+aHR0cHM6Ly9wbHVzLmdvb2dsZS5jb20vXy9ub3RpZmljYXRpb25zL2VtbGluaz9lbXJlY2lwaWVu
+dD0xMDg1MjQ4MDI4NjQ5NzU4NTc5MzYmZW1pZD1DTnU2MmJIMHFxOENGVzhIUUFvZGtERUFBQSZw
+YXRoPSUyRmdldHN0YXJ0ZWQmZHQ9MTMzNDA4MjQ0NDYyNA0KDQoNCg0KSGkgRXZlbHluLA0KWW91
+ciBuZXcgR29vZ2xlIEFjY291bnQgZ2l2ZXMgeW91IG1vcmUgdGhhbiBqdXN0IEdtYWlsLiBZb3Ug
+Y2FuIGFsc28gdXNlICANCkdvb2dsZSsgdG8gc2hhcmUgdGhlIHJpZ2h0IHRoaW5ncyB3aXRoIHRo
+ZSByaWdodCBwZW9wbGUuIEhlcmUgYXJlIGEgZmV3ICANCndheXMgdGhhdCBHbWFpbCBpbXByb3Zl
+cyB3aXRoIEdvb2dsZSs6DQoNCkZpbmQgZW1haWxzIGp1c3QgZnJvbSB0aGUgcGVvcGxlIHlvdSBj
+YXJlIGFib3V0DQpMb29raW5nIGZvciB0aGF0IGxldHRlciB5b3VyIG1vbSBzZW50IGxhc3Qgd2Vl
+az8gSW5zdGVhZCBvZiBzaWZ0aW5nIHRocm91Z2ggIA0KeW91ciBwaWxlIG9mIGRhaWx5IGRlYWwg
+bmV3c2xldHRlcnMsIG1ha2UgYSAiRmFtaWx5IiBjaXJjbGUgaW4gR29vZ2xlKywgIA0KdGhlbiB1
+c2UgaXQgdG8gZmlsdGVyIHlvdXIgbWVzc2FnZXMuDQoNClNoYXJlIGVmZm9ydGxlc3NseQ0KV2h5
+IGRvd25sb2FkPyBUaGUgbmV4dCB0aW1lIHNvbWVvbmUgZW1haWxzIHlvdSBhIGdyZWF0IHBob3Rv
+LCB5b3UgY2FuIHNoYXJlICANCml0IG9uIEdvb2dsZSsgd2l0aG91dCBsZWF2aW5nIHlvdXIgaW5i
+b3guDQoNClNlZSB3aGF0IGVsc2UgeW91ciBmcmllbmRzIGFyZSBzYXlpbmcNCldoZW5ldmVyIHlv
+dSBnZXQgYW4gZW1haWwgZnJvbSBzb21lb25lIGluIHlvdXIgY2lyY2xlcywgeW91IGNhbiBhbHNv
+IHNlZSAgDQp0aGUgdGhpbmdzIHRoZXkndmUgcmVjZW50bHkgc2hhcmVkIHdpdGggeW91IG9uIEdv
+b2dsZSsuIElmIHRoZXkncmUgbm90IGluICANCnlvdXIgY2lyY2xlcyB5ZXQsIGl0J3MgZWFzeSB0
+byBhZGQgdGhlbS4NCg0KR29vZ2xlKyBjb25uZWN0cyB5b3VyIGZyaWVuZHMgYW5kIGludGVyZXN0
+cw0KR2V0IHN0YXJ0ZWQgIA0KaHR0cHM6Ly9wbHVzLmdvb2dsZS5jb20vXy9ub3RpZmljYXRpb25z
+L2VtbGluaz9lbXJlY2lwaWVudD0xMDg1MjQ4MDI4NjQ5NzU4NTc5MzYmZW1pZD1DTnU2MmJIMHFx
+OENGVzhIUUFvZGtERUFBQSZwYXRoPSUyRmdldHN0YXJ0ZWQmZHQ9MTMzNDA4MjQ0NDYyNA0KDQpZ
+b3UnbGwgZmluZCBhIGNvbGxlY3Rpb24gb2Ygc29tZSBvZiB0aGUgd29ybGQncyBtb3N0IGNyZWF0
+aXZlIG1pbmRzIG9uICANCkdvb2dsZSssIHNoYXJpbmcgdGhlaXIgb3BpbmlvbnMsIGludGVyZXN0
+cywgYW5kIHBpY3R1cmVzIG9mIGtpdHRlbnMgaW4gIA0Kc3dlYXRzaGlydHMuIENoZWNrIG91dCBX
+aGF0J3MgSG90IHRvIHNlZSB3aGF0IHRoZSBjb21tdW5pdHkgaXMgdGFsa2luZyAgDQphYm91dDoN
+Cmh0dHBzOi8vcGx1cy5nb29nbGUuY29tL18vbm90aWZpY2F0aW9ucy9lbWxpbms/ZW1yZWNpcGll
+bnQ9MTA4NTI0ODAyODY0OTc1ODU3OTM2JmVtaWQ9Q051NjJiSDBxcThDRlc4SFFBb2RrREVBQUEm
+cGF0aD0lMkZob3QmZHQ9MTMzNDA4MjQ0NDYyNA0KDQoNCkhhbmdvdXRzDQpHbWFpbCBoYXMgdmlk
+ZW8gY2hhdC4gR29vZ2xlKyBoYXMgdmlkZW8gY2hhdCB0byB0aGUgcG93ZXIgb2YgMTAuIENhdGNo
+IHVwICANCndpdGggdXAgdG8gOSBmcmllbmRzIGF0IG9uY2UgZnJvbSB5b3VyIGNvbXB1dGVyIG9y
+IG1vYmlsZSBwaG9uZTogIA0KZmFjZS10by1mYWNlLXRvLWZhY2UuDQpMZWFybiBtb3JlOiBodHRw
+czovL3d3dy5nb29nbGUuY29tL2ludGwvZW4vKy9sZWFybm1vcmUvaW5kZXguaHRtbCNoYW5nb3V0
+cw0KDQpNZXNzZW5nZXINCllvdSBjYW4gdGFrZSB5b3VyIGNpcmNsZXMgd2l0aCB5b3UuIEdldCBl
+dmVyeW9uZSBvbiB0aGUgc2FtZSBwYWdlIHdoZW4gIA0KeW91J3JlIG91dCBhbmQgYWJvdXQgd2l0
+aCBmYXN0LCBzaW1wbGUgZ3JvdXAgbWVzc2FnaW5nIGZyb20geW91ciBtb2JpbGUgIA0KcGhvbmUu
+DQpHZXQgdGhlIG1vYmlsZSBhcHA6IGh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9pbnRsL2VuL21vYmls
+ZS8rDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCkNsaWNrIGhlcmUgdG8gdW5zdWJzY3JpYmUg
+ZnJvbSB0aGVzZSBlbWFpbHM6ICANCmh0dHBzOi8vcGx1cy5nb29nbGUuY29tL18vbm90aWZpY2F0
+aW9ucy9lbWxpbms/ZW1yZWNpcGllbnQ9MTA4NTI0ODAyODY0OTc1ODU3OTM2JmVtaWQ9Q051NjJi
+SDBxcThDRlc4SFFBb2RrREVBQUEmcGF0aD0lMkZfJTJGbm9ucGx1cyUyRmVtYWlsc2V0dGluZ3Ml
+M0Zlc3QlM0RBREg1dThWX3F5UlFtaWh1OVQxYTZZQlF2T1JqZVg5ejFDUVFZQVNhMlFzOXR6eFVT
+dGpoLUNULVRoLXljclk1bWJhQ3BFcHdsdzVRWUMwS1VzWFRpS1JQSWh3aFo2THJTRy1FRHZRV1lK
+WmZudWlNWWw2UXdEUDlFQUpXM2hiSFZUUndPbXkxUDRySyUyNmhsJTNEZW4mZHQ9MTMzNDA4MjQ0
+NDYyNA0K
+--e89a8f6465d13689bb04bd5746d4
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"color:#666;font:13px Arial;line-height:1.4em;;"><div s=
+tyle=3D"max-width:700px;"><table cellspacing=3D0 cellpadding=3D0 style=3D"c=
+olor:#666;font:13px Arial;line-height:1.4em;;border:solid 1px #dfdfdf;; wid=
+th:100%;background-color:#f2f2f2"><tr><td style=3D"padding:15px 20px"><div =
+style=3D"color:#d44b38;font-size:20px;">Create circles to make Gmail even b=
+etter</div></td><td style=3D"padding:15px 20px;text-align:right"><a style=
+=3D"display:inline-block;padding:7px 15px;background-color:#d44b38; color:#=
+fff;font-size:13px; font-weight:bold;border-radius:2px;border:solid 1px #c4=
+3b28; white-space:nowrap;text-decoration:none" href=3D"https://plus.google.=
+com/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=3DCNu62=
+bH0qq8CFW8HQAodkDEAAA&path=3D%2Fgetstarted&dt=3D1334082444623" >Get started=
+</a></td></tr></table><div style=3D"padding:0;border-left:solid 1px #dfdfdf=
+;; border-right:solid 1px #dfdfdf;"><div style=3D"padding: 20px"><div style=
+=3D"font-weight:bold;font-size:14px">Hi Evelyn,</div><div>Your new Google A=
+ccount gives you more than just Gmail. You can also use Google+ to share th=
+e right things with the right people. Here are a few ways that Gmail improv=
+es with Google+:</div></div><div style=3D"padding: 20px"><table cellspacing=
+=3D0 cellpadding=3D0 style=3D"color:#666;font:13px Arial;line-height:1.4em;=
+;width:100%;"><tr style=3D"vertical-align:top"><td><img src=3Dhttps://ssl.g=
+static.com/s2/oz/intl/en/images/mail-find-fc3695c23e3e8ff956db83ea871e713f.=
+png style=3D"border:solid 5px #dfdfdf; margin-right:10px;margin-bottom:20px=
+;width:320px;"/></td><td><div style=3D"font-weight:bold;">Find emails just =
+from the people you care about</div><div>Looking for that letter your mom s=
+ent last week? Instead of sifting through your pile of daily deal newslette=
+rs, make a "Family" circle in Google+, then use it to filter your messages.=
+</div></td></tr><tr style=3D"vertical-align:top"><td><img src=3Dhttps://ssl=
+.gstatic.com/s2/oz/intl/en/images/mail-share-162c7d2932bb9addceab3f371830a4=
+bc.png style=3D"border:solid 5px #dfdfdf; margin-right:10px;margin-bottom:2=
+0px;width:320px;"/></td><td><div style=3D"font-weight:bold;">Share effortle=
+ssly</div><div>Why download? The next time someone emails you a great photo=
+, you can share it on Google+ without leaving your inbox.</div></td></tr><t=
+r style=3D"vertical-align:top"><td><img src=3Dhttps://ssl.gstatic.com/s2/oz=
+/intl/en/images/mail-whats-shared-d4b965d8c6d96210ebbd517a8fd98486.png styl=
+e=3D"border:solid 5px #dfdfdf; margin-right:10px;margin-bottom:20px;width:3=
+20px;"/></td><td><div style=3D"font-weight:bold;">See what else your friend=
+s are saying</div><div>Whenever you get an email from someone in your circl=
+es, you can also see the things they've recently shared with you on Google+=
+. If they're not in your circles yet, it's easy to add them.</div></td></tr=
+></table></div><div style=3D"background-color:#f2f2f2"><div style=3D"paddin=
+g: 20px"><table cellspacing=3D0 cellpadding=3D0 style=3D"color:#666;font:13=
+px Arial;line-height:1.4em;;width:100%;"><tr><td><div style=3D"color:#d44b3=
+8;font-size:18px;">Google+ connects your friends and interests</div></td><t=
+d style=3D"text-align:right"><a style=3D"display:inline-block;padding:7px 1=
+5px;background-color:#d44b38; color:#fff;font-size:13px; font-weight:bold;b=
+order-radius:2px;border:solid 1px #c43b28; white-space:nowrap;text-decorati=
+on:none" href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=
+=3D108524802864975857936&emid=3DCNu62bH0qq8CFW8HQAodkDEAAA&path=3D%2Fgetsta=
+rted&dt=3D1334082444623" >Get started</a></td></tr></table><table cellspaci=
+ng=3D0 cellpadding=3D0 style=3D"color:#666;font:13px Arial;line-height:1.4e=
+m;; padding-top:10px;width:100%;"><tr><td style=3D"width:95px;"><img src=3D=
+"https://ssl.gstatic.com/s2/oz/images/notifications/circles-f8fc605c2432372=
+4d2c6978d2cbcd217.png" /></td><td style=3D"width:520px;">You'll find a coll=
+ection of some of the world's most creative minds on Google+, sharing their=
+ opinions, interests, and pictures of kittens in sweatshirts. Check out <a =
+href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D108524=
+802864975857936&emid=3DCNu62bH0qq8CFW8HQAodkDEAAA&path=3D%2Fhot&dt=3D133408=
+2444623" style=3D"color:#3366CC;text-decoration:none;">What's Hot</a> to se=
+e what the community is talking about.</td></tr></table></div><div style=3D=
+"padding-bottom:20px"><img style=3D"width:100%" src=3D"https://ssl.gstatic.=
+com/s2/oz/images/notifications/profile-pic-ribbon-e493857146e1a9827805a4911=
+2b715ca.png" /></div></div><div style=3D"padding: 20px"><table cellspacing=
+=3D0 cellpadding=3D0 style=3D"color:#666;font:13px Arial;line-height:1.4em;=
+;width:100%;"><tr style=3D"vertical-align: top;"><td><div style=3D"font-siz=
+e:16px;font-weight:bold;padding-bottom:5px;">Hangouts</div><img src=3Dhttps=
+://ssl.gstatic.com/s2/oz/images/notifications/hangouts-noborder-a5d3bc9856c=
+87ba660892f565471c1a7.png style=3D"color:#3366CC;text-decoration:none;; bor=
+der:solid 1px #dfdfdf;;width:320px;height:230px;"/><div style=3D"padding-to=
+p:5px;padding-right:10px;">Gmail has video chat. Google+ has video chat to =
+the power of 10. Catch up with up to 9 friends at once from your computer o=
+r mobile phone: face-to-face-to-face.<br/><a href=3D"https://www.google.com=
+/intl/en/+/learnmore/index.html#hangouts" style=3D"color:#3366CC;text-decor=
+ation:none;">Learn more &raquo;</a></div></td><td><div style=3D"font-size:1=
+6px;font-weight:bold;padding-bottom:5px;">Messenger</div><img src=3Dhttps:/=
+/ssl.gstatic.com/s2/oz/intl/en/images/col-mobile-1.jpg style=3D"color:#3366=
+CC;text-decoration:none;; border:solid 1px #dfdfdf;;width:320px;height:230p=
+x;"/><div style=3D"padding-top:5px;padding-right:10px;">You can take your c=
+ircles with you. Get everyone on the same page when you're out and about wi=
+th fast, simple group messaging from your mobile phone.<br/><a href=3D"http=
+://www.google.com/intl/en/mobile/+" style=3D"color:#3366CC;text-decoration:=
+none;">Get the mobile app &raquo;</a></div></td></tr></table></div></div><d=
+iv style=3D"padding:0;border-top:solid 1px #dfdfdf;"><div style=3D"color:#6=
+36363;font:11px Arial;padding:10px 0;"><a href=3D"https://plus.google.com/_=
+/notifications/emlink?emrecipient=3D108524802864975857936&emid=3DCNu62bH0qq=
+8CFW8HQAodkDEAAA&path=3D%2Fsettings%2Fplus&dt=3D1334082444623" style=3D"col=
+or:#3366CC;text-decoration:none;">Change</a> what email Google+ sends you.<=
+/div></div></div></body></html>
+--e89a8f6465d13689bb04bd5746d4--

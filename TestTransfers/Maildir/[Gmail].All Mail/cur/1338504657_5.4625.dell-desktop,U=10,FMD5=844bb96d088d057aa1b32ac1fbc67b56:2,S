@@ -1,0 +1,42 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp3437oet;
+        Tue, 10 Apr 2012 11:37:33 -0700 (PDT)
+Return-Path: <epmclellan@gmail.com>
+Received-SPF: pass (google.com: domain of epmclellan@gmail.com designates 10.52.26.48 as permitted sender) client-ip=10.52.26.48;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of epmclellan@gmail.com designates 10.52.26.48 as permitted sender) smtp.mail=epmclellan@gmail.com; dkim=pass header.i=epmclellan@gmail.com
+Received: from mr.google.com ([10.52.26.48])
+        by 10.52.26.48 with SMTP id i16mr5138724vdg.32.1334083052848 (num_hops = 1);
+        Tue, 10 Apr 2012 11:37:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        bh=hjoABMiWSPtqHhm4AiLbEIIpOcvLXWJAYRpb9nOFVwg=;
+        b=KGfk2hrhkbUVQduqM8dtcNwzwWeCywtKhhw3XQ0waUWETtTadyc+Ml5zm9U2Xosn1S
+         dBj3G7mTPG+/2wAYA7Mnpgu3F9PVdo1YY8BOIITLKA2NfhzgZTk/5au5a2JHJ0vjkvyY
+         oWisrRJN2dRJHpS3KR4WvROl8WGv+VMYi8OIOA7MVhcZVaRv0jruNCKUnH4zIlZtAi2v
+         u0GZAtsu9nJe927fsoAvTfYdD+G3pEA84BotZIQ4NWoowdpRn1caNbNpLhWsmap35jzF
+         kpUosucd4kSUJi/AIRfA2Cjkd1LCIjJGc2uTHUn5hl5S3t67esMAnfcaGXb+8EA/2zj3
+         dHuQ==
+MIME-Version: 1.0
+Received: by 10.52.26.48 with SMTP id i16mr5138724vdg.32.1334083052843; Tue,
+ 10 Apr 2012 11:37:32 -0700 (PDT)
+Sender: epmclellan@gmail.com
+Received: by 10.52.92.228 with HTTP; Tue, 10 Apr 2012 11:37:32 -0700 (PDT)
+Date: Tue, 10 Apr 2012 11:37:32 -0700
+X-Google-Sender-Auth: L6_3ELSPalzYSBYLwK5rQrGokek
+Message-ID: <CAJan5r1r6PVXfpwJRkzmfFR9Yt3Uh+ZyTcAc+ri9p3fESJKB7A@mail.gmail.com>
+Subject: Spinach recipes
+From: Evelyn McLellan <evelyn@artefactual.com>
+To: mclellanevelyn@gmail.com
+Content-Type: text/plain; charset=ISO-8859-1
+
+The recipes are at
+http://www.nytimes.com/2012/04/08/magazine/spinach-is-a-dish-best-served-cooked.html?_r=1&scp=3&sq=spinach&st=cse.
+
+-- 
+Evelyn McLellan
+Systems Archivist
+Artefactual Systems Inc.
+www.artefactual.com
+604.527.2056

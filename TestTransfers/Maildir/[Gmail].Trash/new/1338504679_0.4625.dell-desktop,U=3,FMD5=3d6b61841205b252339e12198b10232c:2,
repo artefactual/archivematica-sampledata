@@ -1,0 +1,258 @@
+Delivered-To: mclellanevelyn@gmail.com
+Received: by 10.60.5.164 with SMTP id t4csp230957oet;
+        Thu, 26 Apr 2012 05:56:50 -0700 (PDT)
+Received: by 10.180.101.136 with SMTP id fg8mr51009130wib.4.1335445010481;
+        Thu, 26 Apr 2012 05:56:50 -0700 (PDT)
+Return-Path: <noreply-475ba29f@plus.google.com>
+Received: from mail-we0-f199.google.com (mail-we0-f199.google.com [74.125.82.199])
+        by mx.google.com with ESMTPS id h60si3195272wed.51.2012.04.26.05.56.48
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 26 Apr 2012 05:56:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply-475ba29f@plus.google.com designates 74.125.82.199 as permitted sender) client-ip=74.125.82.199;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of noreply-475ba29f@plus.google.com designates 74.125.82.199 as permitted sender) smtp.mail=noreply-475ba29f@plus.google.com; dkim=pass header.i=@plus.google.com
+Received: by mail-we0-f199.google.com with SMTP id g1so365516wer.10
+        for <mclellanevelyn@gmail.com>; Thu, 26 Apr 2012 05:56:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=beta;
+        h=mime-version:x-notifications:date:message-id:subject:from:to
+         :content-type;
+        bh=DEi1Z3I5ZUoI9NWQ0aoHFHxfJtQ0tzmmWSw3fzb+OQM=;
+        b=ep0EmJ6i5MFLOHDT+5o/OC85+XTeNCPf7mptFr8ejDlMSbWx68tDq+MwWOBZml8VaF
+         4ikHGS6p0mfgFlwnCLUaWWv/3UIBIAi14bmSKdGxWnjZ8BUSEsaiTl1nTmqzEbwy5di/
+         8r37SSJcClMKu/A3TfZtLoLFwWzTrrePqB1Fs=
+MIME-Version: 1.0
+Received: by 10.14.101.16 with SMTP id a16mr1862646eeg.0.1335445008158; Thu,
+ 26 Apr 2012 05:56:48 -0700 (PDT)
+X-Notifications: XEAAAACir6BN7ASaCdZStY03M_b4
+Date: Thu, 26 Apr 2012 05:56:48 -0700 (PDT)
+Message-ID: <CNC8z6rI0q8CFQKA3god7B4AAA@plus.google.com>
+Subject: Top 3 posts for you on Google+ this week
+From: "Google+ team" <noreply-475ba29f@plus.google.com>
+To: mclellanevelyn@gmail.com
+Content-Type: multipart/alternative; boundary=bcaec52be48b5411fa04be9485c2
+
+--bcaec52be48b5411fa04be9485c2
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Hi Evelyn
+Here's the week's top content.
+
+------------------------
+Change what email Google+ sends you:  
+https://plus.google.com/_/notifications/emlink?emrecipient=108524802864975857936&emid=CNC8z6rI0q8CFQKA3god7B4AAA&path=%2Fsettings%2Fplus&reexp=CONTROL&dt=1335445008155
+
+
+--bcaec52be48b5411fa04be9485c2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"color:#666;font:13px Arial;line-height:1.4em;;"><div s=
+tyle=3D"max-width:700px;"><table cellspacing=3D0 cellpadding=3D30px style=
+=3D"color:#666;font:13px Arial;line-height:1.4em;;border:solid 1px #dfdfdf;=
+; width:100%;"><tr><td><div style=3D"color:#d44b38;font-size:22px;padding-b=
+ottom:10px;">Hi Evelyn!</div><div style=3D"color:#777;font-size:16px;">Here=
+ are the top 3 posts for you on Google+ this week.</div></td><td style=3D"t=
+ext-align:right"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notificat=
+ions/logo/google-plus-6617a72bb36cc548861652780c9e6ff1.png" alt=3D"Google+ =
+team" /></td></tr><tr><td style=3D"padding:15px 30px;color:#d44b38;font-siz=
+e:22px; background-color:#f2f2f2">The most popular content on Google+</td><=
+td style=3D"padding:15px 30px;text-align:right; background-color:#f2f2f2"><=
+a style=3D"display:inline-block;padding:7px 15px;background-color:#d44b38; =
+color:#fff;font-size:13px; font-weight:bold;border-radius:2px;border:solid =
+1px #c43b28; white-space:nowrap;text-decoration:none" href=3D"https://plus.=
+google.com/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=
+=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2Fhot&reexp=3DCONTROL&dt=3D1335445008=
+153" >View what's hot</a></td></tr><tr><td colspan=3D2><div style=3D"paddin=
+g: 10px 0 20px 0;width:500px;"><table cellpadding=3D0 cellspacing=3D0><tr><=
+td style=3D"padding-right:15px;vertical-align:top"><a href=3D"https://plus.=
+google.com/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=
+=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F103236949470535942612&reexp=3DCONTR=
+OL&dt=3D1335445008153"><img style=3D"border:solid 1px #cccccc;" width=3D"48=
+" height=3D"48" src=3D"https://lh3.googleusercontent.com/-gYTIwqwpuJo/AAAAA=
+AAAAAI/AAAAAAAACpM/_rZcXNjkXsY/s75-c-k-a/photo.jpg" /></a></td><td style=3D=
+"width:578px;color:#333;font:13px Arial;vertical-align:top;"><div style=3D"=
+padding-bottom: 10px;"><a href=3D"https://plus.google.com/_/notifications/e=
+mlink?emrecipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA=
+&path=3D%2F103236949470535942612&reexp=3DCONTROL&dt=3D1335445008153" style=
+=3D"color:#3366CC;text-decoration:none;">Charles Lupica</a></div><div style=
+=3D"padding-bottom:10px">I&#39;m going to share the first 100 photographers=
+, <span class=3D"proflinkWrapper"><span class=3D"proflinkPrefix">+</span><a=
+ href=3D"https://plus.google.com/116219534929662479848" class=3D"proflink" =
+oid=3D"116219534929662479848">Peter From</a></span>, <span class=3D"proflin=
+kWrapper"><span class=3D"proflinkPrefix">+</span><a href=3D"https://plus.go=
+ogle.com/103236949470535942612" class=3D"proflink" oid=3D"10323694947053594=
+2612">Charles Lupica</a></span>, and a couple of related pages.  The full c=
+ircle will be released on Monday.  If you&#39;re in this rough draft, pleas=
+e remember to plus and share the post.<br><br>=E2=99=A6=E2=99=A6=E2=99=A6=
+=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=
+=99=A6=E2=99=A6=E2=99=A6=E2=99=A6<wbr>=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=
+=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=
+=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6<wbr>=
+=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=
+=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6<br>=E2=80=82=
+=E2=80=82=E2=80=82Co<wbr>ntinuation of the previous call for photographers<=
+br>=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6<wbr>=E2=
+=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=
+=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=
+=E2=99=A6=E2=99=A6=E2=99=A6<wbr>=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=
+=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=
+=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6=E2=99=A6<wbr>=E2=99=
+=A6=E2=99=A6=E2=99=A6<br><br>=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=
+=E2=80=82=E2=80=82=E2=80=82=E2=80=82Circle Revision Announcement=E2=80=82=
+=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82 <br>=E2=80=
+=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=
+=E2=80=82=E2=80=82=E2=80=82=E2=80=82Great Photographers=E2=80=82=E2=80=82=
+=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82<wbr>=E2=80=82=E2=80=82=E2=80=
+=82=E2=80=82=E2=80=82 <br>=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=80=82=E2=
+=80=82=E2=80=82=E2=80=82=E2=80=82with less than 15&#39;000...</div><div sty=
+le=3D"padding-bottom:10px;padding-top:10px;">Charles Lupica shared a circle=
+ with you.</div><div style=3D"padding-bottom:10px;"><a href=3D"https://plus=
+.google.com/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=
+=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F110784099379805584044&reexp=3DCONTR=
+OL&dt=3D1335445008153"><img src=3D"https://lh4.googleusercontent.com/-v3gV4=
+bjVzqg/AAAAAAAAAAI/AAAAAAAAG2M/nHawxXygVAg/s48-c-k/photo.jpg?sz=3D75" style=
+=3D"align:left;border:none;" alt=3D"Sassi Sassmannshausen"/></a> <a href=3D=
+"https://plus.google.com/_/notifications/emlink?emrecipient=3D1085248028649=
+75857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F115052421774883402661&=
+reexp=3DCONTROL&dt=3D1335445008153"><img src=3D"https://lh4.googleuserconte=
+nt.com/-zlbBQblWyrU/AAAAAAAAAAI/AAAAAAAADNA/MUvkxhjUDb0/s48-c-k/photo.jpg?s=
+z=3D75" style=3D"align:left;border:none;" alt=3D"Harry Kikstra"/></a> <a hr=
+ef=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D10852480=
+2864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F10795859901205261=
+8167&reexp=3DCONTROL&dt=3D1335445008153"><img src=3D"https://lh5.googleuser=
+content.com/-FAO7vUfW1H4/AAAAAAAAAAI/AAAAAAAACnA/xTRjYFwKdvE/s48-c-k/photo.=
+jpg?sz=3D75" style=3D"align:left;border:none;" alt=3D"Margaret Tompkins"/><=
+/a> <a href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=
+=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F108222=
+747016010081648&reexp=3DCONTROL&dt=3D1335445008153"><img src=3D"https://lh4=
+.googleusercontent.com/-JLOSrVxveoY/AAAAAAAAAAI/AAAAAAAAB0E/_AUOa4jxiOY/s48=
+-c-k/photo.jpg?sz=3D75" style=3D"align:left;border:none;" alt=3D"Andrew Mar=
+ston"/></a> <a href=3D"https://plus.google.com/_/notifications/emlink?emrec=
+ipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F=
+103808037946072451620&reexp=3DCONTROL&dt=3D1335445008153"><img src=3D"https=
+://lh6.googleusercontent.com/-i8er5LWXwVA/AAAAAAAAAAI/AAAAAAAAB8s/BhS7Wteit=
+rE/s48-c-k/photo.jpg?sz=3D75" style=3D"align:left;border:none;" alt=3D"Geo =
+Messmer"/></a> <a href=3D"https://plus.google.com/_/notifications/emlink?em=
+recipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D=
+%2F111441033953866685562&reexp=3DCONTROL&dt=3D1335445008153"><img src=3D"ht=
+tps://lh3.googleusercontent.com/-2TtMW4SnBto/AAAAAAAAAAI/AAAAAAAAHgM/MmjPU6=
+faaXo/s48-c-k/photo.jpg?sz=3D75" style=3D"align:left;border:none;" alt=3D"D=
+ennis Hoffbuhr"/></a> </div><div style=3D"padding-bottom:10px;clear:both;">=
+ <a href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D10=
+8524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F11078409937=
+9805584044&reexp=3DCONTROL&dt=3D1335445008153" style=3D"width:578px;color:#=
+333;font:13px Arial;vertical-align:top;;text-decoration: none;">Sassi Sassm=
+annshausen</a>, <a href=3D"https://plus.google.com/_/notifications/emlink?e=
+mrecipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=
+=3D%2F115052421774883402661&reexp=3DCONTROL&dt=3D1335445008153" style=3D"wi=
+dth:578px;color:#333;font:13px Arial;vertical-align:top;;text-decoration: n=
+one;">Harry Kikstra</a>, <a href=3D"https://plus.google.com/_/notifications=
+/emlink?emrecipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4A=
+AA&path=3D%2F107958599012052618167&reexp=3DCONTROL&dt=3D1335445008153" styl=
+e=3D"width:578px;color:#333;font:13px Arial;vertical-align:top;;text-decora=
+tion: none;">Margaret Tompkins</a>, <a href=3D"https://plus.google.com/_/no=
+tifications/emlink?emrecipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CF=
+QKA3god7B4AAA&path=3D%2F108222747016010081648&reexp=3DCONTROL&dt=3D13354450=
+08153" style=3D"width:578px;color:#333;font:13px Arial;vertical-align:top;;=
+text-decoration: none;">Andrew Marston</a>, <a href=3D"https://plus.google.=
+com/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=3DCNC8z=
+6rI0q8CFQKA3god7B4AAA&path=3D%2F103808037946072451620&reexp=3DCONTROL&dt=3D=
+1335445008153" style=3D"width:578px;color:#333;font:13px Arial;vertical-ali=
+gn:top;;text-decoration: none;">Geo Messmer</a>, <a href=3D"https://plus.go=
+ogle.com/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=3D=
+CNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F111441033953866685562&reexp=3DCONTROL&=
+dt=3D1335445008153" style=3D"width:578px;color:#333;font:13px Arial;vertica=
+l-align:top;;text-decoration: none;">Dennis Hoffbuhr</a> and 100 others.</d=
+iv><div style=3D"margin:15px 0;border-bottom:solid 1px #dfdfdf;"></div><tab=
+le cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td style=3D"font:13px =
+Arial"><a style=3D"color:#3366CC;text-decoration:none;" href=3D"https://plu=
+s.google.com/_/notifications/emlink?emrecipient=3D108524802864975857936&emi=
+d=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F103236949470535942612%2Fposts%2Fbc=
+czBMJuZja&reexp=3DCONTROL&dt=3D1335445008153"><span style=3D"font-style:ita=
+lic;font-weight:bold;">+98</span> - 70 comments - 71 shares</a></td><td sty=
+le=3D"font:13px Arial;text-align:right"><a style=3D"color:#3366CC;text-deco=
+ration:none;" href=3D"https://plus.google.com/_/notifications/emlink?emreci=
+pient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F1=
+03236949470535942612%2Fposts%2FbcczBMJuZja&reexp=3DCONTROL&dt=3D13354450081=
+53">View or comment on this post &raquo;</a></td></tr></table></td></tr></t=
+able></div><div style=3D"padding: 10px 0 20px 0;width:500px;"><table cellpa=
+dding=3D0 cellspacing=3D0><tr><td style=3D"padding-right:15px;vertical-alig=
+n:top"><a href=3D"https://plus.google.com/_/notifications/emlink?emrecipien=
+t=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F10523=
+7212888595777019&reexp=3DCONTROL&dt=3D1335445008153"><img style=3D"border:s=
+olid 1px #cccccc;" width=3D"48" height=3D"48" src=3D"https://lh4.googleuser=
+content.com/-eMhZYGfKPB4/AAAAAAAAAAI/AAAAAAACqRA/jbvExXPImIk/s75-c-k-a/phot=
+o.jpg" /></a></td><td style=3D"width:578px;color:#333;font:13px Arial;verti=
+cal-align:top;"><div style=3D"padding-bottom: 10px;"><a href=3D"https://plu=
+s.google.com/_/notifications/emlink?emrecipient=3D108524802864975857936&emi=
+d=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F105237212888595777019&reexp=3DCONT=
+ROL&dt=3D1335445008153" style=3D"color:#3366CC;text-decoration:none;">Trey =
+Ratcliff</a></div><div style=3D"padding-bottom:10px">Anyone fancy a walk do=
+wn a street in France with me to get some food?  Let&#39;s go... I&#39;m hu=
+ngry! :)</div><div style=3D"margin:20px 0;border-bottom:solid 1px #dfdfdf">=
+</div><table style=3D"margin-bottom:15px" cellspacing=3D0 cellpadding=3D0><=
+tr><td colspan=3D3 background=3D"https://lh3.googleusercontent.com/-IP333U6=
+oG98/T5jV7pHUyhI/AAAAAAADM1E/_QUSwtJoIow/h142/2095537488_41b9e9dd5d_o.jpg" =
+style=3D"background-repeat:no-repeat" width=3D"190px" height=3D"142px"><a h=
+ref=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D1085248=
+02864975857936&amp;emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&amp;path=3D%2Fphotos%2=
+F105237212888595777019%2Falbum%2F5623042490481885105&amp;reexp=3DCONTROL&am=
+p;dt=3D1335445008153" style=3D"text-decoration:none;display:block;height:10=
+0%"></a></td></tr></table><div style=3D"margin-bottom:15px">...and 736 more=
+ photos.</div><div style=3D"margin:15px 0;border-bottom:solid 1px #dfdfdf;"=
+></div><table cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td style=3D=
+"font:13px Arial"><a style=3D"color:#3366CC;text-decoration:none;" href=3D"=
+https://plus.google.com/_/notifications/emlink?emrecipient=3D10852480286497=
+5857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F105237212888595777019%2=
+Fposts%2FYkAYt94UJnX&reexp=3DCONTROL&dt=3D1335445008153"><span style=3D"fon=
+t-style:italic;font-weight:bold;">+1398</span> - 437 comments - 221 shares<=
+/a></td><td style=3D"font:13px Arial;text-align:right"><a style=3D"color:#3=
+366CC;text-decoration:none;" href=3D"https://plus.google.com/_/notification=
+s/emlink?emrecipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4=
+AAA&path=3D%2F105237212888595777019%2Fposts%2FYkAYt94UJnX&reexp=3DCONTROL&d=
+t=3D1335445008153">View or comment on this post &raquo;</a></td></tr></tabl=
+e></td></tr></table></div><div style=3D"padding: 10px 0 20px 0;width:500px;=
+"><table cellpadding=3D0 cellspacing=3D0><tr><td style=3D"padding-right:15p=
+x;vertical-align:top"><a href=3D"https://plus.google.com/_/notifications/em=
+link?emrecipient=3D108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&=
+path=3D%2F115121555137256496805&reexp=3DCONTROL&dt=3D1335445008153"><img st=
+yle=3D"border:solid 1px #cccccc;" width=3D"48" height=3D"48" src=3D"https:/=
+/lh5.googleusercontent.com/-LrQpx-4GPcg/AAAAAAAAAAI/AAAAAAAAivo/Y2hMqSkfKq0=
+/s75-c-k-a/photo.jpg" /></a></td><td style=3D"width:578px;color:#333;font:1=
+3px Arial;vertical-align:top;"><div style=3D"padding-bottom: 10px;"><a href=
+=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D1085248028=
+64975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F1151215551372564968=
+05&reexp=3DCONTROL&dt=3D1335445008153" style=3D"color:#3366CC;text-decorati=
+on:none;">Carter Gibson</a></div><div style=3D"padding-bottom:10px"><b>Stop=
+ Procrastinating</b><br /><br />...is what I told myself when I shared this=
+ photo.</div><div style=3D"margin-bottom:10px;padding-left:10px; border-lef=
+t:2px solid #EAEAEA"><span style=3D"margin-right:5px"><a href=3D"https://pl=
+us.google.com/_/notifications/emlink?emrecipient=3D108524802864975857936&am=
+p;emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&amp;path=3D%2F115121555137256496805%2Fp=
+osts%2FfyQxC2ahzAC&amp;reexp=3DCONTROL&amp;dt=3D1335445008153" style=3D"zSo=
+yz;"><img src=3D"https://lh4.googleusercontent.com/-UZR2JEUprQY/T5kIxv2MhWI=
+/AAAAAAAAr4w/kwVh0AXLrY4/h120/yesterday-you-said-tomorrow-nike.jpeg" border=
+=3D0 style=3D"max-height:200px;max-width:275px" /></a></span></div><div sty=
+le=3D"margin:15px 0;border-bottom:solid 1px #dfdfdf;"></div><table cellpadd=
+ing=3D0 cellspacing=3D0 width=3D100%><tr><td style=3D"font:13px Arial"><a s=
+tyle=3D"color:#3366CC;text-decoration:none;" href=3D"https://plus.google.co=
+m/_/notifications/emlink?emrecipient=3D108524802864975857936&emid=3DCNC8z6r=
+I0q8CFQKA3god7B4AAA&path=3D%2F115121555137256496805%2Fposts%2FfyQxC2ahzAC&r=
+eexp=3DCONTROL&dt=3D1335445008153"><span style=3D"font-style:italic;font-we=
+ight:bold;">+563</span> - 102 comments - 268 shares</a></td><td style=3D"fo=
+nt:13px Arial;text-align:right"><a style=3D"color:#3366CC;text-decoration:n=
+one;" href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D=
+108524802864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2F115121555=
+137256496805%2Fposts%2FfyQxC2ahzAC&reexp=3DCONTROL&dt=3D1335445008153">View=
+ or comment on this post &raquo;</a></td></tr></table></td></tr></table></d=
+iv></td></tr><tr><td style=3D"padding:15px 20px;font-size:11px; border-top:=
+solid 1px #dfdfdf;;">Don't want occasional updates about Google+ activity a=
+nd friend suggestions? <a style=3D"color:#3366CC;text-decoration:none;" hre=
+f=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D108524802=
+864975857936&emid=3DCNC8z6rI0q8CFQKA3god7B4AAA&path=3D%2Fsettings%2Fplus&re=
+exp=3DCONTROL&dt=3D1335445008153">Change</a> what email Google+ sends you.<=
+/td><td style=3D"padding:15px 20px;text-align:right; border-top:solid 1px #=
+dfdfdf;"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/log=
+o/google-plus-6617a72bb36cc548861652780c9e6ff1.png" alt=3D"Google+ team" />=
+</td></tr></table></div></body></html>
+--bcaec52be48b5411fa04be9485c2--
