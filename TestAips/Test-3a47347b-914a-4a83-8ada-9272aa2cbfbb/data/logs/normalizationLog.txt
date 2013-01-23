@@ -1,0 +1,341 @@
+Operating on file: {24170628-4560-44cb-9b0d-f1ba0d22631b}Landing_zone 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: dc949cb7-ad68-44ba-a795-d2a43a18164f
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/Landing_zone.jpg" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/24170628-4560-44cb-9b0d-f1ba0d22631b-Landing_zone.jpg"
+description: Copying file to access directory.
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/24170628-4560-44cb-9b0d-f1ba0d22631b-Landing_zone.jpg
+verificationCommand: None 
+Operating on file: {8b61b7da-b5ab-479f-830d-581b6bb7f241}Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: e96b787d-57f6-41a4-9693-d0634bfacacb
+Type: command
+command: ps2pdf  -dEPSCrop -dPDFA "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.eps" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/8b61b7da-b5ab-479f-830d-581b6bb7f241-Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.pdf"
+description: Transcoding to pdf with ps2pdf
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/8b61b7da-b5ab-479f-830d-581b6bb7f241-Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.pdf
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {24170628-4560-44cb-9b0d-f1ba0d22631b}Landing_zone 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/Landing_zone.jpg" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/24170628-4560-44cb-9b0d-f1ba0d22631b.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/24170628-4560-44cb-9b0d-f1ba0d22631b.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d}MARBLES 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: 6957fdac-a1ed-470f-89f7-fb00be42ea13
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/MARBLES.TGA" -sampling-factor 4:4:4 -quality 60 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d-MARBLES.jpg"
+description: Transcoding to jpg with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d-MARBLES.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {22cb50f0-d347-4a0f-b68d-3f97affe9853}lion 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: 64c450b4-135c-46d1-a9aa-3f9b15671677
+Type: bashScript
+command: sudo /usr/bin/inkscape "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/lion.svg" --export-plain-svg="/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/lion-34691c06-ed6d-46a1-aac5-248ae2b4b463.svg"
+    sudo chmod 777 "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/lion-34691c06-ed6d-46a1-aac5-248ae2b4b463.svg"
+description: Transcoding to plain svg with inkscape
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/lion-34691c06-ed6d-46a1-aac5-248ae2b4b463.svg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+ 
+
+** (inkscape:22995): WARNING **: Command line `dbus-launch --autolaunch=0e8c5a582920f70373248e2800000006 --binary-syntax --close-stderr' exited with non-zero exit status 1: Autolaunch error: X11 initialization failed.\n
+Operating on file: {dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d}MARBLES 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/MARBLES.TGA" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {c932b610-a7b3-465a-9151-d2c1ce193539}G31DS 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/G31DS.TIF" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/c932b610-a7b3-465a-9151-d2c1ce193539.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/c932b610-a7b3-465a-9151-d2c1ce193539.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {dc77ad52-9eb0-4a52-8f49-5e1347c5ad9d}MARBLES 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: a34ddc9b-c922-4bb6-8037-bbe713332175
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/MARBLES.TGA" +compress "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/MARBLES-14b6558b-e21f-4197-a78e-fdf177ebaeaf.tif"
+description: Transcoding to tif with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/MARBLES-14b6558b-e21f-4197-a78e-fdf177ebaeaf.tif
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {86f6a78e-6989-4951-9564-b87b2f878e5f}BBhelmet 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: a74cbffb-281b-49ee-8e96-fbac2ab54785
+Type: command
+command: ps2pdf "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/BBhelmet.ai" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/86f6a78e-6989-4951-9564-b87b2f878e5f-BBhelmet.pdf"
+description: Transcoding to pdf with ps2pdf
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/86f6a78e-6989-4951-9564-b87b2f878e5f-BBhelmet.pdf
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {c224cd00-f990-441f-bdfa-b25ed0322026}oakland03 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/oakland03.jp2" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/c224cd00-f990-441f-bdfa-b25ed0322026.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/c224cd00-f990-441f-bdfa-b25ed0322026.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {1376a588-53e8-40b4-a7c0-c9e58ceedf64}799px-Euroleague-LE_Roma_vs_Toulouse_IC-27 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: a34ddc9b-c922-4bb6-8037-bbe713332175
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/799px-Euroleague-LE_Roma_vs_Toulouse_IC-27.bmp" +compress "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/799px-Euroleague-LE_Roma_vs_Toulouse_IC-27-5bd0cad6-d5c3-4160-833c-97db42a06584.tif"
+description: Transcoding to tif with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/799px-Euroleague-LE_Roma_vs_Toulouse_IC-27-5bd0cad6-d5c3-4160-833c-97db42a06584.tif
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {c932b610-a7b3-465a-9151-d2c1ce193539}G31DS 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: 6957fdac-a1ed-470f-89f7-fb00be42ea13
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/G31DS.TIF" -sampling-factor 4:4:4 -quality 60 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/c932b610-a7b3-465a-9151-d2c1ce193539-G31DS.jpg"
+description: Transcoding to jpg with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/c932b610-a7b3-465a-9151-d2c1ce193539-G31DS.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {1376a588-53e8-40b4-a7c0-c9e58ceedf64}799px-Euroleague-LE_Roma_vs_Toulouse_IC-27 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/799px-Euroleague-LE_Roma_vs_Toulouse_IC-27.bmp" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/1376a588-53e8-40b4-a7c0-c9e58ceedf64.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/1376a588-53e8-40b4-a7c0-c9e58ceedf64.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {729a204a-804e-4b9f-b118-762007f8d60e}WFPC01 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/WFPC01.GIF" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/729a204a-804e-4b9f-b118-762007f8d60e.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/729a204a-804e-4b9f-b118-762007f8d60e.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {1376a588-53e8-40b4-a7c0-c9e58ceedf64}799px-Euroleague-LE_Roma_vs_Toulouse_IC-27 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: 6957fdac-a1ed-470f-89f7-fb00be42ea13
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/799px-Euroleague-LE_Roma_vs_Toulouse_IC-27.bmp" -sampling-factor 4:4:4 -quality 60 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/1376a588-53e8-40b4-a7c0-c9e58ceedf64-799px-Euroleague-LE_Roma_vs_Toulouse_IC-27.jpg"
+description: Transcoding to jpg with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/1376a588-53e8-40b4-a7c0-c9e58ceedf64-799px-Euroleague-LE_Roma_vs_Toulouse_IC-27.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {729a204a-804e-4b9f-b118-762007f8d60e}WFPC01 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: a34ddc9b-c922-4bb6-8037-bbe713332175
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/WFPC01.GIF" +compress "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/WFPC01-dd976de4-59ae-4ad8-ae43-8c62f51737fc.tif"
+description: Transcoding to tif with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/WFPC01-dd976de4-59ae-4ad8-ae43-8c62f51737fc.tif
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {8b61b7da-b5ab-479f-830d-581b6bb7f241}Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: 64c450b4-135c-46d1-a9aa-3f9b15671677
+Type: bashScript
+command: sudo /usr/bin/inkscape "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight.eps" --export-plain-svg="/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight-b634a24a-90f8-4ec7-917d-0ae2a3c96957.svg"
+    sudo chmod 777 "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight-b634a24a-90f8-4ec7-917d-0ae2a3c96957.svg"
+description: Transcoding to plain svg with inkscape
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight-b634a24a-90f8-4ec7-917d-0ae2a3c96957.svg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+ 
+
+** (inkscape:23074): WARNING **: Command line `dbus-launch --autolaunch=0e8c5a582920f70373248e2800000006 --binary-syntax --close-stderr' exited with non-zero exit status 1: Autolaunch error: X11 initialization failed.\n
+Operating on file: {c224cd00-f990-441f-bdfa-b25ed0322026}oakland03 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: 6957fdac-a1ed-470f-89f7-fb00be42ea13
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/oakland03.jp2" -sampling-factor 4:4:4 -quality 60 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/c224cd00-f990-441f-bdfa-b25ed0322026-oakland03.jpg"
+description: Transcoding to jpg with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/c224cd00-f990-441f-bdfa-b25ed0322026-oakland03.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {8b61b7da-b5ab-479f-830d-581b6bb7f241}Vector.NET-Free-Vector-Art-Pack-28-Freedom-Flight 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 814febd9-945b-4580-8381-9b146fd042d9
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/8b61b7da-b5ab-479f-830d-581b6bb7f241.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/8b61b7da-b5ab-479f-830d-581b6bb7f241.jpg
+verificationCommand: None 
+Operating on file: {22cb50f0-d347-4a0f-b68d-3f97affe9853}lion 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 814febd9-945b-4580-8381-9b146fd042d9
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/22cb50f0-d347-4a0f-b68d-3f97affe9853.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/22cb50f0-d347-4a0f-b68d-3f97affe9853.jpg
+verificationCommand: None 
+Operating on file: {86f6a78e-6989-4951-9564-b87b2f878e5f}BBhelmet 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 814febd9-945b-4580-8381-9b146fd042d9
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/86f6a78e-6989-4951-9564-b87b2f878e5f.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/86f6a78e-6989-4951-9564-b87b2f878e5f.jpg
+verificationCommand: None 
+Operating on file: {24170628-4560-44cb-9b0d-f1ba0d22631b}Landing_zone 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: a34ddc9b-c922-4bb6-8037-bbe713332175
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/Landing_zone.jpg" +compress "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/Landing_zone-1c0a7e99-4557-4e76-b5da-37ae0e2b64fd.tif"
+description: Transcoding to tif with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/pictures/Landing_zone-1c0a7e99-4557-4e76-b5da-37ae0e2b64fd.tif
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {c932b610-a7b3-465a-9151-d2c1ce193539}G31DS 
+Using  preservation  command classifications
+Running: 
+[COMMAND]
+PK: a34ddc9b-c922-4bb6-8037-bbe713332175
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/G31DS.TIF" +compress "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/G31DS-a785d598-61d7-4db8-9115-92e3d0cbd130.tif"
+description: Transcoding to tif with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/G31DS-a785d598-61d7-4db8-9115-92e3d0cbd130.tif
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {cd9cd2b5-a66a-4ce0-a06e-fc2c99376282}Nemastylis_geminiflora_Flower 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 1628571b-c2cd-4822-afdb-53561400c7c4
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG" -thumbnail 100x100 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/cd9cd2b5-a66a-4ce0-a06e-fc2c99376282.jpg"
+description: Transcoding to jpg thumbnail with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/cd9cd2b5-a66a-4ce0-a06e-fc2c99376282.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+ 
+convert: Ignoring gAMA chunk with gamma=0 `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set negative chromaticity value `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set cHRM RGB triangle with zero area `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring gAMA chunk with gamma=0 `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set negative chromaticity value `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set cHRM RGB triangle with zero area `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+Operating on file: {729a204a-804e-4b9f-b118-762007f8d60e}WFPC01 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: 6957fdac-a1ed-470f-89f7-fb00be42ea13
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/WFPC01.GIF" -sampling-factor 4:4:4 -quality 60 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/729a204a-804e-4b9f-b118-762007f8d60e-WFPC01.jpg"
+description: Transcoding to jpg with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/729a204a-804e-4b9f-b118-762007f8d60e-WFPC01.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+Operating on file: {cd9cd2b5-a66a-4ce0-a06e-fc2c99376282}Nemastylis_geminiflora_Flower 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: 6957fdac-a1ed-470f-89f7-fb00be42ea13
+Type: command
+command: convert "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG" -sampling-factor 4:4:4 -quality 60 -layers merge
+ "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/cd9cd2b5-a66a-4ce0-a06e-fc2c99376282-Nemastylis_geminiflora_Flower.jpg"
+description: Transcoding to jpg with convert
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/cd9cd2b5-a66a-4ce0-a06e-fc2c99376282-Nemastylis_geminiflora_Flower.jpg
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+ 
+convert: Ignoring gAMA chunk with gamma=0 `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set negative chromaticity value `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set cHRM RGB triangle with zero area `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring gAMA chunk with gamma=0 `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set negative chromaticity value `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+convert: Ignoring attempt to set cHRM RGB triangle with zero area `/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/Nemastylis_geminiflora_Flower.PNG' @ warning/png.c/MagickPNGWarningHandler/1335.
+Operating on file: {22cb50f0-d347-4a0f-b68d-3f97affe9853}lion 
+Using  access  command classifications
+Running: 
+[COMMAND]
+PK: d91f0637-b2f6-4492-ac1b-23c155102a3e
+Type: command
+command: inkscape -z "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/objects/lion.svg" --export-pdf="/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/22cb50f0-d347-4a0f-b68d-3f97affe9853-lion.pdf"
+description: Transcoding to pdf with inkscape
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/DIP/objects/22cb50f0-d347-4a0f-b68d-3f97affe9853-lion.pdf
+verificationCommand: a9111dc0-edc9-47f8-85e5-ad4013971361
+ 
+ 
+
+** (inkscape:23130): WARNING **: Command line `dbus-launch --autolaunch=0e8c5a582920f70373248e2800000006 --binary-syntax --close-stderr' exited with non-zero exit status 1: Autolaunch error: X11 initialization failed.\n
+Operating on file: {e1ab7968-b240-4c11-86d0-0ab8d58a765e}METS 
+Using  thumbnail  command classifications
+Running: 
+[COMMAND]
+PK: 814febd9-945b-4580-8381-9b146fd042d9
+Type: command
+command: cp -R "/var/archivematica/sharedDirectory/sharedMicroServiceTasksConfigs/transcoder/defaultIcons/default.jpg" "/var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/e1ab7968-b240-4c11-86d0-0ab8d58a765e.jpg"
+description: Using default thumbnail.
+outputLocation: /var/archivematica/sharedDirectory/currentlyProcessing/Test-3a47347b-914a-4a83-8ada-9272aa2cbfbb/thumbnails/e1ab7968-b240-4c11-86d0-0ab8d58a765e.jpg
+verificationCommand: None 
