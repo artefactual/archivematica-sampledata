@@ -118,4 +118,3 @@ command: convert "/var/archivematica/sharedDirectory/watchedDirectories/workFlow
 description: Transcoding to jpg thumbnail with convert
 outputLocation: /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/createDip/Images2-fe61150f-04f1-4487-8eca-6911261b776a/thumbnails/7cabde5d-cadd-4992-87e7-ff1664ac0058.jpg
 verificationCommand: 1
- 
