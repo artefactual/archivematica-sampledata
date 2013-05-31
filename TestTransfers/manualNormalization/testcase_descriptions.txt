@@ -1,0 +1,60 @@
+Manual Normalization testcase
+
+First set of images (tent)
+Original: gif
+Access: jpg
+Preservation: tif
+
+Second set of images (flower):
+Original: bmp
+Access: pdf
+Preservation: png
+
+1 - both manually normalized
+O,A,P
+O,A,P
+
+2 - only one manually normalized
+O,A,P
+O
+Note: Both must be specified in CSV, even if blank
+
+3 - manually normalized to different subdirectories
+foo.gif (tent)
+foo.bmp (flower)
+manualNormalization/access/foo.jpg (tent)
+manualNormalization/access/foo/foo.jpg (flower)
+manualNormalization/preservation/foo.tif (tent)
+manualNormalization/preservation/foo/foo.tif (flower)
+
+4 - manually normalized to sibling subdirectories
+foo.gif (tent)
+foo.bmp (flower)
+manualNormalization/access/tent/foo.jpg
+manualNormalization/access/flower/foo.jpg
+manualNormalization/preservation/tent/foo.png
+manualNormalization/preservation/flower/foo.png
+
+5 - partially manually normalized
+O,A,
+O, ,P
+
+6 - not manually normalized, still has normalization.csv
+O
+
+7 - manually normalized, but no conflicting original file (not in CSV)
+O,A,P
+
+8 - both manually normalized, CSV has different capitalization
+O,A,P
+O,A,P
+
+9 - manually normalized to subdirectory
+O,A,
+
+TODO
+10
+O,A,P
+O,A,P
+(special characters in name)
+

@@ -1,0 +1,13 @@
+# original, access, preservation
+image_1.gif,manualNormalization/access/image_1.jpg,manualNormalization/preservation/image_1.tif
+image_1.bmp,manualNormalization/access/image_1.pdf,manualNormalization/preservation/image_1.png
+image_2.gif,manualNormalization/access/image_2.jpg,manualNormalization/preservation/image_2.tif
+image_2.bmp,,
+image_3.gif,manualNormalization/access/image_3.jpg,manualNormalization/preservation/image_3.png
+image_3.bmp,manualNormalization/access/image_3/image_3.jpg,manualNormalization/preservation/image_3/image_3.png
+image_4.gif,manualNormalization/access/image_4_tent/image_4.jpg,manualNormalization/preservation/image_4_tent/image_4.png
+image_4.bmp,manualNormalization/access/image_4_flower/image_4.jpg,manualNormalization/preservation/image_4_flower/image_4.png
+image_5.gif,manualNormalization/access/image_5.jpg,
+image_5.bmp,,manualNormalization/preservation/image_5.png
+imaGe_8.gif,manualNormalization/access/image_8.Jpg,manualNormalization/preservation/image_8.tif
+imAge_8.bmp,manualNormalization/access/image_8.pdf,manualNormalization/preservation/image_8.PNG
