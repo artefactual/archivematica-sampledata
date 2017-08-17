@@ -1,0 +1,8 @@
+This is not a real .DS_Store file. This was put here on purpose because
+Archivematica should delete this file when creating a transfer from the root
+directory hierarchy-with-empty-dir/. See clientScripts/removeUnneededFiles.py
+and MCPClient/lib/settings/common.py. As a result, the directory
+hierarchy-with-empty-dir/dir2/dir2a/dir2aiii/ should be empty by the time the
+assignUUIDsToDirectories.py client script gets to it. This state of affairs is
+necessary in order to automate the testing of Archivematica's behaviour related
+to empty directories.
