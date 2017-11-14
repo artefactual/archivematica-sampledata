@@ -1,9 +1,0 @@
-<processingMCP>
-    <preconfiguredChoices>
-        <preconfiguredChoice>
-            <appliesTo>Remove from quarantine</appliesTo>
-            <goToChain>Unquarantine</goToChain>
-            <delay unitCtime="yes">2419200</delay>
-        </preconfiguredChoice>
-    </preconfiguredChoices>
-</processingMCP>
