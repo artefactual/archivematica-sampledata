@@ -4,4 +4,5 @@ b6d81b360a5672d80c27430f39153e2c  test.1M.null.no-virus
 e5b973f6695d6fe40a401bb5a9184272  test.30M.eicar.with-virus
 d37b487227046bda682e284ce371efe2  test.30M.nukem.with-virus
 281ed1d5ae50e8419f9b978aab16de83  test.30M.null.no-virus
+d41d8cd98f00b204e9800998ecf8427e  test.zero.byte.no-virus
 6ce6f415d8475545be5ba114f208b0ff  test.zip.eicar.with-virus.zip

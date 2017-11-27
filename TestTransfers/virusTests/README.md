@@ -11,6 +11,7 @@ the file, then compare what is received with checksum.md5.
 
      cmd: clamscan --max-filesize 32M *
 
+     test.zero.byte.no-virus Empty file
      test.1M.eicar.with-virus: Eicar-Test-Signature FOUND
      test.1M.nukem.with-virus: Win.Trojan.Nukem-1 FOUND
      test.1M.null.no-virus: OK
