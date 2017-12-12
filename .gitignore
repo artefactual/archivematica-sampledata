@@ -6,6 +6,7 @@ qubit-git
 localDevSetup/ETCsudoersBackup
 
 TestTransfers/files_with_various_encodings/
+TestTransfers/acceptance-tests/performance/
 
 #eclipse IDE files
 .project

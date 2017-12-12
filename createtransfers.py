@@ -58,9 +58,51 @@ def create_variously_encoded_files():
                        ' {}\n'.format(encoding))
 
 
+def create_large_test_transfers():
+    """Create large test transfers by copying existing sampledata files
+    multiple times to specific subdirectories of
+    TestTransfers/acceptance-tests/performance/
+    """
+    performance_path = os.path.join(
+        HERE, 'TestTransfers', 'acceptance-tests', 'performance')
+    if os.path.exists(performance_path):
+        shutil.rmtree(performance_path)
+    os.makedirs(performance_path)
+
+    # Create dir images-17M-each-2G-total/ containing 2G of 17M image files.
+    image_path = os.path.join(
+        HERE, 'TestTransfers', 'ManualNormalization', 'manualNormalization',
+        'preservation', 'image_8.tif')
+    n = 113
+    images_dirname = 'images-17M-each-2G-total'
+    images_path = os.path.join(performance_path, images_dirname)
+    if os.path.exists(images_path):
+        shutil.rmtree(images_path)
+    os.makedirs(images_path)
+    for i in range(n):
+        new_image_fname = 'image_{}.tif'.format(i)
+        new_image_path = os.path.join(images_path, new_image_fname)
+        shutil.copyfile(image_path, new_image_path)
+
+    # Create dir video-14M-each-10G-total/ containing 10G of 14M video files.
+    video_path = os.path.join(
+        HERE, 'SampleTransfers', 'Multimedia', 'MakeUp.mov')
+    n = 669
+    videos_dirname = 'video-14M-each-10G-total'
+    videos_path = os.path.join(performance_path, videos_dirname)
+    if os.path.exists(videos_path):
+        shutil.rmtree(videos_path)
+    os.makedirs(videos_path)
+    for i in range(n):
+        new_video_fname = 'video_{}.tif'.format(i)
+        new_video_path = os.path.join(videos_path, new_video_fname)
+        shutil.copyfile(image_path, new_video_path)
+
+
 if __name__ == '__main__':
     COMMANDS = {
         'create-variously-encoded-files': create_variously_encoded_files,
+        'create-large-test-transfers': create_large_test_transfers,
     }
     description = (
         'Create Archivematica Transfers. Available commands:\n  {}'.format(
