@@ -1,0 +1,14 @@
+Internet Domain Names
+=====================
+
+01. https://www.artefactual.com/
+
+02. https://duckduckgo.com/
+
+03. http://www.google.com
+
+04. https://www.google.com/
+
+05. http://www.forensicswiki.org/wiki/Bulk_extractor
+
+06. https://github.com/artefactual/
