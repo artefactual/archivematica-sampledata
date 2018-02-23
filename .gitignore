@@ -5,10 +5,12 @@ qubit-git
 *~
 localDevSetup/ETCsudoersBackup
 
+## Files automatically generated through createtransfers.py 
 TestTransfers/files_with_various_encodings/
 TestTransfers/acceptance-tests/performance/
+TestTransfers/deep_transfer/
 
-#eclipse IDE files
+# Eclipse IDE files
 .project
 .pydevproject
 .settings/
