@@ -60,6 +60,32 @@ def get_parser(**kwargs):
             opts=None
         ),
         Subcommand(
+            name=kwargs["CMD_LARGE_ZIPS"],
+            help='Create large sample ZIP packages.',
+            args=None,
+            opts=None
+        ),
+        Subcommand(
+            name=kwargs["CMD_DEEP_ZIPS"],
+            help='Create ZIP files with deep folder structures.',
+            args=None,
+            opts=None
+        ),
+        Subcommand(
+            name=kwargs["CMD_FNAME_ZIPS"],
+            help='Create sample ZIP packages with variously encoded file '
+                 'names',
+            args=None,
+            opts=None
+        ),
+        Subcommand(
+            name=kwargs["CMD_DIR_ZIPS"],
+            help='Create sample ZIP packages with variously encoded dir '
+                 'names.',
+            args=None,
+            opts=None
+        ),
+        Subcommand(
             name=kwargs["CMD_LARGE"],
             help='Create large transfer sample data.',
             args=None,

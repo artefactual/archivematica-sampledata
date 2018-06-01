@@ -28,6 +28,9 @@ import shutil
 import createtransfersargs
 import loggingconfig
 
+TEST_TRANSFERS = "TestTransfers"
+SAMPLE_PACKAGES = "sample-zip-packages"
+
 
 class CreateTransferException(Exception):
     """Custom exception to aid with robust handling within this script."""
@@ -102,17 +105,22 @@ def rm_dirs_and_create(dir_path):
     """Remove pre-existing directory structures to write new ones out
     to disk.
     """
+    rm_dirs(dir_path)
+    try:
+        os.makedirs(dir_path)
+    except (OSError) as err:
+        ret = "Failed to make directory: {0} {1}".format(dir_path, err)
+        raise CreateTransferException(ret)
+
+
+def rm_dirs(dir_path):
+    """Wrap shutils.rmtree in a useful manner."""
     if os.path.exists(dir_path):
         try:
             shutil.rmtree(dir_path)
         except OSError as err:
             ret = "Failed to remove dirtree: {0} {1}".format(dir_path, err)
             raise CreateTransferException(ret)
-    try:
-        os.makedirs(dir_path)
-    except (OSError) as err:
-        ret = "Failed to make directory: {0} {1}".format(dir_path, err)
-        raise CreateTransferException(ret)
 
 
 def create_transfer_collection(collection_path, media_path,
@@ -167,15 +175,15 @@ def stat_file(file_path, files_n):
                   * files_n) / 1024.0) / 1024.0 / 1024.0)
 
 
-def create_variously_encoded_files():
+def create_variously_encoded_files(zip_path=None):
     """Create files with strange (non-UTF8) encodings under
     TestTransfers/files_with_various_encodings/
     """
-    target_path = os.path.join(
-        HERE, 'TestTransfers', 'files_with_various_encodings')
-
+    sub_dir = 'files_with_various_encodings'
+    target_path = os.path.join(HERE, TEST_TRANSFERS, sub_dir)
+    if zip_path:
+        target_path = zip_path
     LOGGER.info("Transfer target path: %s", target_path)
-
     for encoding_info in VARIOUS_ENCODINGS:
         encoding_dir_path = os.path.join(
             target_path, encoding_info['dir_name'])
@@ -184,7 +192,6 @@ def create_variously_encoded_files():
         except CreateTransferException as err:
             LOGGER.error(err)
             return
-
         encoding = encoding_info['encoding']
         file_names = encoding_info['file_name']
         if not isinstance(file_names, (tuple, list)):
@@ -199,12 +206,14 @@ def create_variously_encoded_files():
                 return
 
 
-def create_variously_encoded_dir_names():
+def create_variously_encoded_dir_names(zip_path=None):
     """Create folders with strange (non-UTF8) encodings under
     TestTransfers/dirs_with_various_encodings/
     """
-    target_path = os.path.join(
-        HERE, 'TestTransfers', 'dirs_with_various_encodings')
+    sub_dir = 'dirs_with_various_encodings'
+    target_path = os.path.join(HERE, TEST_TRANSFERS, sub_dir)
+    if zip_path:
+        target_path = zip_path
     LOGGER.info("Transfer target path: %s", target_path)
     for encoding_info in VARIOUS_ENCODINGS:
         # Use the filename from the VARIOUS_ENCODINGS tuples minus the file
@@ -232,17 +241,124 @@ def create_variously_encoded_dir_names():
                 return
 
 
-def create_large_test_transfers():
+def create_zip_packages_with_var_encoded_dirs():
+    """Create zipped packages based on the auto-generated variously-encoded
+    directory names.
+    """
+
+    # Control the name of these top-level folders so that we know that we can
+    # recurse into them to zip the various contents.
+    var_encoded_dirs = "variously-encoded-dirs"
+
+    # Create zips with different directory name encodings in each.
+    zip_path_dirs = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
+                                 var_encoded_dirs)
+    create_variously_encoded_dir_names(zip_path_dirs)
+    create_zip_dance(zip_path_dirs)
+
+
+def create_zip_packages_with_var_encoded_fnames():
+    """Create zipped packages based on the auto-generated variously-encoded
+    filenames.
+    """
+
+    # Control the name of these top-level folders so that we know that we can
+    # recurse into them to zip the various contents.
+    var_encoded_files = "variously-encoded-files"
+
+    # Create zips with different file name encodings in each.
+    zip_path_files = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
+                                  var_encoded_files)
+    create_variously_encoded_files(zip_path_files)
+    create_zip_dance(zip_path_files)
+
+
+def create_deep_zip_packages():
+    """Create zipped packages based on the auto-generated deep-transfer set.
+    """
+
+    # Control the name of these top-level folders so that we know that we can
+    # recurse into them to zip the various contents.
+    deep_transfer = "deep-transfer"
+    deep_zip_transfer = os.path.join(deep_transfer,
+                                     "deep_zip_transfer")
+
+    zip_path_deep = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
+                                 deep_zip_transfer)
+
+    create_deep_transfers(
+        zip_path=zip_path_deep,
+        recursion_depth=createtransfersargs.DEFAULT_DEPTH,
+        number_of_directories=createtransfersargs.DEFAULT_NUMBER_DIRS,
+        number_of_files=createtransfersargs.DEFAULT_NUMBER_FILES)
+    # The first directory above is deliberately made one additional directory
+    # down so that it can be zipped as one. First we have to come back up a
+    # level which we do here.
+    one_deep_zip_path = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
+                                     deep_transfer)
+    create_zip_dance(one_deep_zip_path)
+
+
+def create_large_zip_packages():
+    """Create zipped packages based on the auto-generated performance testing
+    suite.
+    """
+
+    # Create a single zip with one deep directory structure inside using the
+    # application defaults.
+    large_transfer = "large-transfer"
+    large_zip_transfer = os.path.join(large_transfer,
+                                      "large_zip_transfer")
+
+    # Create a path where we will create a large zipped transfer folder.
+    zip_path_large = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
+                                  large_zip_transfer)
+    # Override the defaults to create a modest 1.1GB zip.
+    create_large_test_transfers(performance_path=zip_path_large,
+                                image_n=35,
+                                video_n=35)
+    # Like the deep transfer, we deliberately drop the large transfers down a
+    # folder level. We come back a level here to zip it all at once.
+    one_large_zip_path = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
+                                      large_transfer)
+    create_zip_dance(one_large_zip_path)
+
+
+def create_zip_dance(base_directory):
+    """Perform various manoeuvers to create zip files from our content and move
+    them into a suitable directory structure.
+    """
+    subdirs = [f for f in os.listdir(base_directory)
+               if os.path.isdir(base_directory)]
+    for dir_ in subdirs:
+        # Create a temporary folder to provide structure inside our zip.
+        sample_package = os.path.join(base_directory, "sample-package")
+        rm_dirs_and_create(sample_package)
+        dir_ = os.path.join(base_directory, dir_)
+        # Move the folder we want to zip underneath the temporary folder.
+        shutil.move(dir_, sample_package)
+        # Re-create the previous folder as we will want to put the final zip
+        # file into here.
+        rm_dirs_and_create(dir_)
+        # Make an archive from our directory.
+        shutil.make_archive(dir_, 'zip', sample_package)
+        # Move the zip file from our temporary folder.
+        move_from = "{}.zip".format(dir_)
+        shutil.move(move_from, dir_)
+        # Finally remove the temporary folder.
+        rm_dirs(sample_package)
+
+
+def create_large_test_transfers(performance_path=None, image_n=113,
+                                video_n=669):
     """Create large test transfers by copying existing sampledata files
     multiple times to specific subdirectories of
     TestTransfers/acceptance-tests/performance/
     """
-    image_n = 113
-    video_n = 669
-
     # Create a location for our large transfer.
-    performance_path = os.path.join(
-        HERE, 'TestTransfers', 'acceptance-tests', 'performance')
+    if not performance_path:
+        performance_path = os.path.join(
+            HERE, TEST_TRANSFERS, 'acceptance-tests', 'performance')
     try:
         rm_dirs_and_create(performance_path)
     except CreateTransferException as err:
@@ -251,7 +367,7 @@ def create_large_test_transfers():
 
     # Create dir images-17M-each-2G-total/ containing 2G of 17M image files.
     image_path = os.path.join(
-        HERE, 'TestTransfers', 'manualNormalization', 'manualNormalization',
+        HERE, TEST_TRANSFERS, 'manualNormalization', 'manualNormalization',
         'preservation', 'image_8.tif')
 
     create_transfer_collection(performance_path,
@@ -401,12 +517,12 @@ def create_deep_transfers(**kwargs):
     folder_structure = FolderStructure(depth=kwargs["recursion_depth"],
                                        dirs=kwargs["number_of_directories"],
                                        files=kwargs["number_of_files"])
-
     # create a default folder from which to work from clear of the rest of
     # our environment.
-    target_path = os.path.join(
-        HERE, 'TestTransfers', 'deep_transfer')
-
+    sub_dir = 'deep_transfer'
+    target_path = os.path.join(HERE, TEST_TRANSFERS, sub_dir)
+    if kwargs.get("zip_path"):
+        target_path = kwargs.get("zip_path")
     # We need some data to populate this location with. Create a small README
     # here and return the file path from which to copy from. Copying should
     # also be quicker than opening and closing 'n' files.
@@ -421,6 +537,10 @@ def main():
     cmd_large = 'create-large-test-transfers'
     cmd_encodings = 'create-variously-encoded-files'
     cmd_dirs = 'create-variously-encoded-dir-names'
+    cmd_large_zips = 'create-large-zip-packages'
+    cmd_deep_zips = 'create-deep-zip-packages'
+    cmd_fname_zips = 'create-zip-packages-with-var-encoded-fnames'
+    cmd_dir_zips = 'create-zip-packages-with-var-encoded-dirs'
 
     # Create a named tuple to help us control what is passed
     # to each of the various commands.
@@ -435,13 +555,28 @@ def main():
                                use_kwargs=False),
         cmd_dirs: Command(cmd_name=create_variously_encoded_dir_names,
                           use_kwargs=False),
+        cmd_large_zips: Command(cmd_name=create_large_zip_packages,
+                                use_kwargs=False),
+        cmd_deep_zips: Command(cmd_name=create_deep_zip_packages,
+                               use_kwargs=False),
+        cmd_fname_zips: Command(
+            cmd_name=create_zip_packages_with_var_encoded_fnames,
+            use_kwargs=False),
+        cmd_dir_zips: Command(
+            cmd_name=create_zip_packages_with_var_encoded_dirs,
+            use_kwargs=False),
     }
 
-    argparser = createtransfersargs.get_parser(CMD_DEEP=cmd_deep,
-                                               CMD_LARGE=cmd_large,
-                                               CMD_ENCODINGS=cmd_encodings,
-                                               CMD_DIRS=cmd_dirs
-                                               )
+    argparser = createtransfersargs.get_parser(
+        CMD_DEEP=cmd_deep,
+        CMD_LARGE=cmd_large,
+        CMD_ENCODINGS=cmd_encodings,
+        CMD_DIRS=cmd_dirs,
+        CMD_LARGE_ZIPS=cmd_large_zips,
+        CMD_DEEP_ZIPS=cmd_deep_zips,
+        CMD_FNAME_ZIPS=cmd_fname_zips,
+        CMD_DIR_ZIPS=cmd_dir_zips,
+        )
 
     if len(sys.argv) < 2:
         argparser.print_help()
