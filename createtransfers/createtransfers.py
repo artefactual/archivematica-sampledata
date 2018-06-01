@@ -67,6 +67,10 @@ VARIOUS_ENCODINGS = (
                 u'\u2655\u2656\u2657\u2658\u2659'
                 u'\u265A\u265B\u265C\u265D\u265E'
                 u'\u265F'))
+    }, {
+        'dir_name': 'cp437',
+        'encoding': 'cp437',
+        'file_name': (u'caf\xe9', u'a\xf1o')
     }
 )
 
