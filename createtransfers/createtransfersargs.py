@@ -53,6 +53,13 @@ def get_parser(**kwargs):
             opts=None
         ),
         Subcommand(
+            name=kwargs["CMD_DIRS"],
+            help='Create sample data with variously encoded directory names '
+                 'and strange characters.',
+            args=None,
+            opts=None
+        ),
+        Subcommand(
             name=kwargs["CMD_LARGE"],
             help='Create large transfer sample data.',
             args=None,

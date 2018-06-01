@@ -75,7 +75,7 @@ VARIOUS_ENCODINGS = (
 )
 
 
-def create_file_and_write(file_name, file_path, encoding):
+def create_file_and_write(file_name, file_path, encoding, dirs=False):
     """Given a filename and encoding write a file with self descriptive
     content to disk.
     """
@@ -84,8 +84,13 @@ def create_file_and_write(file_name, file_path, encoding):
     file_path_bytes = os.path.join(file_path, file_name_bytes)
     try:
         with open(file_path_bytes, 'w') as fout:
-            fout.write('The name of this file is encoded with encoding'
-                       ' {}\n'.format(encoding))
+            msg = (u'The name of this file is encoded with {} '
+                   'encoding.\n'.format(encoding))
+            if dirs:
+                msg = (u'Part of the directory structure that this '
+                       'file sits within has been encoded with {} encoding.'
+                       '\n'.format(encoding))
+            fout.write(msg)
             LOGGER.info("Created: %s", file_path_bytes)
     except (OSError, IOError) as err:
         ret = "Failed to open file: {0}, error: {1}".format(file_path_bytes,
@@ -189,6 +194,39 @@ def create_variously_encoded_files():
                 create_file_and_write(fname,
                                       encoding_dir_path,
                                       encoding)
+            except CreateTransferException as err:
+                LOGGER.error(err)
+                return
+
+
+def create_variously_encoded_dir_names():
+    """Create folders with strange (non-UTF8) encodings under
+    TestTransfers/dirs_with_various_encodings/
+    """
+    target_path = os.path.join(
+        HERE, 'TestTransfers', 'dirs_with_various_encodings')
+    LOGGER.info("Transfer target path: %s", target_path)
+    for encoding_info in VARIOUS_ENCODINGS:
+        # Use the filename from the VARIOUS_ENCODINGS tuples minus the file
+        # extension to give us something that looks like a directory name.
+        dir_names = encoding_info['file_name']
+        if not isinstance(dir_names, (tuple, list)):
+            dir_names = (dir_names,)
+        for dir_ in dir_names:
+            encoding_dir_path = os.path.join(
+                target_path, encoding_info['dir_name'],
+                os.path.splitext(os.path.basename(dir_))[0])
+            try:
+                rm_dirs_and_create(encoding_dir_path)
+            except CreateTransferException as err:
+                LOGGER.error(err)
+                return
+            encoding = encoding_info['encoding']
+            try:
+                create_file_and_write("{}_encoded_dirs.txt".format(encoding),
+                                      encoding_dir_path,
+                                      encoding,
+                                      dirs=True)
             except CreateTransferException as err:
                 LOGGER.error(err)
                 return
@@ -382,6 +420,7 @@ def main():
     cmd_deep = 'create-deep-transfers'
     cmd_large = 'create-large-test-transfers'
     cmd_encodings = 'create-variously-encoded-files'
+    cmd_dirs = 'create-variously-encoded-dir-names'
 
     # Create a named tuple to help us control what is passed
     # to each of the various commands.
@@ -394,11 +433,15 @@ def main():
                            use_kwargs=False),
         cmd_encodings: Command(cmd_name=create_variously_encoded_files,
                                use_kwargs=False),
+        cmd_dirs: Command(cmd_name=create_variously_encoded_dir_names,
+                          use_kwargs=False),
     }
 
     argparser = createtransfersargs.get_parser(CMD_DEEP=cmd_deep,
                                                CMD_LARGE=cmd_large,
-                                               CMD_ENCODINGS=cmd_encodings)
+                                               CMD_ENCODINGS=cmd_encodings,
+                                               CMD_DIRS=cmd_dirs
+                                               )
 
     if len(sys.argv) < 2:
         argparser.print_help()
