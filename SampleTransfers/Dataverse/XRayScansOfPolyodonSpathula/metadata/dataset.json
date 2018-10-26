@@ -1,0 +1,553 @@
+{
+    "authority": "10.18738/T8",
+    "datasetVersion": {
+        "citation": "The University of Texas High-Resolution X-ray CT Facility (UTCT), 2018, \"X-ray CT Scans of Polyodon spathula (Paddlefish) (TNHC 22770)\", doi:10.18738/T8/RGXVUG, Texas Data Repository Dataverse, V1",
+        "createTime": "2018-04-05T19:44:41Z",
+        "files": [
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0a7973d68ba65962375614e8e5c64c38"
+                    },
+                    "contentType": "application/pdf",
+                    "filename": "0-contents.pdf",
+                    "filesize": 91052,
+                    "id": 11128,
+                    "md5": "0a7973d68ba65962375614e8e5c64c38",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297596efc-47a7c5729ad5"
+                },
+                "datasetVersionId": 709,
+                "label": "0-contents.pdf",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fafc138f533940e69b22463799fa6af8"
+                    },
+                    "contentType": "image/jpeg",
+                    "filename": "0-SampleImage.jpg",
+                    "filesize": 70726,
+                    "id": 11129,
+                    "md5": "fafc138f533940e69b22463799fa6af8",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "1629759717d-5cc367dba2eb"
+                },
+                "datasetVersionId": 709,
+                "label": "0-SampleImage.jpg",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b087ab51e802b33f3eb5e2a314f58632"
+                    },
+                    "contentType": "image/jpeg",
+                    "filename": "0-specimen.jpg",
+                    "filesize": 9677,
+                    "id": 11130,
+                    "md5": "b087ab51e802b33f3eb5e2a314f58632",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297597296-6bbb15885e18"
+                },
+                "datasetVersionId": 709,
+                "label": "0-specimen.jpg",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "558ada30b0e8313b4281cdad8f538541"
+                    },
+                    "contentType": "application/zip",
+                    "filename": "8bitTIFF.zip",
+                    "filesize": 285806692,
+                    "id": 11140,
+                    "md5": "558ada30b0e8313b4281cdad8f538541",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "1629759a4e3-e8ffe07bfdb0"
+                },
+                "datasetVersionId": 709,
+                "label": "8bitTIFF.zip",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8063f78535113e8fdd6ee4fe5dd8d7df"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "CorFlipHeadSkel.mp4",
+                    "filesize": 2207392,
+                    "id": 11131,
+                    "md5": "8063f78535113e8fdd6ee4fe5dd8d7df",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297597501-4d66d9327b35"
+                },
+                "datasetVersionId": 709,
+                "label": "CorFlipHeadSkel.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b9edae269ca9b7db4e2c3ca01f48e038"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "HorFlipHeadSkel.mp4",
+                    "filesize": 712259,
+                    "id": 11132,
+                    "md5": "b9edae269ca9b7db4e2c3ca01f48e038",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "162975976c9-de8d9feb8353"
+                },
+                "datasetVersionId": 709,
+                "label": "HorFlipHeadSkel.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b95fc97cf4e07d50f6441341e3995d6e"
+                    },
+                    "contentType": "image/jpeg",
+                    "filename": "P1010006.JPG",
+                    "filesize": 862745,
+                    "id": 11133,
+                    "md5": "b95fc97cf4e07d50f6441341e3995d6e",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "162975978b0-ec517ae0cd13"
+                },
+                "datasetVersionId": 709,
+                "label": "P1010006.JPG",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6049d2228090565a4fbacb7f3490ddde"
+                    },
+                    "contentType": "image/jpeg",
+                    "filename": "P1010007.JPG",
+                    "filesize": 872863,
+                    "id": 11134,
+                    "md5": "6049d2228090565a4fbacb7f3490ddde",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297597b82-093515b50f26"
+                },
+                "datasetVersionId": 709,
+                "label": "P1010007.JPG",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "25674bf9db6782ed6cc2675383ed62d9"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "PitchSpinHeadSkel.mp4",
+                    "filesize": 577515,
+                    "id": 11135,
+                    "md5": "25674bf9db6782ed6cc2675383ed62d9",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297597e3b-f8d53b39971c"
+                },
+                "datasetVersionId": 709,
+                "label": "PitchSpinHeadSkel.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "6a5dcb2e74fda19056b072d2ec2c2d0e"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "PitchSpinHeadSkin.mp4",
+                    "filesize": 307817,
+                    "id": 11136,
+                    "md5": "6a5dcb2e74fda19056b072d2ec2c2d0e",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297597fd9-7dccc1c28654"
+                },
+                "datasetVersionId": 709,
+                "label": "PitchSpinHeadSkin.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "750c378f620a1e6b7ea71980d9784e23"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "RollSpinHeadSkel.mp4",
+                    "filesize": 704193,
+                    "id": 11137,
+                    "md5": "750c378f620a1e6b7ea71980d9784e23",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "162975981bf-0f3a044ca3b6"
+                },
+                "datasetVersionId": 709,
+                "label": "RollSpinHeadSkel.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9d09f59f0970b1a15582b753609996f5"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "RollSpinHeadSkin.mp4",
+                    "filesize": 409125,
+                    "id": 11138,
+                    "md5": "9d09f59f0970b1a15582b753609996f5",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "1629759837d-7e85cad3c477"
+                },
+                "datasetVersionId": 709,
+                "label": "RollSpinHeadSkin.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "bbdc07c07b8d4930c54bd20d48dc0c29"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "SagFlipHeadSkel.mp4",
+                    "filesize": 765017,
+                    "id": 11139,
+                    "md5": "bbdc07c07b8d4930c54bd20d48dc0c29",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297598571-439889c9c8b2"
+                },
+                "datasetVersionId": 709,
+                "label": "SagFlipHeadSkel.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "61d8cde9eb1abfa7fd71cac915a53004"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "YawSpinHeadSkel.mp4",
+                    "filesize": 411250,
+                    "id": 11141,
+                    "md5": "61d8cde9eb1abfa7fd71cac915a53004",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "1629759c1a4-8e80dfd523a1"
+                },
+                "datasetVersionId": 709,
+                "label": "YawSpinHeadSkel.mp4",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b2513c36e250cce13067d6a9c59f7328"
+                    },
+                    "contentType": "video/mp4",
+                    "filename": "YawSpinHeadSkin.mp4",
+                    "filesize": 243522,
+                    "id": 11127,
+                    "md5": "b2513c36e250cce13067d6a9c59f7328",
+                    "originalFormatLabel": "UNKNOWN",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16297596d91-c77dbdce2dbd"
+                },
+                "datasetVersionId": 709,
+                "label": "YawSpinHeadSkin.mp4",
+                "restricted": false,
+                "version": 1
+            }
+        ],
+        "id": 709,
+        "lastUpdateTime": "2018-04-05T19:48:54Z",
+        "license": "CC0",
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "fields": [
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "title",
+                        "value": "X-ray CT Scans of Polyodon spathula (Paddlefish) (TNHC 22770)"
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "otherId",
+                        "value": [
+                            {
+                                "otherIdAgency": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "otherIdAgency",
+                                    "value": "Texas Memorial Museum"
+                                },
+                                "otherIdValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "otherIdValue",
+                                    "value": "TNHC 22770"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "author",
+                        "value": [
+                            {
+                                "authorAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorAffiliation",
+                                    "value": "University of Texas at Austin"
+                                },
+                                "authorName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorName",
+                                    "value": "The University of Texas High-Resolution X-ray CT Facility (UTCT)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "datasetContact",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactAffiliation",
+                                    "value": "Jackson School of Geosciences"
+                                },
+                                "datasetContactEmail": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactEmail",
+                                    "value": "UTCT@utexas.edu"
+                                },
+                                "datasetContactName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactName",
+                                    "value": "UTCT"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "dsDescription",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "dsDescriptionValue",
+                                    "value": "X-ray CT Scans of ,the head of Polyodon spathula (TNHC 22770; Federal Fish Hatchery, San Marcos, Texas; collected 19 August 1994) for Dr. Julian Humphries of the University of Texas at Austin and Dr. Timothy Rowe of the Department of Geological Sciences, The University of Texas at Austin. Scanned by Matthew Colbert 14 March 2003. Voxel size X and Y= 0.0381mm, Z=0.123mm.  Total slices = 975.\r\nPlease acknowledge The University of Texas High-Resolution X-ray CT Facility (UTCT)."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "typeName": "subject",
+                        "value": [
+                            "Medicine, Health and Life Sciences"
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "keyword",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "keywordValue",
+                                    "value": "X-ray CT Scan Data Computed Tomography"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "publication",
+                        "value": [
+                            {
+                                "publicationURL": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "publicationURL",
+                                    "value": "http://digimorph.org/specimens/Polyodon_spathula/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "notesText",
+                        "value": "1024x1024 16-bit TIFF images. II, 120 kV, 0.2 mA, no filter, empty\r\nwedge, no offset, slice thickness 3 lines (= 0.123 mm), S.O.D. 120 mm, 1000 views, 3 samples per view, inter-slice spacing 3 lines (= 0.123 mm), field of reconstruction 34 mm (maximum field of view 39 mm), reconstruction offset 5000, reconstruction scale 2300. Acquired with 9 slices per rotation. Driftremoval and ring-removal processing done by Rachel Racicot based on correction of raw sinogram data using IDL routines \u201cRK_SinoDeDrift\u201d with parameters DRIFTLENGTH = 21, then \u201cRK_SinoRingProcSimul\u201d, with default parameters.Total slices = 975. Deleted slices 976 to 981."
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "producer",
+                        "value": [
+                            {
+                                "producerAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "producerAffiliation",
+                                    "value": "Jackson School of Geosciences, University of Texas at Austin"
+                                },
+                                "producerName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "producerName",
+                                    "value": "UTCT"
+                                },
+                                "producerURL": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "producerURL",
+                                    "value": "http://www.CTlab.geo.utexas.edu"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "productionDate",
+                        "value": "2003-03-14"
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "productionPlace",
+                        "value": "University of Texas High-Resolution X-ray CT Facility"
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "grantNumber",
+                        "value": [
+                            {
+                                "grantNumberAgency": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "grantNumberAgency",
+                                    "value": "NSF"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "depositor",
+                        "value": "Zuker, Gary"
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "dateOfDeposit",
+                        "value": "2018-04-05"
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "typeName": "kindOfData",
+                        "value": [
+                            "X-ray CT Scan Data"
+                        ]
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "accessToSources",
+                        "value": "Publish Digimorph 13-may-2009"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "fields": []
+            },
+            "journal": {
+                "displayName": "Journal Metadata",
+                "fields": []
+            }
+        },
+        "productionDate": "Production Date",
+        "releaseTime": "2018-04-05T19:48:54Z",
+        "termsOfUse": "CC0 Waiver",
+        "versionMinorNumber": 0,
+        "versionNumber": 1,
+        "versionState": "RELEASED"
+    },
+    "id": 11126,
+    "identifier": "RGXVUG",
+    "persistentUrl": "http://dx.doi.org/10.18738/T8/RGXVUG",
+    "protocol": "doi",
+    "publicationDate": "2018-04-05",
+    "publisher": "Texas Data Repository Dataverse"
+}

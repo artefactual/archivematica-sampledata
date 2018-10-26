@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <records>
+    <record>
+      <ref-type name="Online Database">45</ref-type>
+      <contributors>
+        <authors>
+          <author>Tester, Archivematica</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A study of my afternoon drinks</title>
+      </titles>
+      <section>2018-05-09</section>
+      <dates>
+        <year>2018</year>
+      </dates>
+      <publisher>Root Dataverse</publisher>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.5072/FK2/6PPJ6Y</url>
+        </related-urls>
+      </urls>
+      <custom1>Drinks.tab</custom1>
+      <custom2>UNF:6:IgxkjKXUlveGP0Darp1fYg==</custom2>
+      <electronic-resource-num>doi/10.5072/FK2/6PPJ6Y</electronic-resource-num>
+    </record>
+  </records>
+</xml>

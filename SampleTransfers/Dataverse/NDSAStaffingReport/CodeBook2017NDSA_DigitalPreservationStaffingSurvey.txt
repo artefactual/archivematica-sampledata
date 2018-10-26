@@ -1,0 +1,465 @@
+﻿Staffing for Effective Digital Preservation 2017: An NDSA Report
+
+Scope of Study
+Summary: Organizations establishing or scaling up digital preservation programs are faced with many staffing, scoping and organizational decisions. Some of the questions that need to be answered include: How many staff are needed and what kinds of skills, education and experience should they have? What types of positions should the institution create? Should it hire new staff or retrain existing staff? And how should the preservation program be scoped--that is, what functions should be included directly in the program, provided by other parts of the organization, outsourced, or implemented through collaboration with other organizations? What organizational and staffing models work well?
+
+In 2012, several members of the National Digital Stewardship Alliance (NDSA) Standards & Practices working group discovered that they shared a common interest in knowing how organizations were staffing and organizing digital preservation programs. The 2012 Preservation Staffing Survey, and resulting paper conducted and written by members of the NDSA Standards & Practices working group, was designed to shed light on how organizations responsible for digital preservation are addressing these staffing, scoping and organizational questions.
+
+ In 2017, the interested members of the National Digital Stewardship Alliance (NDSA) repeated the survey to gain insight into how organizations worldwide were addressing these questions five years later. Such information is useful for benchmarking, identifying effective practices, and possibly making a case to strengthen staffing. Survey respondents were asked to describe their organization type (library, archives, data repository, etc.), how much storage they were using for digital content, expected growth in preserved content over the next year, which types of activities were considered part of the scope of the digital preservation function, which activities were outsourced, whether there was a dedicated digital preservation department, how many FTEs were currently doing digital preservation work and how many would be ideal, which functions the digital preservation staff filled, whether the staffing arrangement worked well, whether the organization hired experienced digital preservation specialists or retrained existing staff, and the importance of various skills in hiring a new digital preservation manager. 
+
+The survey received responses from 14 unique countries, including the United States. The eleven options for repository type we provided were each represented. We also received additional responses in the free-text section that could constitute additional repository types.  
+
+Survey Overview
+
+Geographic Coverage: Global
+Time Period: March 7, 2017 – April 18, 2017
+Date of Collection: March 7, 2017 - April 18, 2017
+Unit of Observation: Organization
+Universe: Organizations around the world responsible for digital preservation
+Data Type: survey data
+Sample:  Institutions answering the survey responded to announcements distributed via the listservs and Web sites of these organizations: National Digital Stewardship Alliance (NDSA); Conservation DistList; (ALA) Association for Library Collections & Technical Services--Preservation and Reformatting Section; (ALA) Association for College and Research Libraries--Digital Curation Interest Group; (ALA) Library and Information Technology; Association for Information Science and Technology--Digital Libraries Special Interest Group;  Digital Library Federation; State Electronic Records Initiative; Digital Curation Google Group; Digital Preservation Outreach and Education Program; Society of American Archivists; International Council on Archives; Digital Preservation; Digital Library Forum; Digital Curation Centre; International Federation of Library Associations--Preservation and Conservation Section; National Coalition Digital Preservation; and Research Data Access & Preservation. Data were collected at the institutional level, with no control from the NDSA regarding who within an institution completed the survey.
+
+Mode of Data collection: Internet survey, fielded and analyzed using Qualtrics software.
+Response Rate: The survey was started 160 times and completed 133 times for an 83% completion rate.
+Restrictions: Data were collected at the institutional level, with no control from the NDSA regarding who within an institution completed the survey.
+
+Data Preparation
+We conducted the survey using an instance of Qualtrics survey software (http://www.qualtrics.com/) hosted at Duke University. At the end of the survey period, we exported the survey questions and responses for analysis to prepare them for deposit in the Center for Open Science's Open Science Framework (OSF). 
+
+Format:
+*    The responses were exported in the CSV and SPSS SAV formats. 
+*    If a respondent either quit the survey or chose not to answer a question, that decision was recorded with an empty cell or the “-99” value. An empty cell typically meant that the question was formatted for text input, while the “-99” value indicated that the unanswered question was seen but not answered, and formatted for a numeric response.
+ 
+Completion status:
+*    The archived data includes all 168 responses, whether or not the respondent completed the survey. Column G's True/False response allows users easily to determine which responses are complete.
+*    Note: Qualtrics defines “completed” to mean, “The Survey’s Completed number is the number of surveys submitted by respondents, meaning that the respondent was screened out of the survey or reached the final page and hit the Submit button. This number does not include anyone who did not submit a survey.” We did not screen any respondents out of this survey. 
+ 
+Removing Potentially Identifying information:
+*    We have deleted responses from Questions 2, 21, and 22. We retained the text for those questions in this codebook. 
+*    Reviewing the remaining responses showed that some identifying information remained. IP addresses had not been deleted and some free-text comments included potentially identifying information, particularly Question 13. We have reviewed those responses and indicated any additional deletions. 
+
+Files Deposited: 
+*    (Code Book) NDSA_DigitalPreservationStaffingSurvey2017CodeBook.txt 
+*    (Data) StaffingSurveyAnonymousData.csv 
+    
+The CSV format provides ready access to the data and does not require specialized software.  
+
+Notes on Survey Formatting
+1: Qualtrics numbers questions in the order they were created, rather than the order in which they appear. The order in which questions are displayed in this document is correct. 
+2: Questions with an asterisk between the question number and question text (e.g., Q2 * What is the name of your organization?) were mandatory.
+3: Categories in matrix questions (numbers 8, 28, and 18) each have a series of asterisks ( * * * * ) that identifies the number of cells in the matrix grid.  
+
+[Questions]
+
+Q30    NDSA Digital Preservation Staffing Survey, 2017 Download a Microsoft Word version of the survey here. 
+
+Q1 Initiated within the Standards and Practices Interest Group, members of the National Digital Stewardship Alliance (NDSA) based this survey on one created in 2012 to assess current and anticipated staffing needs. Data collected from this survey will provide a more recent perspective of digital preservation staffing needs and of how perspectives have changed since the 2012 survey and report.          
+
+This survey is intended for organizations that are currently responsible for digital preservation, whether that responsibility is fulfilled in-house or outsourced to a commercial, nonprofit, or consortial provider.  It will be used to understand current and ideal practice in staffing digital preservation programs. (We encourage participation from all types of organizations and you do not need to be a member of NDSA to complete this survey).     
+
+Only one response should be submitted per organization. All questions are optional unless otherwise noted.     We will make our best effort to protect your individual survey responses so that no one will be able to connect your responses with you or your organization. Any personal information that could identify you or your organization will be removed or changed before results are made public. We will combine your responses with the responses of others and make the aggregated results public, and preserve the anonymous data long-term for research purposes. Please email any questions to ndsastaffingsurvey2016@googlegroups.com with the subject line “Staffing Survey.”     
+
+The NDSA’s institutional home is the Digital Library Federation (DLF), at the Council on Library and Information Resources (CLIR). If you would like to learn about the NDSA, including how your institution can become a member, please see the NDSA web site.
+
+Q2 (Required) What is the name of your organization?
+
+Q3 Can we include the name of your organization in a list of organizations that responded to this survey? Knowing specific responding organizations may be helpful to people interpreting the survey results.  If you agree to this we will still make our best effort to protect your individual survey responses so that no one will be able to connect your responses with you or your organization. 
+* Yes (1)
+* No (2)
+
+Q4 (Required) Which of the following most closely describes the type or function of your organization?
+* Academic institution department (not a library or archives) (8)
+* Academic library or archives (2)
+* For-profit corporation (10)
+* Historical society (5)
+* Institutional repository (14)
+* Independent library or archives (6)
+* Government entity (7)
+* K-12 (12)
+* Museum (4)
+* National, federal or legal deposit library (15)
+* Non-profit organization (not one of the above types) (11)
+* Public library (1)
+* Research data repository (13)
+* Research group (9)
+* University (3)
+* Other (please specify): (16) ____________________
+
+Q5 In which country is the responding organization located?
+* Afghanistan (1)
+* Albania (2)
+* Algeria (3)
+* Andorra (4)
+* Angola (5)
+* Antigua and Barbuda (6)
+* Argentina (7)
+* Armenia (8)
+* Australia (9)
+* Austria (10)
+* Azerbaijan (11)
+* Bahamas (12)
+* Bahrain (13)
+* Bangladesh (14)
+* Barbados (15)
+* Belarus (16)
+* Belgium (17)
+* Belize (18)
+* Benin (19)
+* Bhutan (20)
+* Bolivia (21)
+* Bosnia and Herzegovina (22)
+* Botswana (23)
+* Brazil (24)
+* Brunei Darussalam (25)
+* Bulgaria (26)
+* Burkina Faso (27)
+* Burundi (28)
+* Cambodia (29)
+* Cameroon (30)
+* Canada (31)
+* Cape Verde (32)
+* Central African Republic (33)
+* Chad (34)
+* Chile (35)
+* China (36)
+* Colombia (37)
+* Comoros (38)
+* Congo, Republic of the... (39)
+* Costa Rica (40)
+* Côte d'Ivoire (41)
+* Croatia (42)
+* Cuba (43)
+* Cyprus (44)
+* Czech Republic (45)
+* Democratic People's Republic of Korea (46)
+* Democratic Republic of the Congo (47)
+* Denmark (48)
+* Djibouti (49)
+* Dominica (50)
+* Dominican Republic (51)
+* Ecuador (52)
+* Egypt (53)
+* El Salvador (54)
+* Equatorial Guinea (55)
+* Eritrea (56)
+* Estonia (57)
+* Ethiopia (58)
+* Fiji (59)
+* Finland (60)
+* France (61)
+* Gabon (62)
+* Gambia (63)
+* Georgia (64)
+* Germany (65)
+* Ghana (66)
+* Greece (67)
+* Grenada (68)
+* Guatemala (69)
+* Guinea (70)
+* Guinea-Bissau (71)
+* Guyana (72)
+* Haiti (73)
+* Honduras (74)
+* Hong Kong (S.A.R.) (75)
+* Hungary (76)
+* Iceland (77)
+* India (78)
+* Indonesia (79)
+* Iran, Islamic Republic of... (80)
+* Iraq (81)
+* Ireland (82)
+* Israel (83)
+* Italy (84)
+* Jamaica (85)
+* Japan (86)
+* Jordan (87)
+* Kazakhstan (88)
+* Kenya (89)
+* Kiribati (90)
+* Kuwait (91)
+* Kyrgyzstan (92)
+* Lao People's Democratic Republic (93)
+* Latvia (94)
+* Lebanon (95)
+* Lesotho (96)
+* Liberia (97)
+* Libyan Arab Jamahiriya (98)
+* Liechtenstein (99)
+* Lithuania (100)
+* Luxembourg (101)
+* Madagascar (102)
+* Malawi (103)
+* Malaysia (104)
+* Maldives (105)
+* Mali (106)
+* Malta (107)
+* Marshall Islands (108)
+* Mauritania (109)
+* Mauritius (110)
+* Mexico (111)
+* Micronesia, Federated States of... (112)
+* Monaco (113)
+* Mongolia (114)
+* Montenegro (115)
+* Morocco (116)
+* Mozambique (117)
+* Myanmar (118)
+* Namibia (119)
+* Nauru (120)
+* Nepal (121)
+* Netherlands (122)
+* New Zealand (123)
+* Nicaragua (124)
+* Niger (125)
+* Nigeria (126)
+* North Korea (127)
+* Norway (128)
+* Oman (129)
+* Pakistan (130)
+* Palau (131)
+* Panama (132)
+* Papua New Guinea (133)
+* Paraguay (134)
+* Peru (135)
+* Philippines (136)
+* Poland (137)
+* Portugal (138)
+* Qatar (139)
+* Republic of Korea (140)
+* Republic of Moldova (141)
+* Romania (142)
+* Russian Federation (143)
+* Rwanda (144)
+* Saint Kitts and Nevis (145)
+* Saint Lucia (146)
+* Saint Vincent and the Grenadines (147)
+* Samoa (148)
+* San Marino (149)
+* Sao Tome and Principe (150)
+* Saudi Arabia (151)
+* Senegal (152)
+* Serbia (153)
+* Seychelles (154)
+* Sierra Leone (155)
+* Singapore (156)
+* Slovakia (157)
+* Slovenia (158)
+* Solomon Islands (159)
+* Somalia (160)
+* South Africa (161)
+* South Korea (162)
+* Spain (163)
+* Sri Lanka (164)
+* Sudan (165)
+* Suriname (166)
+* Swaziland (167)
+* Sweden (168)
+* Switzerland (169)
+* Syrian Arab Republic (170)
+* Tajikistan (171)
+* Thailand (172)
+* The former Yugoslav Republic of Macedonia (173)
+* Timor-Leste (174)
+* Togo (175)
+* Tonga (176)
+* Trinidad and Tobago (177)
+* Tunisia (178)
+* Turkey (179)
+* Turkmenistan (180)
+* Tuvalu (181)
+* Uganda (182)
+* Ukraine (183)
+* United Arab Emirates (184)
+* United Kingdom of Great Britain and Northern Ireland (185)
+* United Republic of Tanzania (186)
+* United States of America (187)
+* Uruguay (188)
+* Uzbekistan (189)
+* Vanuatu (190)
+* Venezuela, Bolivarian Republic of... (191)
+* Viet Nam (192)
+* Yemen (193)
+* Zambia (580)
+* Zimbabwe (1357)
+
+Q6 How much online or offline storage space are you using for your digital content, not including backup copies?
+* 0 (1)
+* 1 - 50 TB (2)
+* 51 - 100 TB (3)
+* 101 - 500 TB (4)
+* More than 500 TB (please enter the amount as a number): (5) ____________________
+
+Q7 What do you expect the percent of growth to be of your preserved digital content over the next year?  Please enter a whole number representing a percentage.
+
+Q8 [Matrix] Roughly how much of each are you preserving, in terms of number of files?
+None (1) A little (2) Some (3) A lot (4)
+
+Audio recordings (4)* * * * 
+Computer games / software (10)* * * * 
+
+Databases (9)* * * * 
+Drawings / vector graphics (e.g. CAD/CAM) (2)* * * * 
+
+Moving images / video (3)* * * * 
+
+Geographic Information Systems (GIS) data (7)* * * * 
+Spreadsheets or datasets (other than GIS data) (8)* * * * 
+Still/2D images (e.g. TIFF, JPEG) (1)* * * * 
+
+Text / documents (e.g. Word, PDF, TXT) (6)* * * * 
+
+Web sites / blogs / social media (5)* * * * 
+Other (please indicate): (11)* * * * 
+
+Q9 Do you participate in any digital preservation consortial or cooperative efforts?
+* Yes (please enter name of consortia or cooperative): (1) ____________________
+* No (2)
+
+Display This Question:
+    If "Do you participate in any digital preservation consortial or cooperative efforts? Yes (please enter name of consortia or cooperative):" Is Selected:
+Q29 What benefits do you gain from your participation?
+* Access interface (5)
+* Communication/marketing (6)
+* Consulting (8)
+* Federated search (9)
+* Networking (1)
+* Programming (4)
+* Storage space (3)
+* Training (2)
+* Other (7) ____________________
+
+Q28 [Matrix] In the matrix below, please select all that apply for each activity.  (A, B, C, and D can all be checked if applicable to your situation).       
+Select A for activities that you consider in scope for digital preservation function at your institution, regardless of whether or not you are currently doing the activity. (This is about how you define digital preservation, not about what you do.)  
+Select B for all of the activities that your organization currently does in-house.  
+Select C for all activities for which your organization currently outsources.  
+Select D for all activities you wish your organization would outsource in the future. Please include activities you are currently outsourcing that you want to continue to outsource.   
+
+(a) In-scope of DP? (1) (b) In-house now (2) (c) Currently outsourced (3) (d) Would outsource (4)
+
+Content replication (12)* * * *  
+Creation of access copies (6)* * * *  
+Descriptive cataloging (4)* * * *  
+Development and maintenance of tools (15)* * * *  
+Development of guidelines for content creators (18)* * * *  
+Development of preservation policies & strategy (17)* * * *  
+Digitization (2)* * * * 
+Emulation (11)* * * *  
+File format identification (9)* * * *  
+File format validation (10)* * * *  
+Fixity checks (8)* * * *  
+Metadata creation / extraction (3)* * * *  
+Normalization of files (7)* * * *  
+Preservation education, training & outreach (20)* * * *  
+Preservation planning (16)* * * *  
+Research (19)* * * *  
+Secure storage management (13)* * * *  
+Selection for preservation (1)* * * *  
+Technology watch (14)* * * *  
+Transformation / migration of digital formats (5)* * * *  
+Other (please indicate): (21)* * * *  
+
+Q13 Is there a dedicated digital preservation department within your organization?
+* Yes (Please indicate name of department): (1) ____________________
+* No (2)
+* Not applicable (Please explain): (3) ____________________
+
+Display This Question:
+    If "Is there a dedicated digital preservation department with... No" Is Selected
+Q14 Which department(s) take the lead for digital preservation within your organization? If this is a fairly equally distributed effort choose more than one.
+* A library, archives or other department that stewards the collections (2)
+* Information Technology (IT) (1)
+* Preservation department (handling both analog and digital) (3)
+* Other, for example the Vault department (Please indicate): (4) ____________________
+
+Q15 For each of these positions, how many FTE do you currently have supporting digital preservation (or supporting digital collections, even if the activity is not considered in scope of your DP program) and how many would be ideal?    FTE stands for full-time equivalent. For example a 1.0 FTE could mean one person full-time or 2 people half-time; a 0.5 FTE could mean one person half time or two people quarter-time.   Please use whole numbers or decimals as appropriate.
+Administrator / manager (other than digital preservation manager) (16)
+Current FTE (1) 
+Ideal FTE (2)Archives & special collections curator (14)
+Current FTE (1) 
+Ideal FTE (2)Cataloger / metadata analyst (10)
+Current FTE (1) 
+Ideal FTE (2)Collection needs analyst (6)
+Current FTE (1) 
+Ideal FTE (2)
+
+Content analyst / maintainer (8)Current FTE (1) 
+Ideal FTE (2)
+Data manager / processor (9)
+Current FTE (1) 
+Ideal FTE (2)Digital archivist (20)
+Current FTE (1) 
+Ideal FTE (2)Digital librarian (15)Current FTE (1) 
+Ideal FTE (2)
+Digital preservation manager (1)Current FTE (1) 
+Ideal FTE (2)
+Format specialist (11)Current FTE (1) 
+Ideal FTE (2)
+Electronic records archivist (13)Current FTE (1) 
+Ideal FTE (2)
+Other IT (4)
+Current FTE (1) 
+Ideal FTE (2)Outreach specialist / trainer (17)
+Current FTE (1) 
+Ideal FTE (2)Policy analyst (7)Current FTE (1) 
+Ideal FTE (2)
+Rights specialist (18)Current FTE (1) 
+Ideal FTE (2)
+System administrator (2)Current FTE (1) 
+Ideal FTE (2)
+Software developer / programmer (3)
+Current FTE (1) 
+Ideal FTE (2)Usability specialist (19)
+Current FTE (1) 
+Ideal FTE (2)User support specialist (5)Current FTE (1) 
+Ideal FTE (2)
+Workflow specialist (12)Current FTE (1) 
+Ideal FTE (2)
+Other (please indicate): (21)
+Current FTE (1) 
+Ideal FTE (2)
+Q16 The way our digital preservation function is currently organized (staffing levels, expertise, where they are placed within the larger organization) works well.
+* Strongly disagree (1)
+* Disagree (2)
+* Neither Agree nor Disagree (3)
+* Agree (4)
+* Strongly Agree (5)
+
+Q17 For in-house staff, did you hire experienced digital preservation specialists and/or retrain existing staff? Check all that apply.
+• Hired experienced digital preservation specialists (1)
+• Retrained existing staff (2)
+• Other (please indicate): (3) ____________________
+
+Q18 [Matrix] Please rate the importance of each of these items if you were hiring a new digital preservation manager at your organization.
+Extremely Important (1) Very Important (2) Somewhat Important (3) Somewhat Unimportant (4) Very Unimportant (5) Not at all Important (6)
+Ability to train others (13)* * * * * * 
+Analytical skills (9)* * * * * * 
+Certificate in digital preservation or curation (3)* * * * * * 
+Collaboration skills (12)* * * * * * 
+Communication skills (8)* * * * * * 
+Degree in Computer Sciences (2)* * * * * * 
+Degree in Library and Information Sciences (1)* * * * * * 
+Knowledge of digital preservation standards, best practices and tools (5)* * * * * * 
+Leadership qualities (7)* * * * * * 
+Managing budgets (14)* * * * * * 
+Passion / motivation for digital preservation (11)* * * * * * 
+Professional digital preservation experience (4)* * * * * * 
+Project planning, management and organizational skills (10)* * * * * * 
+Technical abilities (6)* 						* * * * * 
+Other (Please indicate): (15)* * * * * * 
+
+Q19 Is there anything else you'd like to share about the way you think an effective digital preservation program should be staffed and organized?
+
+Q20 Do you have organizational charts or position descriptions that you'd be willing to share?        Any documents you share would provide context to your answers and would be kept private to the NDSA Standards and Practices Working Group unless you give us explicit permission in the future to share more broadly.
+* Yes (1)
+* No  (2)
+
+Display This Question:
+    If "Do you have organizational charts or position description... Yes" Is Selected
+Q21  If the organizational charts or position descriptions are on-line, what are the URL(S)?     If they are not on-line, please email this supplementary data to ndsastaffingsurvey2016@googlegroups.com with the subject line "Staffing Survey."
+
+Q22 (Required) Please provide your contact information.
+    Full name (1)
+    Organization (2)
+    Email address (3)
+    Phone number (4)
+

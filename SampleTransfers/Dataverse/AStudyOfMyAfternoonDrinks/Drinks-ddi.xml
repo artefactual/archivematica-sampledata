@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns="http://www.icpsr.umich.edu/DDI" version="2.0">
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>A study of my afternoon drinks</titl>
+        <IDNo agency="doi">10.5072/FK2/6PPJ6Y</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Tester, Archivematica</AuthEnty>
+      </rspStmt>
+      <biblCit>Tester, Archivematica, 2018, "A study of my afternoon drinks", https://doi.org/10.5072/FK2/6PPJ6Y, Root Dataverse, DRAFT VERSION, UNF:6:IgxkjKXUlveGP0Darp1fYg==</biblCit>
+    </citation>
+  </stdyDscr>
+  <fileDscr ID="f575">
+    <fileTxt>
+      <fileName>Drinks.tab</fileName>
+      <dimensns>
+        <caseQnty>7</caseQnty>
+        <varQnty>4</varQnty>
+      </dimensns>
+      <fileType>text/tab-separated-values</fileType>
+    </fileTxt>
+    <notes level="file" type="VDC:UNF" subject="Universal Numeric Fingerprint">UNF:6:IgxkjKXUlveGP0Darp1fYg==</notes>
+  </fileDscr>
+  <dataDscr>
+    <var ID="v3250" name="���Day" intrvl="discrete">
+      <location fileid="f575"/>
+      <labl level="variable">���Day</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:JINZ7P+Jy7ptAWh6JgTbVA==</notes>
+    </var>
+    <var ID="v3249" name="First Drink" intrvl="discrete">
+      <location fileid="f575"/>
+      <labl level="variable">First Drink</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:twAaSLqWMKGUkMNOFHBEOQ==</notes>
+    </var>
+    <var ID="v3247" name="Second Drink" intrvl="discrete">
+      <location fileid="f575"/>
+      <labl level="variable">Second Drink</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:aEBveEvx8j1Y/3kD3ugXcg==</notes>
+    </var>
+    <var ID="v3248" name="Third Drinks" intrvl="discrete">
+      <location fileid="f575"/>
+      <labl level="variable">Third Drinks</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:3DwzBN/3HSgxOeUvrKSOxw==</notes>
+    </var>
+  </dataDscr>
+</codeBook>
