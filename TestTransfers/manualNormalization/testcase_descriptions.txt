@@ -45,11 +45,7 @@ O
 7 - manually normalized, but no conflicting original file (not in CSV)
 O,A,P
 
-8 - both manually normalized, CSV has different capitalization
-O,A,P
-O,A,P
-
-9 - manually normalized to subdirectory
+8 - manually normalized to subdirectory
 O,A,
 
 TODO
@@ -57,4 +53,3 @@ TODO
 O,A,P
 O,A,P
 (special characters in name)
-
