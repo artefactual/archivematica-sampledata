@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<mets ID="DSpace_COLLECTION_2429-1314" OBJID="hdl:2429/1314" TYPE="DSpace COLLECTION" PROFILE="http://www.dspace.org/schema/aip/mets_aip_1_0.xsd" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+ <metsHdr>
+  <agent ROLE="CUSTODIAN" TYPE="OTHER" OTHERTYPE="DSpace Archive">
+   <name>2429/0</name>
+  </agent>
+  <agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="DSpace Software">
+   <name>DSpace 1.7.0</name>
+  </agent>
+ </metsHdr>
+ <dmdSec ID="dmdSec_1">
+  <mdWrap MDTYPE="MODS">
+   <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd"><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+  <mods:note>&lt;p&gt;
+  &lt;b&gt;To see the list of articles in this issue, click on 'Titles'
+  above.&lt;/b&gt;
+&lt;/p&gt;</mods:note>
+  <mods:abstract />
+  <mods:tableOfContents />
+  <mods:identifier type="uri">http://hdl.handle.net/2429/1314</mods:identifier>
+  <mods:accessCondition type="useAndReproduction" />
+  <mods:titleInfo>
+    <mods:title>frontier, issue 1, May 2006</mods:title>
+  </mods:titleInfo>
+</mods:mods></xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="dmdSec_2">
+  <mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+   <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="COLLECTION">
+  <dim:field mdschema="dc" element="description">&lt;p&gt;
+  &lt;b&gt;To see the list of articles in this issue, click on 'Titles'
+  above.&lt;/b&gt;
+&lt;/p&gt;</dim:field>
+  <dim:field mdschema="dc" element="description" qualifier="abstract" />
+  <dim:field mdschema="dc" element="description" qualifier="tableofcontents" />
+  <dim:field mdschema="dc" element="identifier" qualifier="uri">hdl:2429/1314</dim:field>
+  <dim:field mdschema="dc" element="provenance" />
+  <dim:field mdschema="dc" element="rights" />
+  <dim:field mdschema="dc" element="rights" qualifier="license" />
+  <dim:field mdschema="dc" element="title">frontier, issue 1, May 2006</dim:field>
+</dim:dim></xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="dmdSec_40">
+  <mdWrap MDTYPE="MODS">
+   <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd"><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+  <mods:originInfo>
+    <mods:publisher>Office of the Vice President Research, The University of British Columbia</mods:publisher>
+  </mods:originInfo>
+  <mods:relatedItem type="series">frontier: a journal of research and discovery, issue 1, May 2006</mods:relatedItem>
+</mods:mods></xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="dmdSec_41">
+  <mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+   <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="ITEM">
+  <dim:field mdschema="dc" element="publisher" lang="en">Office of the Vice President Research, The University of British Columbia</dim:field>
+  <dim:field mdschema="dc" element="relation" qualifier="ispartofseries" lang="en">frontier: a journal of research and discovery, issue 1, May 2006</dim:field>
+</dim:dim></xmlData>
+  </mdWrap>
+ </dmdSec>
+ <amdSec ID="amd_3">
+  <techMD ID="techMD_5">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="DSPACE-ROLES">
+    <xmlData xmlns:dsroles="http://www.dspace.org/xmlns/dspace/dspace-roles"><DSpaceRoles>
+  <Groups>
+    <Group ID="220" Name="COLLECTION_hdl:2429/1314_ADMIN" Type="ADMIN">
+      <Members>
+        <Member ID="679" Name="svpr@exchange.ubc.ca" />
+        <Member ID="646" Name="andy.torr@ubc.ca" />
+      </Members>
+    </Group>
+    <Group ID="218" Name="COLLECTION_hdl:2429/1314_SUBMIT" Type="SUBMIT">
+      <Members>
+        <Member ID="679" Name="svpr@exchange.ubc.ca" />
+        <Member ID="646" Name="andy.torr@ubc.ca" />
+      </Members>
+    </Group>
+    <Group ID="219" Name="COLLECTION_hdl:2429/1314_WORKFLOW_STEP_2" Type="WORKFLOW_STEP_2">
+      <Members>
+        <Member ID="679" Name="svpr@exchange.ubc.ca" />
+        <Member ID="646" Name="andy.torr@ubc.ca" />
+      </Members>
+    </Group>
+  </Groups>
+</DSpaceRoles></xmlData>
+   </mdWrap>
+  </techMD>
+  <rightsMD ID="rightsMD_9">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" OTHER="true" OTHERPERMITTYPE="READ ITEM CONTENTS" />
+  </rights:Context>
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" OTHER="true" OTHERPERMITTYPE="READ FILE CONTENTS" />
+  </rights:Context>
+  <rights:Context CONTEXTCLASS="MANAGED GRP">
+    <rights:UserName USERTYPE="GROUP">COLLECTION_hdl:2429/1314_SUBMIT</rights:UserName>
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="true" DELETE="false" OTHER="true" OTHERPERMITTYPE="ADD CONTENTS" />
+  </rights:Context>
+  <rights:Context CONTEXTCLASS="MANAGED GRP">
+    <rights:UserName USERTYPE="GROUP">COLLECTION_hdl:2429/1314_WORKFLOW_STEP_2</rights:UserName>
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="true" DELETE="false" OTHER="true" OTHERPERMITTYPE="ADD CONTENTS" />
+  </rights:Context>
+  <rights:Context CONTEXTCLASS="MANAGED GRP">
+    <rights:UserName USERTYPE="GROUP">COLLECTION_hdl:2429/1314_ADMIN</rights:UserName>
+    <rights:Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="true" PRINT="true" OTHER="true" OTHERPERMITTYPE="ADMIN" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_10">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="COLLECTION">
+  <dim:field mdschema="dc" element="identifier" qualifier="uri">hdl:2429/1314</dim:field>
+  <dim:field mdschema="dc" element="relation" qualifier="isPartOf">hdl:2429/1076</dim:field>
+  <dim:field mdschema="dc" element="relation" qualifier="isReferencedBy">hdl:2429/1073</dim:field>
+  <dim:field mdschema="dc" element="relation" qualifier="isReferencedBy">hdl:2429/21386</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <structMap ID="struct_11" LABEL="DSpace Object" TYPE="LOGICAL">
+  <div ID="div_12" DMDID="dmdSec_2 dmdSec_1" ADMID="amd_3" TYPE="DSpace Object Contents">
+   <div ID="div_42" DMDID="dmdSec_41 dmdSec_40" TYPE="DSpace ITEM Template"/>
+   <div ID="div_13" TYPE="DSpace ITEM">
+    <mptr ID="mptr_14" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/1521"/>
+    <mptr ID="mptr_15" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-1521.zip"/>
+   </div>
+   <div ID="div_16" TYPE="DSpace ITEM">
+    <mptr ID="mptr_17" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2696"/>
+    <mptr ID="mptr_18" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2696.zip"/>
+   </div>
+   <div ID="div_19" TYPE="DSpace ITEM">
+    <mptr ID="mptr_20" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2697"/>
+    <mptr ID="mptr_21" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2697.zip"/>
+   </div>
+   <div ID="div_22" TYPE="DSpace ITEM">
+    <mptr ID="mptr_23" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2698"/>
+    <mptr ID="mptr_24" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2698.zip"/>
+   </div>
+   <div ID="div_25" TYPE="DSpace ITEM">
+    <mptr ID="mptr_26" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2699"/>
+    <mptr ID="mptr_27" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2699.zip"/>
+   </div>
+   <div ID="div_28" TYPE="DSpace ITEM">
+    <mptr ID="mptr_29" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2700"/>
+    <mptr ID="mptr_30" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2700.zip"/>
+   </div>
+   <div ID="div_31" TYPE="DSpace ITEM">
+    <mptr ID="mptr_32" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2701"/>
+    <mptr ID="mptr_33" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2701.zip"/>
+   </div>
+   <div ID="div_34" TYPE="DSpace ITEM">
+    <mptr ID="mptr_35" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2702"/>
+    <mptr ID="mptr_36" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2702.zip"/>
+   </div>
+   <div ID="div_37" TYPE="DSpace ITEM">
+    <mptr ID="mptr_38" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/2703"/>
+    <mptr ID="mptr_39" LOCTYPE="URL" xlink:type="simple" xlink:href="ITEM@2429-2703.zip"/>
+   </div>
+  </div>
+ </structMap>
+ <structMap ID="struct_43" LABEL="Parent" TYPE="LOGICAL">
+  <div ID="div_44" LABEL="Parent of this DSpace Object" TYPE="AIP Parent Link">
+   <mptr ID="mptr_45" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="2429/1076"/>
+  </div>
+ </structMap>
+</mets>
