@@ -1,0 +1,241 @@
+{
+    "authority": "10.5072",
+    "id": 1589,
+    "identifier": "FK2/QAWS8O",
+    "latestVersion": {
+        "UNF": "UNF:6:doAry72PFwD1Edcrhsj/Qw==",
+        "createTime": "2019-03-28T15:20:05Z",
+        "files": [
+            {
+                "dataFile": {
+                    "UNF": "UNF:6:doAry72PFwD1Edcrhsj/Qw==",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "84bca41c1557b4aecd3923f9969aeed0"
+                    },
+                    "contentType": "text/tab-separated-values",
+                    "description": "Another replacement  file. ",
+                    "filename": "afternoon-snacks-1.tab",
+                    "filesize": 234,
+                    "id": 1592,
+                    "md5": "84bca41c1557b4aecd3923f9969aeed0",
+                    "originalFileFormat": "text/csv",
+                    "originalFileSize": 273,
+                    "originalFormatLabel": "Comma Separated Values",
+                    "persistentId": "",
+                    "pidURL": "",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "16846e11566-311f3304167a"
+                },
+                "datasetVersionId": 576,
+                "description": "Another replacement  file. ",
+                "label": "afternoon-snacks-1.tab",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "9672a5adc5bf80ddb69fc404203f4dae"
+                    },
+                    "contentType": "text/plain",
+                    "filename": "cake-descriptions.txt",
+                    "filesize": 15,
+                    "id": 1600,
+                    "md5": "9672a5adc5bf80ddb69fc404203f4dae",
+                    "persistentId": "",
+                    "pidURL": "",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "1685816fd1a-78a0234180eb"
+                },
+                "datasetVersionId": 576,
+                "label": "cake-descriptions.txt",
+                "restricted": false,
+                "version": 1
+            }
+        ],
+        "id": 576,
+        "lastUpdateTime": "2019-03-28T15:28:07Z",
+        "license": "CC0",
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "fields": [
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "title",
+                        "value": "A study of my afternoon snacks"
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "author",
+                        "value": [
+                            {
+                                "authorAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorAffiliation",
+                                    "value": "Channel 4"
+                                },
+                                "authorName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorName",
+                                    "value": "Noel Fielding"
+                                }
+                            },
+                            {
+                                "authorAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorAffiliation",
+                                    "value": "BBC"
+                                },
+                                "authorName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorName",
+                                    "value": "Mary Berry"
+                                }
+                            },
+                            {
+                                "authorAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorAffiliation",
+                                    "value": "Freelance"
+                                },
+                                "authorName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorName",
+                                    "value": "Hollywood, Paul"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "datasetContact",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactAffiliation",
+                                    "value": "Artefactual"
+                                },
+                                "datasetContactEmail": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactEmail",
+                                    "value": "demo@example.com"
+                                },
+                                "datasetContactName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactName",
+                                    "value": "Archivematica"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "dsDescription",
+                        "value": [
+                            {
+                                "dsDescriptionDate": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "dsDescriptionDate",
+                                    "value": "2019-01-10"
+                                },
+                                "dsDescriptionValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "dsDescriptionValue",
+                                    "value": "A study of my afternoon snacks."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "typeName": "subject",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "keyword",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "keywordValue",
+                                    "value": "Cake"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "keywordValue",
+                                    "value": "Nourishment"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "keywordValue",
+                                    "value": "Entertainment"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "notesText",
+                        "value": "This is a sample Dataset to test multiple author output in Archivematica. There are no Unicode characters included while another issue is resolved around that. Another Unicode set can be created"
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "depositor",
+                        "value": "Tester, Archivematica"
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "dateOfDeposit",
+                        "value": "2019-01-10"
+                    }
+                ]
+            }
+        },
+        "productionDate": "Production Date",
+        "releaseTime": "2019-03-28T15:28:07Z",
+        "storageIdentifier": "file://10.5072/FK2/QAWS8O",
+        "termsOfUse": "CC0 Waiver",
+        "versionMinorNumber": 0,
+        "versionNumber": 6,
+        "versionState": "RELEASED"
+    },
+    "persistentUrl": "https://doi.org/10.5072/FK2/QAWS8O",
+    "protocol": "doi",
+    "publicationDate": "2019-01-10",
+    "publisher": "Scholars Portal Dataverse",
+    "storageIdentifier": "file://10.5072/FK2/QAWS8O"
+}

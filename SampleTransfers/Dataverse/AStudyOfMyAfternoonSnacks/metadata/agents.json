@@ -1,0 +1,8 @@
+[
+    {
+        "agentIdentifierType": "URI",
+        "agentIdentifierValue": "https://dataverse.scholarsportal.info",
+        "agentName": "Archivematica Dataverse Transfer",
+        "agentType": "Dataverse"
+    }
+]
