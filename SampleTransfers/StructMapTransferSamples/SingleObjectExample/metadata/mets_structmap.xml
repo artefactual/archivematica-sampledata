@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/">
+  <mets:structMap TYPE="logical">
+    <mets:div LABEL="Short Listen: Ferdinand, the Misunderstood Bull by With Good Reason" TYPE="documentary">
+      <mets:div LABEL="Introduction" ORDER="1">
+        <mets:fptr CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:00:00" END="00:00:17" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="The story of Ferdinand and its context in history" ORDER="2">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:00:18" END="00:01:13" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Sharon McQueen - Socio Cultural Historian of Children's Literature" ORDER="3">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:01:14" END="00:01:33" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Isolation and Pacifism" ORDER="4">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:01:33" END="00:02:09" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Written on a rainy afternoon by Munro Leaf" ORDER="5">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:02:10" END="00:02:52" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Individualism" ORDER="6">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:02:53" END="00:03:33" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Banned in Germany, Spain, and attempted in the USA" ORDER="7">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:03:34" END="00:04:05" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Ferdinand's fame, even as he's seen as a 'coward'" ORDER="8">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:04:06" END="00:04:35" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div LABEL="Outro" ORDER="9">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3">
+          <mets:area FILEID="FILE001" CONTENTIDS="objects/2017-01-27-with-good-reason-ferdinand-short.mp3" BEGIN="00:00:00" END="00:05:06" BETYPE="TIME"/>
+        </mets:fptr>
+      </mets:div>
+      <!-- documentary -->
+    </mets:div>
+  </mets:structMap>
+</mets:mets>

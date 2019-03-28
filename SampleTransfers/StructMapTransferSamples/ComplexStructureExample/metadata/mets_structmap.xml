@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/">
+  <mets:structMap TYPE="logical">
+    <mets:div TYPE="book" LABEL="How to create a hierarchical book">
+      <mets:div TYPE="page" LABEL="Cover">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/cover_pages/cover.jpg"/>
+      </mets:div>
+      <mets:div TYPE="page" LABEL="Inside cover">
+        <mets:fptr FILEID="FILE002" CONTENTIDS="objects/cover_pages/inside_cover.jpg"/>
+      </mets:div>
+      <mets:div TYPE="chapter" LABEL="Chapter 1">
+        <mets:div TYPE="page" LABEL="Page 1">
+          <mets:fptr FILEID="FILE003" CONTENTIDS="objects/interior_pages/page_01.jpg"/>
+        </mets:div>
+        <mets:div TYPE="subchapter" LABEL="Subchapter 1.1">
+          <mets:div TYPE="page" LABEL="Page 2">
+            <mets:fptr FILEID="FILE004" CONTENTIDS="objects/interior_pages/page_02.jpg"/>
+          </mets:div>
+          <mets:div TYPE="page" LABEL="Page 3">
+            <mets:fptr FILEID="FILE005" CONTENTIDS="objects/interior_pages/page_03.jpg"/>
+          </mets:div>
+          <mets:div TYPE="page" LABEL="Page 4">
+            <mets:fptr FILEID="FILE006" CONTENTIDS="objects/interior_pages/page_04.jpg"/>
+          </mets:div>
+        </mets:div>
+        <!-- Subchapter 1.1 -->
+        <mets:div TYPE="subchapter" LABEL="Subchapter 1.2">
+          <mets:div TYPE="page" LABEL="Page 5">
+            <mets:fptr FILEID="FILE007" CONTENTIDS="objects/interior_pages/page_05.jpg"/>
+          </mets:div>
+          <mets:div TYPE="page" LABEL="Page 6">
+            <mets:fptr FILEID="FILE008" CONTENTIDS="objects/interior_pages/page_06.jpg"/>
+          </mets:div>
+          <mets:div TYPE="page" LABEL="Page 7">
+            <mets:fptr FILEID="FILE009" CONTENTIDS="objects/interior_pages/page_07.jpg"/>
+          </mets:div>
+        </mets:div>
+        <!-- Subchapter 1.2 -->
+      </mets:div>
+      <!-- Chapter 1 -->
+      <!-- Chapters 2 and 3, each with their own subchapters as in Chapter 1, omitted from this example. -->
+      <mets:div TYPE="afterword" LABEL="Afterword">
+        <mets:div TYPE="page" LABEL="Page 20">
+          <mets:fptr FILEID="FILE010" CONTENTIDS="objects/interior_pages/page_20.jpg"/>
+        </mets:div>
+      </mets:div>
+      <!-- afterword -->
+      <mets:div TYPE="index" LABEL="Index">
+        <mets:div TYPE="page" LABEL="Index, page 1">
+          <mets:fptr FILEID="FILE011" CONTENTIDS="objects/index_pages/index_01.jpg"/>
+        </mets:div>
+        <mets:div TYPE="page" LABEL="Index, page 2">
+          <mets:fptr FILEID="FILE012" CONTENTIDS="objects/index_pages/index_02.jpg"/>
+        </mets:div>
+      </mets:div>
+      <!-- index -->
+      <mets:div TYPE="page" LABEL="Back cover">
+        <mets:fptr FILEID="FILE013" CONTENTIDS="objects/cover_pages/back_cover.jpg"/>
+      </mets:div>
+      <!-- back cover -->
+    </mets:div>
+    <!-- book -->
+  </mets:structMap>
+</mets:mets>

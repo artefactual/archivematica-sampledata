@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/">
+  <mets:structMap TYPE="lógico">
+    <mets:div TYPE="libro" LABEL="Cómo crear un libro jerárquico">
+      <mets:div TYPE="página" LABEL="Cubrir">
+        <mets:fptr FILEID="FILE001" CONTENTIDS="objects/Cubrir.jpg"/>
+      </mets:div>
+      <mets:div TYPE="página" LABEL="Cubierta interior">
+        <mets:fptr FILEID="FILE002" CONTENTIDS="objects/Cubierta_interior.jpg"/>
+      </mets:div>
+      <mets:div TYPE="capítulo" LABEL="Capítulo 1">
+        <mets:div TYPE="página" LABEL="Página 1">
+          <mets:fptr FILEID="FILE003" CONTENTIDS="objects/Página_01.jpg"/>
+        </mets:div>
+        <mets:div TYPE="subcapítulo" LABEL="Subcapítulo 1.1">
+          <mets:div TYPE="página" LABEL="Página 2">
+            <mets:fptr FILEID="FILE004" CONTENTIDS="objects/Página_02.jpg"/>
+          </mets:div>
+          <mets:div TYPE="página" LABEL="Página 3">
+            <mets:fptr FILEID="FILE005" CONTENTIDS="objects/Página_03.jpg"/>
+          </mets:div>
+          <mets:div TYPE="página" LABEL="Página 4">
+            <mets:fptr FILEID="FILE006" CONTENTIDS="objects/Página_04.jpg"/>
+          </mets:div>
+        </mets:div>
+        <!-- Subcapítulo 1.1 -->
+        <mets:div TYPE="subcapítulo" LABEL="Subcapítulo 1.2">
+          <mets:div TYPE="página" LABEL="Página 5">
+            <mets:fptr FILEID="FILE007" CONTENTIDS="objects/Página_05.jpg"/>
+          </mets:div>
+          <mets:div TYPE="página" LABEL="Página 6">
+            <mets:fptr FILEID="FILE008" CONTENTIDS="objects/Página_06.jpg"/>
+          </mets:div>
+          <mets:div TYPE="página" LABEL="Página 7">
+            <mets:fptr FILEID="FILE009" CONTENTIDS="objects/Página_07.jpg"/>
+          </mets:div>
+        </mets:div>
+        <!-- Subcapítulo 1.2 -->
+      </mets:div>
+      <!-- Capítulo 1 -->
+      <mets:div TYPE="epílogo" LABEL="Epílogo">
+        <mets:div TYPE="página" LABEL="Página 20">
+          <mets:fptr FILEID="FILE010" CONTENTIDS="objects/Página_20.jpg"/>
+        </mets:div>
+      </mets:div>
+      <!-- Epílogo -->
+      <mets:div TYPE="índice" LABEL="Índice">
+        <mets:div TYPE="página" LABEL="Índice página 1">
+          <mets:fptr FILEID="FILE011" CONTENTIDS="objects/Índice_01.jpg"/>
+        </mets:div>
+        <mets:div TYPE="página" LABEL="Índice, página 2">
+          <mets:fptr FILEID="FILE012" CONTENTIDS="objects/Índice_02.jpg"/>
+        </mets:div>
+      </mets:div>
+      <!-- Índice -->
+      <mets:div TYPE="página" LABEL="Contraportada">
+        <mets:fptr FILEID="FILE013" CONTENTIDS="objects/Contraportada.jpg"/>
+      </mets:div>
+      <!-- Contraportada -->
+    </mets:div>
+    <!-- Libro -->
+  </mets:structMap>
+</mets:mets>
