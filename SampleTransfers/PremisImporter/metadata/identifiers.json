@@ -1,0 +1,106 @@
+[
+    {
+        "file": "",
+        "identifiers": [
+            {
+                "identifier": "01D9T8MJM9NEQ390H239VT50CQ",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/AIP/id/1348554167",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/artwork",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NFX0DYQY0ZDN0HX4J5B9",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/directory/id/758748901",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/bird.mp3",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NGAQ2DBN8M4D23HM5FYN",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/file/id/",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/piiTestDataCreditCardNumbers.txt",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NGS76TCN890Z2H6D1SKS",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/file/id/3742112915",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/View_from_lookout_over_Queenstown_towards_the_Remarkables_in_spring.jpg",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NH7QF5WW5CJ4KTW15J3C",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/file/id/292468806",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/beihai.tif",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NHP5W7BPPV1E3JB1HSAE",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/file/id/2367652602",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/ocr-image.png",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NJ4WHK673QT2KJEGJM1W",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/file/id/3355859677",
+                "identifierType": "EXID"
+            }
+        ]
+    },
+    {
+        "file": "objects/artwork/MARBLES.TGA",
+        "identifiers": [
+            {
+                "identifier": "01D9T8NJK5D7APWFGWM9QP34MN",
+                "identifierType": "ULID"
+            },
+            {
+                "identifier": "https://example.com/file/id/2026496916",
+                "identifierType": "EXID"
+            }
+        ]
+    }
+]
