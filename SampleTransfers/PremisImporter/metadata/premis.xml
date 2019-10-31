@@ -83,9 +83,6 @@
     </premis:eventDetailInformation>
     <premis:eventOutcomeInformation>
       <premis:eventOutcome/>
-      <premis:eventOutcomeDetail>
-        <premis:eventOutcomeDetailNote/>
-      </premis:eventOutcomeDetail>
     </premis:eventOutcomeInformation>
     <premis:linkingAgentIdentifier>
       <premis:linkingAgentIdentifierType>repository code</premis:linkingAgentIdentifierType>
@@ -104,9 +101,6 @@
     </premis:eventDetailInformation>
     <premis:eventOutcomeInformation>
       <premis:eventOutcome>Pass</premis:eventOutcome>
-      <premis:eventOutcomeDetail>
-        <premis:eventOutcomeDetailNote/>
-      </premis:eventOutcomeDetail>
     </premis:eventOutcomeInformation>
     <premis:linkingAgentIdentifier>
       <premis:linkingAgentIdentifierType>repository code</premis:linkingAgentIdentifierType>
@@ -125,9 +119,6 @@
     </premis:eventDetailInformation>
     <premis:eventOutcomeInformation>
       <premis:eventOutcome/>
-      <premis:eventOutcomeDetail>
-        <premis:eventOutcomeDetailNote/>
-      </premis:eventOutcomeDetail>
     </premis:eventOutcomeInformation>
     <premis:linkingAgentIdentifier>
       <premis:linkingAgentIdentifierType>repository code</premis:linkingAgentIdentifierType>
