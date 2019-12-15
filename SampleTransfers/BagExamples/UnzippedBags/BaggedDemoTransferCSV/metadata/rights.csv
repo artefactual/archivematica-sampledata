@@ -1,0 +1,9 @@
+file,basis,status,determination_date,jurisdiction,start_date,end_date,terms,citation,note,grant_act,grant_restriction,grant_start_date,grant_end_date,grant_note,doc_id_type,doc_id_value,doc_id_role
+data/beihai.tif,copyright,copyright status,2001-01-01,Canada,2002-02-02,2003-03-03,,,Note 1,Act 1,Allow,2004-04-04,2005-05-05,Grant note 1,,,
+data/beihai.tif,copyright,copyright status,2002-02-02,Canada,1992-01-01,2091-12-31,,,Note 2,Act 2,Disallow,,,Grant note 2,,,
+data/beihai.tif,copyright,copyright status,2001-01-01,Canada,2002-02-02,2003-03-03,,,Note 3,Act 3,Allow,2004-04-04,2005-05-05,Grant note 3,,,
+data/beihai.tif,license,,2003-03-03,,1982-01-01,1983-02-02,License terms,,Note license,Act license,Allow,,,,,,
+data/beihai.tif,statute,,1972-02-02,Canada,1966-01-01,open,Statute terms,Citation,Note statute,Act statute,Allow,,,,,,
+data/beihai.tif,other,,2004-04-04,,1945-01-01,1950-05-05,,,Note other,Act other,Allow,1920-01-01,1921-01-01,Grant note other,,,
+data/bird.mp3,donor,,2005-05-05,,2010-01-01,open,,,,Act donor,,,,,,,
+data/bird.mp3,policy,,2006-06-06,,1999-01-01,open,,,,Act policy,,,,,,,

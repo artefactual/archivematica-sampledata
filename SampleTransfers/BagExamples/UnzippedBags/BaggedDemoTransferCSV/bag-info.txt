@@ -1,0 +1,4 @@
+Bag-Software-Agent: bagit.py v1.7.0 <https://github.com/LibraryOfCongress/bagit-python>
+Bagging-Date: 2019-12-15
+Payload-Oxum: 28986731.6
+Creator: Artefactual Systems Inc.
