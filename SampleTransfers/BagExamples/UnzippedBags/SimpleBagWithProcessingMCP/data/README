@@ -1,0 +1,3 @@
+The custom processing configuration in this transfer should always make
+Archivematica stop at Assign UUIDs to directories no matter what is configured
+in your pipeline.
