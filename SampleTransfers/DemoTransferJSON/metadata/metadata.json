@@ -126,5 +126,44 @@
         "dc.title": "Directory containing artwork",
         "dc.type": "",
         "filename": "objects/artwork"
+    },
+    {
+        "dc.contributor": "",
+        "dc.coverage": "",
+        "dc.creator": "Public Domain",
+        "dc.date": "",
+        "dc.description": "",
+        "dc.format": "",
+        "dc.identifier": "",
+        "dc.language": "",
+        "dc.publisher": "",
+        "dc.relation": "",
+        "dc.rights": "Public Domain",
+        "dc.source": "",
+        "dc.subject": [
+            "Art",
+            "Heraldry"
+        ],
+        "dc.title": "Flag of Montreal",
+        "dc.type": "",
+        "filename": "objects/artwork/Montréal.png"
+    },
+    {
+        "dc.contributor": "",
+        "dc.coverage": "",
+        "dc.creator": "",
+        "dc.date": "",
+        "dc.description": "A collection of strings used to trigger the Bulk Extractor suite of tools.",
+        "dc.format": "",
+        "dc.identifier": "",
+        "dc.language": "",
+        "dc.publisher": "",
+        "dc.relation": "",
+        "dc.rights": "",
+        "dc.source": "",
+        "dc.subject": "Infosec",
+        "dc.title": "PII Test Data (Credit Card Numbers)",
+        "dc.type": "",
+        "filename": "objects/piiTestDataCreditCardNumbers.txt"
     }
 ]
