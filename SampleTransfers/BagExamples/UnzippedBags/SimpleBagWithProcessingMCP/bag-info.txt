@@ -1,3 +1,10 @@
 Bag-Software-Agent: bagit.py v1.7.0 <https://github.com/LibraryOfCongress/bagit-python>
-Bagging-Date: 2019-11-06
-Payload-Oxum: 89400.4
+Bagging-Date: 2020-02-11
+Payload-Oxum: 83993.4
+
+Source-Organization: Artefactual Systems Inc.
+Organization-Address: Suite 201 - 301 6th Street, New Westminster, BC
+Contact-Name: A.N. Archivist
+Contact-Email: artefactual@example.com
+Bagging-Date: 2020-02-11
+External-Identifier: EXID:01E0TDPSX920GD7XED4CYXNVYT
