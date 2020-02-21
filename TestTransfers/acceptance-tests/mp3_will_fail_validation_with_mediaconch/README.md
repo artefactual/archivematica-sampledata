@@ -13,6 +13,7 @@ This transfer consists of the following files, plus this `README.md`.
 	fmt-134-signature-id-279-skeleton.mp3
 	fmt-134-signature-id-282-skeleton.mp3
 ```
+
 The expectation is that it will be used against a low-risk [Mediaconch][mc-1]
 policy in the Archivematica Format Policy Register. All but one file should
 fail thus testing the policy checking mechanism of the system.
@@ -24,7 +25,10 @@ information can be extracted from them using tools such as [Mediainfo][mc-3].
 
 The file marked `*-good.mp3` will pass validation.
 
-The policy that these are designed to be checked against is as follows:
+In order to run this test, you must set up the policy in Archivematica by
+creating a validation command in Archivematica's Preservation Planning tab. Populate
+the command with the following:
+
 ```python
 import sys
 from ammcpc import MediaConchPolicyCheckerCommand
@@ -49,6 +53,13 @@ if __name__ == '__main__':
     sys.exit(policy_checker.check(target))
 ```
 
+Ensure that the command is enabled and create a rule to connect the command to
+the format MPEG 1/2 Audio Layer 3 (fmt/134).
+
+For more information on creating validation rules, please see
+[Preservation Planning > MediaConch][mc-4].
+
 [mc-1]: https://mediaarea.net/MediaConch
 [mc-2]: https://zenodo.org/record/3269467#.XR8-sWwzY5k
 [mc-3]: https://mediaarea.net/en/MediaInfo
+[mc-4]: https://www.archivematica.org/docs/latest/user-manual/preservation/preservation-planning/#mediaconch
