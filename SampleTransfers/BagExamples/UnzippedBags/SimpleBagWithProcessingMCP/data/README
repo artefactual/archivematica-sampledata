@@ -1,0 +1,4 @@
+The custom processing configuration in this transfer has every decision point
+left unresolved, i.e. set to None. No matter how much you have automated your
+default configuration, this transfer will ask Archivematica to stop at every
+point possible.
