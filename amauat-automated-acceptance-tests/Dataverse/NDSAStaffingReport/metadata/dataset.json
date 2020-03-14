@@ -1,0 +1,250 @@
+{
+    "authority": "10.7910",
+    "datasetVersion": {
+        "UNF": "UNF:6:UDt9tttqQKQvJoy72s+N+g==",
+        "citation": "NDSA Staffing Survey Working Group, 2017, \"Replication Data for: Staffing for Effective Digital Preservation 2017: An NDSA Report\", https://doi.org/10.7910/DVN/XBMAXP, Harvard Dataverse, V1, UNF:6:UDt9tttqQKQvJoy72s+N+g== [fileUNF]",
+        "createTime": "2017-10-20T16:07:38Z",
+        "files": [
+            {
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "72b4ea7a9820ec5b605a8d6507d316d8"
+                    },
+                    "contentType": "text/plain",
+                    "description": "Codebook",
+                    "filename": "CodeBook2017NDSA_DigitalPreservationStaffingSurvey.txt",
+                    "filesize": 22948,
+                    "id": 3061439,
+                    "md5": "72b4ea7a9820ec5b605a8d6507d316d8",
+                    "originalFormatLabel": "UNKNOWN",
+                    "persistentId": "doi:10.7910/DVN/XBMAXP/IGWVNR",
+                    "pidURL": "https://doi.org/10.7910/DVN/XBMAXP/IGWVNR",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "s3://dvn-cloud:15f3a88bf5a-cacd3eed4a74"
+                },
+                "datasetVersionId": 129567,
+                "description": "Codebook",
+                "label": "CodeBook2017NDSA_DigitalPreservationStaffingSurvey.txt",
+                "restricted": false,
+                "version": 1
+            },
+            {
+                "categories": [
+                    "Data"
+                ],
+                "dataFile": {
+                    "UNF": "UNF:6:UDt9tttqQKQvJoy72s+N+g==",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "46946c6081f911eab72cca6642e13478"
+                    },
+                    "contentType": "text/tab-separated-values",
+                    "description": "Survey Response",
+                    "filename": "Data2017StaffingSurveyAnonymous.tab",
+                    "filesize": 368748,
+                    "id": 3061440,
+                    "md5": "46946c6081f911eab72cca6642e13478",
+                    "originalFileFormat": "text/csv",
+                    "originalFormatLabel": "Comma Separated Values",
+                    "persistentId": "doi:10.7910/DVN/XBMAXP/FSPGL3",
+                    "pidURL": "https://doi.org/10.7910/DVN/XBMAXP/FSPGL3",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "s3://dvn-cloud:15f3a88b360-de7c906ee041"
+                },
+                "datasetVersionId": 129567,
+                "description": "Survey Response",
+                "label": "Data2017StaffingSurveyAnonymous.tab",
+                "restricted": false,
+                "version": 2
+            },
+            {
+                "categories": [
+                    "Documentation"
+                ],
+                "dataFile": {
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "190eacab715b09ecc3f8902a7b8e9f0b"
+                    },
+                    "contentType": "application/pdf",
+                    "description": "Report",
+                    "filename": "Report_2017DigitalPreservationStaffingSurvey.pdf",
+                    "filesize": 1883695,
+                    "id": 3061441,
+                    "md5": "190eacab715b09ecc3f8902a7b8e9f0b",
+                    "originalFormatLabel": "UNKNOWN",
+                    "persistentId": "doi:10.7910/DVN/XBMAXP/UKILZL",
+                    "pidURL": "https://doi.org/10.7910/DVN/XBMAXP/UKILZL",
+                    "rootDataFileId": -1,
+                    "storageIdentifier": "s3://dvn-cloud:15f3a88d75a-c0781e582cfc"
+                },
+                "datasetVersionId": 129567,
+                "description": "Report",
+                "label": "Report_2017DigitalPreservationStaffingSurvey.pdf",
+                "restricted": false,
+                "version": 1
+            }
+        ],
+        "id": 129567,
+        "lastUpdateTime": "2017-10-20T16:08:11Z",
+        "license": "CC0",
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "fields": [
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "title",
+                        "value": "Replication Data for: Staffing for Effective Digital Preservation 2017: An NDSA Report"
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "author",
+                        "value": [
+                            {
+                                "authorAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorAffiliation",
+                                    "value": "NDSA"
+                                },
+                                "authorName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "authorName",
+                                    "value": "NDSA Staffing Survey Working Group"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "datasetContact",
+                        "value": [
+                            {
+                                "datasetContactAffiliation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactAffiliation",
+                                    "value": "NDSA"
+                                },
+                                "datasetContactEmail": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactEmail",
+                                    "value": "ndsa@diglib.org"
+                                },
+                                "datasetContactName": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "datasetContactName",
+                                    "value": "NDSA contact"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "dsDescription",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "dsDescriptionValue",
+                                    "value": "Anonymised data for the report NDSA  Staffing for Effective Digital Preservation 2017.\r\n\r\n\r\nIn 2017, the National Digital Stewardship Alliance (NDSA) received completed survey responses from 133 institutions engaged in digital preservation, enabling the Staffing Survey Working Group to investigate how these organizations staffed and organized their digital preservation functions, and to identify any changes since the NDSA\u2019s 2012 survey1 on the same topic, published in \u201cStaffing for Effective Digital Preservation: An NDSA Report.\u201d2"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "typeName": "subject",
+                        "value": [
+                            "Computer and Information Science"
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "keyword",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "keywordValue",
+                                    "value": "preservation"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "keywordValue",
+                                    "value": "Staffing"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "typeName": "publication",
+                        "value": [
+                            {
+                                "publicationCitation": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "publicationCitation",
+                                    "value": " Staffing for Effective Digital Preservation 2017: An NDSA Report,\r\nNational Digital Stewardship Alliance, 2017. "
+                                },
+                                "publicationURL": {
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "typeName": "publicationURL",
+                                    "value": "https://osf.io/3rcqk/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "depositor",
+                        "value": "Altman, Micah"
+                    },
+                    {
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "typeName": "dateOfDeposit",
+                        "value": "2017-10-20"
+                    }
+                ]
+            }
+        },
+        "productionDate": "Production Date",
+        "releaseTime": "2017-10-20T16:08:11Z",
+        "storageIdentifier": "file",
+        "termsOfUse": "CC0 Waiver",
+        "versionMinorNumber": 0,
+        "versionNumber": 1,
+        "versionState": "RELEASED"
+    },
+    "id": 3061438,
+    "identifier": "DVN/XBMAXP",
+    "persistentUrl": "https://doi.org/10.7910/DVN/XBMAXP",
+    "protocol": "doi",
+    "publicationDate": "2017-10-20",
+    "publisher": "Harvard Dataverse",
+    "storageIdentifier": "file"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <records>
+    <record>
+      <ref-type name="Dataset">59</ref-type>
+      <contributors>
+        <authors>
+          <author>NDSA Staffing Survey Working Group</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Replication Data for: Staffing for Effective Digital Preservation 2017: An NDSA Report</title>
+      </titles>
+      <section>2017-10-20</section>
+      <abstract>Survey Response</abstract>
+      <dates>
+        <year>2017</year>
+      </dates>
+      <edition>V1</edition>
+      <keywords>
+        <keyword>preservation</keyword>
+        <keyword>Staffing</keyword>
+      </keywords>
+      <publisher>Harvard Dataverse</publisher>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.7910/DVN/XBMAXP</url>
+        </related-urls>
+      </urls>
+      <custom1>Data2017StaffingSurveyAnonymous.tab</custom1>
+      <custom2>UNF:6:UDt9tttqQKQvJoy72s+N+g==</custom2>
+      <electronic-resource-num>doi/10.7910/DVN/XBMAXP</electronic-resource-num>
+    </record>
+  </records>
+</xml>

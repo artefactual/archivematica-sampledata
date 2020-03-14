@@ -1,0 +1,16 @@
+Credit card numbers
+===================
+
+01. American Express - 378282246310005
+
+02. American Express - 371449635398431
+
+03. American Express Corporate - 378734493671000
+
+04. Australian BankCard - 5610591081018250
+
+05. Discover - 6011000990139424
+
+06. JCB - 3566002020360505
+
+
