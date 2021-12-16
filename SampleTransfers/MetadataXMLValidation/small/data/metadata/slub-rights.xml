@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slubarchiv:rightsRecord xmlns:slubarchiv="http://slubarchiv.slub-dresden.de/rights1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://slubarchiv.slub-dresden.de/rights1 https://slubarchiv.slub-dresden.de/slubarchiv/standards/rights/rights1.xsd">
+    <slubarchiv:copyrightStatus>copyrighted</slubarchiv:copyrightStatus>
+    <slubarchiv:permissions>
+        <slubarchiv:contract date="2017-01-01">Vertragsinformationen</slubarchiv:contract>
+        <slubarchiv:license url="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</slubarchiv:license>
+    </slubarchiv:permissions>
+</slubarchiv:rightsRecord>
