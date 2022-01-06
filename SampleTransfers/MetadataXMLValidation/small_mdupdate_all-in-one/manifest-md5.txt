@@ -6,4 +6,4 @@ c86b3ffb6458b7bbfe788c1c4e66d7ad  data/metadata/bag-info.xml
 8895d8bf80620a0c2f79969cac46782a  data/metadata/slub-rights.xml
 5b04fe5653cb36b8f669608fa52c93ef  data/metadata/source-metadata.csv
 ca7e0d79287c8e27a88c289fb15c0dc3  data/metadata/swb-katalog.marc21.xml
-68920db0a31b4f76acb055c462526aea  data/metadata/custom_dir/alto.ocr.00000002.xml
+73a76dcdd54f9cec5e424ba18e5d5e12  data/metadata/custom_dir/alto.ocr.00000002.xml

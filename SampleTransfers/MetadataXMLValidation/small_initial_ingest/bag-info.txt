@@ -18,4 +18,4 @@ Bagging-Date: 2021-11-18
 Bag-Software-Agent: Archive::BagIt <https://metacpan.org/pod/Archive::BagIt>
 Payload-Oxum: 159910.36
 Bag-Size: 156.2 kB
-SLUBArchiv-lzaId: SLUB:LZA:testworkflow:testcases:test-sip_2020-07-17_13-40-17_96152
+SLUBArchiv-lzaId: SLUB:LZA:testworkflow:testcases:test-sip_2021-01-06-11_37-30_96152
