@@ -1,0 +1,9 @@
+5b8f34f32a835f7b63dcc9b32cd7039b  data/metadata/bag-info.xml
+939548fbfcf3202d5b6a8e2e7c8b409b  data/metadata/dc.xml
+6faf7165a64dc2538d8430900c366341  data/metadata/lido.xml
+5a71664e9654c9958c249a64fd8d2def  data/metadata/marc21.xml
+88013f7a47c75b611eb214def5eb0dba  data/metadata/metadata.txt.xml
+79ecad2b32ac8714c00eb577112d4f88  data/metadata/mods.xml
+8895d8bf80620a0c2f79969cac46782a  data/metadata/slub-rights.xml
+d773a882210aa034082d6f171345725d  data/metadata/source-metadata.csv
+01226e8e3c09cd512a0b0515350bbbe5  data/metadata/custom_dir/alto.ocr.00000001.xml

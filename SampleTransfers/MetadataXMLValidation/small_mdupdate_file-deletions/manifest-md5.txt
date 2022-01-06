@@ -1,2 +1,0 @@
-9ef2951df0e011b216d97d3b602b42a9  data/metadata/bag-info.xml
-4ec9768b46512fa4eb0b120e91b7f8a3  data/metadata/source-metadata.csv
