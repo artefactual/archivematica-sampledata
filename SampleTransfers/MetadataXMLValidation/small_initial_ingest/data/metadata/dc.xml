@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+    <dc:identifier>oai:de:slub-dresden:db:id-1666408611-18930102</dc:identifier>
+    <dc:identifier>http://digital.slub-dresden.de/id1666408611-18930102</dc:identifier>
+    <dc:identifier>urn:nbn:de:bsz:14-db-id1666408611-189301021</dc:identifier>
+    <dc:date>1893-01-02</dc:date>
+    <dc:format>application/mets+xml</dc:format>
+    <dc:type>Text</dc:type>
+    <dc:relation>oai:de:slub-dresden:db:id-1666408611-1893</dc:relation>
+</oai_dc:dc>

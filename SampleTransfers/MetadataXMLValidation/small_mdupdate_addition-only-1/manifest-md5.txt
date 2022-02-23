@@ -1,0 +1,2 @@
+9ab232b2ca6e199cbeae130327643c69  data/metadata/source-metadata.csv
+73a76dcdd54f9cec5e424ba18e5d5e12  data/metadata/custom_dir/alto.ocr.00000002.xml

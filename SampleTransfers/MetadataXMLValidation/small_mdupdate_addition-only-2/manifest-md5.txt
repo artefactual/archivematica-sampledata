@@ -1,0 +1,2 @@
+74455cc195636dd2df3608c2a7206c1e  data/metadata/source-metadata.csv
+ca7e0d79287c8e27a88c289fb15c0dc3  data/metadata/swb-katalog.marc21.xml

@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim https://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <leader>     cas a22        4500</leader>
+  <controlfield tag="001">171104579</controlfield>
+  <controlfield tag="003">DE-627</controlfield>
+  <controlfield tag="005">20190706130704.0</controlfield>
+  <controlfield tag="007">tu</controlfield>
+  <controlfield tag="008">941106d18931990xx w| n|      0   |0ger c</controlfield>
+  <datafield tag="015" ind1=" " ind2=" ">
+    <subfield code="a">99,V01</subfield>
+    <subfield code="2">dnb</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">016807685</subfield>
+    <subfield code="2">DE-101</subfield>
+  </datafield>
+  <datafield tag="016" ind1="7" ind2=" ">
+    <subfield code="a">1152305-0</subfield>
+    <subfield code="2">DE-600</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-627)171104579</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-576)034204954</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-599)ZDB1152305-0</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)312038303</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DE-627</subfield>
+    <subfield code="b">ger</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="e">rakwb</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">ger</subfield>
+  </datafield>
+  <datafield tag="044" ind1=" " ind2=" ">
+    <subfield code="c">XA-DXDE</subfield>
+    <subfield code="c">XA-DE</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">050</subfield>
+    <subfield code="q">DE-101</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a">070</subfield>
+    <subfield code="a">914.3</subfield>
+    <subfield code="a">943</subfield>
+    <subfield code="q">DE-600</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Riesaer Tageblatt und Anzeiger</subfield>
+    <subfield code="b">(Elbeblatt und Anzeiger) ; amtliche Bekanntmachungen f&#xFC;r die Stadt und den Landkreis Riesa</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="3">
+    <subfield code="a">Elbeblatt und Anzeiger</subfield>
+  </datafield>
+  <datafield tag="246" ind1="3" ind2="3">
+    <subfield code="a">Amtliche Bekanntmachungen f&#xFC;r die Stadt und den Landkreis Riesa</subfield>
+  </datafield>
+  <datafield tag="264" ind1="3" ind2="1">
+    <subfield code="a">Riesa</subfield>
+    <subfield code="c">1893-1990</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">Text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">Mikroform</subfield>
+    <subfield code="b">h</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">Sonstige Mikroformen</subfield>
+    <subfield code="b">hz</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">Band</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="362" ind1="0" ind2=" ">
+    <subfield code="a">46.1893,2.Jan. - 98.1945,94(23.Apr.); 99.1990,1(19.Dez.)-2(28.Dez.)</subfield>
+  </datafield>
+  <datafield tag="363" ind1="0" ind2="0">
+    <subfield code="a">46</subfield>
+    <subfield code="b">1</subfield>
+    <subfield code="i">1893</subfield>
+  </datafield>
+  <datafield tag="363" ind1="1" ind2="0">
+    <subfield code="i">1945</subfield>
+    <subfield code="a">98</subfield>
+    <subfield code="b">94</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Zusatz wechselt</subfield>
+  </datafield>
+  <datafield tag="515" ind1=" " ind2=" ">
+    <subfield code="a">1946 - 1990,Nov. nicht ersch. - Periodizit&#xE4;t: w&#xF6;chentl; anfangs: 2-5x w&#xF6;chentl.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Mikrofilm-Ausg.: Dresden : S&#xE4;chs. Landesbibliothek - Staats- u. Universit&#xE4;tsbibliothek, Landesstelle f&#xFC;r Bestandserhaltung, 2002</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="b">Dresden</subfield>
+    <subfield code="c">S&#xE4;chs. Landesbibliothek - Staats- u. Universit&#xE4;tsbibliothek, Landesstelle f&#xFC;r Bestandserhaltung</subfield>
+    <subfield code="d">2002-2002</subfield>
+    <subfield code="n">Mikrofilm-Ausg.: Dresden : S&#xE4;chs. Landesbibliothek - Staats- u. Universit&#xE4;tsbibliothek, Landesstelle f&#xFC;r Bestandserhaltung, 2002</subfield>
+    <subfield code="7">|20022002||||||</subfield>
+  </datafield>
+  <datafield tag="591" ind1=" " ind2=" ">
+    <subfield code="a">(&#xFC;a/Z) (kein Amtsbl.) (SWB). - (&#xFC;a/Z) (kein Amtsbl.)</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Zeitung</subfield>
+    <subfield code="0">(DE-588)4067510-5</subfield>
+    <subfield code="0">(DE-627)106108832</subfield>
+    <subfield code="0">(DE-576)209170026</subfield>
+    <subfield code="2">gnd-content</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Lokalpresse</subfield>
+    <subfield code="0">(DE-588)4074317-2</subfield>
+    <subfield code="0">(DE-627)10445895X</subfield>
+    <subfield code="0">(DE-576)209193298</subfield>
+    <subfield code="2">gnd-content</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Anzeigenblatt</subfield>
+    <subfield code="0">(DE-588)4142761-0</subfield>
+    <subfield code="0">(DE-627)10466861X</subfield>
+    <subfield code="0">(DE-576)209721154</subfield>
+    <subfield code="2">gnd-content</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Riesa</subfield>
+    <subfield code="e">Herausgebendes Organ</subfield>
+    <subfield code="0">(DE-588)4050009-3</subfield>
+    <subfield code="0">(DE-627)104744324</subfield>
+    <subfield code="0">(DE-576)209085061</subfield>
+    <subfield code="4">isb</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Kreis Riesa</subfield>
+    <subfield code="e">Herausgebendes Organ</subfield>
+    <subfield code="0">(DE-588)5082386-3</subfield>
+    <subfield code="0">(DE-627)126054282</subfield>
+    <subfield code="0">(DE-576)194458245</subfield>
+    <subfield code="4">isb</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Landkreis Riesa</subfield>
+    <subfield code="e">Herausgebendes Organ</subfield>
+    <subfield code="0">(DE-588)4050011-1</subfield>
+    <subfield code="0">(DE-627)104744316</subfield>
+    <subfield code="0">(DE-576)20908507X</subfield>
+    <subfield code="4">isb</subfield>
+  </datafield>
+  <datafield tag="751" ind1=" " ind2=" ">
+    <subfield code="a">Riesa</subfield>
+    <subfield code="0">(DE-588)4050009-3</subfield>
+    <subfield code="0">(DE-627)104744324</subfield>
+    <subfield code="0">(DE-576)209085061</subfield>
+    <subfield code="4">dbp</subfield>
+  </datafield>
+  <datafield tag="770" ind1="0" ind2="8">
+    <subfield code="i">Beil.</subfield>
+    <subfield code="t">Unsere Heimat</subfield>
+    <subfield code="d">Riesa, 1928</subfield>
+    <subfield code="w">(DE-627)169492338</subfield>
+    <subfield code="w">(DE-600)997180-4</subfield>
+    <subfield code="w">(DE-576)03418662X</subfield>
+  </datafield>
+  <datafield tag="770" ind1="0" ind2="8">
+    <subfield code="t">Beil. ---&gt; Erz&#xE4;hler an der Elbe</subfield>
+  </datafield>
+  <datafield tag="776" ind1="0" ind2="8">
+    <subfield code="i">Elektronische Reproduktion</subfield>
+    <subfield code="t">Riesaer Tageblatt und Anzeiger</subfield>
+    <subfield code="d">Dresden : S&#xE4;chs. Landesbibliothek - Staats- u. Universit&#xE4;tsbibliothek, 2019</subfield>
+    <subfield code="h">Online-Ressource</subfield>
+    <subfield code="w">(DE-627)1666408611</subfield>
+    <subfield code="w">(DE-600)2973532-4</subfield>
+  </datafield>
+  <datafield tag="780" ind1="0" ind2="0">
+    <subfield code="i">Vorg.</subfield>
+    <subfield code="t">Elbeblatt und Anzeiger</subfield>
+    <subfield code="d">Riesa, 1861</subfield>
+    <subfield code="w">(DE-627)171104730</subfield>
+    <subfield code="w">(DE-600)1152325-6</subfield>
+    <subfield code="w">(DE-576)034204970</subfield>
+  </datafield>
+  <datafield tag="785" ind1="0" ind2="0">
+    <subfield code="i">Forts.</subfield>
+    <subfield code="t">Riesaer Tageblatt</subfield>
+    <subfield code="d">Riesa : Riesaer Tageblatt Verl., 1991</subfield>
+    <subfield code="w">(DE-627)171104544</subfield>
+    <subfield code="w">(DE-600)1152302-5</subfield>
+    <subfield code="w">(DE-576)034204938</subfield>
+  </datafield>
+  <datafield tag="935" ind1=" " ind2=" ">
+    <subfield code="a">SAXB</subfield>
+  </datafield>
+  <datafield tag="935" ind1=" " ind2=" ">
+    <subfield code="c">zt</subfield>
+  </datafield>
+  <datafield tag="951" ind1=" " ind2=" ">
+    <subfield code="a">JT</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583721</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  930728||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)046698361</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">2</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Z. gr. 2. 863</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">1.1</subfield>
+    <subfield code="a">46</subfield>
+    <subfield code="i">1893</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85910</subfield>
+    <subfield code="8">1.2</subfield>
+    <subfield code="a">52</subfield>
+    <subfield code="i">1899</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">2.1</subfield>
+    <subfield code="a">59</subfield>
+    <subfield code="i">1906</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">3.1</subfield>
+    <subfield code="a">66</subfield>
+    <subfield code="i">1913</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">4.1</subfield>
+    <subfield code="a">67</subfield>
+    <subfield code="i">1914</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">5.1</subfield>
+    <subfield code="a">68</subfield>
+    <subfield code="i">1915</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85910</subfield>
+    <subfield code="8">5.2</subfield>
+    <subfield code="a">71</subfield>
+    <subfield code="i">1918</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">6.1</subfield>
+    <subfield code="a">99</subfield>
+    <subfield code="i">1990</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">46.1893 - 52.1899; 59.1906,Juli-Dez.; 66.1913; 67.1914,Okt.-Dez.; 68.1915,Apr. - 71.1918,Dez.; 99.1990,1-2</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">866 0</subfield>
+    <subfield code="z">Bis 1918 nicht verleihbar, da Mikrofilm vorhanden</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 221058373X</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  010213||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)04669837X</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">092  </subfield>
+    <subfield code="y">5</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">3</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Biogr.erud.D.1625,005.di</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">1.1</subfield>
+    <subfield code="a">50</subfield>
+    <subfield code="i">1897</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">50.1897,37</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583748</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  010213||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)046698388</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">092  </subfield>
+    <subfield code="y">5</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">4</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Hist.Sax.H.0606,003.ap</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">1.1</subfield>
+    <subfield code="a">76</subfield>
+    <subfield code="i">1923</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">76.1923,199</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583756</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  010213||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)046698396</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">092  </subfield>
+    <subfield code="y">5</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">7</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Hist.Sax.H.0606,009</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">50.1897,37</subfield>
+    <subfield code="9">- Beil. zu</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583764</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  010213||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)04669840X</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">092  </subfield>
+    <subfield code="y">5</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">8</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Hist.Sax.H.0606,003.am</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">72.1919,251(29.Okt.)</subfield>
+    <subfield code="9">- Beil. zu</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583772</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  010213||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)046698418</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">092  </subfield>
+    <subfield code="y">5</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">9</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Hist.Sax.H.0606,003.aq</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">76.1923,198</subfield>
+    <subfield code="9">- Beil. zu</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583780</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  010213||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)046698426</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">10</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">Z. gr. 2. 863</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">99.1990=5.Nov.</subfield>
+    <subfield code="9">- Sonderausg. zu</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcy  a22     3n 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 2210583799</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190731144815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">007  huuuu|||uuuu</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  030917||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">035  </subfield>
+    <subfield code="a">(DE-600)089514815</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-14</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">092  </subfield>
+    <subfield code="o">l</subfield>
+    <subfield code="8">0</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="8">1</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-14</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="c">1. Mifi. Z. 446</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85900</subfield>
+    <subfield code="8">1.1</subfield>
+    <subfield code="a">46</subfield>
+    <subfield code="i">1893</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">85910</subfield>
+    <subfield code="8">1.2</subfield>
+    <subfield code="a">98</subfield>
+    <subfield code="i">1945</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">86630</subfield>
+    <subfield code="a">46.1893,2.Jan. - 98.1945,94(23.Apr.)</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">866 0</subfield>
+    <subfield code="z">Mikrorollfilm. - Teils nebst div. Beilagen, teils leicht l&#xFC;ckenhaft</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">935  </subfield>
+    <subfield code="a">mkop</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxnx  a22     zn 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 3040005847</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  171104579</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20190114000000</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  190114||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-2620</subfield>
+    <subfield code="c">DE-627</subfield>
+    <subfield code="d">DE-2620</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-2620</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+</record>
