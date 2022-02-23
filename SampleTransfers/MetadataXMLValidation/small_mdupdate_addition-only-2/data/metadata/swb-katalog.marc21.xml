@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim https://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <leader>     ngm a22        4500</leader>
+  <controlfield tag="001">1742815162</controlfield>
+  <controlfield tag="003">DE-627</controlfield>
+  <controlfield tag="005">20201215073149.0</controlfield>
+  <controlfield tag="006">m     o  | |      </controlfield>
+  <controlfield tag="007">cr uuu---uuuuu</controlfield>
+  <controlfield tag="008">201215s1960    xx ||| |      o   ||zxx c</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-627)1742815162</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(DE-599)KXP1742815162</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DE-576</subfield>
+    <subfield code="b">ger</subfield>
+    <subfield code="c">DE-576</subfield>
+    <subfield code="e">rda</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">zxx</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Staatliches Volkskunstensemble</subfield>
+    <subfield code="b">Studienfilm der wiss. Abtg.</subfield>
+    <subfield code="c">[Kurt Petermann] ;[Deutsches Tanzarchiv Leipzig]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">[Leipzig]</subfield>
+    <subfield code="b">Deutsches Tanzarchiv Leipzig</subfield>
+    <subfield code="c">[1960?]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 Online-Ressource (5 Min. 52 Sek.)</subfield>
+    <subfield code="b">Kodiert origin&#xE4;rer Bildrate: 24 fps,schwarz-wei&#xDF;, stumm</subfield>
+    <subfield code="c">Normal 16 mm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">zweidimensionales bewegtes Bild</subfield>
+    <subfield code="b">tdi</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">Computermedien</subfield>
+    <subfield code="b">c</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">Online-Ressource</subfield>
+    <subfield code="b">cr</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Elektronische Reproduktion von einem Original aus dem Bestand des ehemaligen Tanzarchivs Leipzig</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Die Digitalisierung des Films erfolgte im Rahmen des Landesdigitalisierungsprogramms des Freistaates Sachsen</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Dokumentarfilm. Deutsche Demokratische Republik. 1960</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Nativ-Scan mit Overscan, Videocodec FFV1 Version 3, Container: Matroska</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="a">Online-Ausgabe</subfield>
+    <subfield code="b">Dresden</subfield>
+    <subfield code="b">Dresden</subfield>
+    <subfield code="c">Filmverband Sachsen e.V.</subfield>
+    <subfield code="c">SLUB</subfield>
+    <subfield code="d">2020</subfield>
+    <subfield code="e">1 Online-Ressource</subfield>
+    <subfield code="n">Nativ-Scan mit Overscan, Videocodec FFV1 Version 3, Container: Matroska</subfield>
+    <subfield code="7">|2020||||||||||</subfield>
+  </datafield>
+  <datafield tag="535" ind1="1" ind2=" ">
+    <subfield code="a">Universit&#xE4;tsbibliothek Leipzig</subfield>
+    <subfield code="3">1</subfield>
+  </datafield>
+  <datafield tag="583" ind1="1" ind2=" ">
+    <subfield code="a">Archivierung/Langzeitarchivierung gew&#xE4;hrleistet</subfield>
+    <subfield code="2">pdager</subfield>
+    <subfield code="5">DE-14</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Film</subfield>
+    <subfield code="0">(DE-588)4017102-4</subfield>
+    <subfield code="0">(DE-627)104559683</subfield>
+    <subfield code="0">(DE-576)208918531</subfield>
+    <subfield code="2">gnd-content</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Petermann, Kurt</subfield>
+    <subfield code="d">1930-1984</subfield>
+    <subfield code="e">Sonstige Person, Familie und K&#xF6;rperschaft</subfield>
+    <subfield code="0">(DE-588)123791413</subfield>
+    <subfield code="0">(DE-627)082769737</subfield>
+    <subfield code="0">(DE-576)215010728</subfield>
+    <subfield code="4">oth</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Deutsches Tanzarchiv Leipzig</subfield>
+    <subfield code="e">Sonstige Person, Familie und K&#xF6;rperschaft</subfield>
+    <subfield code="0">(DE-588)2030656-8</subfield>
+    <subfield code="0">(DE-627)102374422</subfield>
+    <subfield code="0">(DE-576)191822817</subfield>
+    <subfield code="4">oth</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Staatliches Volkskunstensemble</subfield>
+    <subfield code="g">Berlin, Ost</subfield>
+    <subfield code="e">T&#xE4;nzerIn</subfield>
+    <subfield code="0">(DE-588)10177472-2</subfield>
+    <subfield code="0">(DE-627)539402710</subfield>
+    <subfield code="0">(DE-576)267369387</subfield>
+    <subfield code="4">dnc</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+    <subfield code="a">aa</subfield>
+  </datafield>
+  <datafield tag="935" ind1=" " ind2=" ">
+    <subfield code="a">SAXB</subfield>
+    <subfield code="a">SAVE</subfield>
+  </datafield>
+  <datafield tag="935" ind1=" " ind2=" ">
+    <subfield code="c">vide</subfield>
+  </datafield>
+  <datafield tag="937" ind1=" " ind2=" ">
+    <subfield code="a">Dokumentarfilm</subfield>
+    <subfield code="b">Deutsche Demokratische Republik</subfield>
+    <subfield code="c">1960</subfield>
+  </datafield>
+  <datafield tag="951" ind1=" " ind2=" ">
+    <subfield code="a">BO</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">000  xxxxxcx  a22     zn 4500</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">001 3903401056</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">003  DE-627</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">004  1742815162</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">005  20210426132124</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">008  210408||||||||||||||||ger|||||||</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">040  </subfield>
+    <subfield code="a">DE-15</subfield>
+    <subfield code="c">DE-576</subfield>
+    <subfield code="d">DE-15</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852  </subfield>
+    <subfield code="a">DE-15</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">852 1</subfield>
+    <subfield code="9">00</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">866  </subfield>
+    <subfield code="x">HD</subfield>
+  </datafield>
+  <datafield tag="LOK" ind1=" " ind2=" ">
+    <subfield code="0">935  </subfield>
+    <subfield code="a">NKAB</subfield>
+    <subfield code="a">DISC</subfield>
+    <subfield code="a">TANZ</subfield>
+  </datafield>
+</record>

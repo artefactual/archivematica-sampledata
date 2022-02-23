@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2020-06-15</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY FineReader Engine</softwareName><softwareVersion>12</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="5602" WIDTH="4187">
+<TopMargin HEIGHT="308" WIDTH="4187" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="4957" WIDTH="602" VPOS="308" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="4957" WIDTH="275" VPOS="308" HPOS="3912">
+</RightMargin>
+<BottomMargin HEIGHT="337" WIDTH="4187" VPOS="5265" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="4957" WIDTH="3310" VPOS="308" HPOS="602">
+<TextBlock ID="Page1_Block1" HEIGHT="244" WIDTH="2129" VPOS="324" HPOS="621" language="de"><Shape><Polygon POINTS="2300,325 2750,325 2750,560 2294,560 2294,561 2230,561 2230,562 1840,562 1840,563 1416,563 1416,564 1312,564 1312,565 1190,565 1190,566 1112,566 1112,567 1040,567 1040,568 621,568 621,368 622,368 622,334 688,334 688,333 1046,333 1046,332 1116,332 1116,331 1195,331 1195,330 1320,330 1320,329 1424,329 1424,328 1600,328 1600,327 2235,327 2235,326 2300,326 2300,325"/></Shape>
+<TextLine HEIGHT="201" WIDTH="2112" VPOS="358" HPOS="628"><String WC="0.2199999988079071" CONTENT="!" HEIGHT="188" WIDTH="24" VPOS="367" HPOS="628"/><SP WIDTH="30" VPOS="367" HPOS="653"/><String WC="0.62166666984558105" CONTENT="Iimien" HEIGHT="126" WIDTH="452" VPOS="397" HPOS="684"/><SP WIDTH="14" VPOS="416" HPOS="1137"/><String WC="1." CONTENT="-" HEIGHT="32" WIDTH="80" VPOS="456" HPOS="1152"/><SP WIDTH="14" VPOS="396" HPOS="1233"/><String WC="0.76333332061767578" CONTENT="8st0i1" HEIGHT="151" WIDTH="336" VPOS="393" HPOS="1248"/><SP WIDTH="15" VPOS="393" HPOS="1584"/><String WC="1." CONTENT="-" HEIGHT="32" WIDTH="80" VPOS="457" HPOS="1600"/><SP WIDTH="15" VPOS="393" HPOS="1680"/><String WC="0.54333335161209106" CONTENT="8MI-Wänstern" HEIGHT="155" WIDTH="993" VPOS="386" HPOS="1695"/><SP WIDTH="31" VPOS="359" HPOS="2688"/><String WC="0.2199999988079071" CONTENT="I" HEIGHT="192" WIDTH="21" VPOS="359" HPOS="2719"/></TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

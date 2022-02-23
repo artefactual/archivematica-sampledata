@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org">
+ <lido:lido>
+  <lido:lidoRecID lido:type="MDUPDATE - updated existing metadata Einzelobjekt">DE-14/lido/obj/00000000-fto</lido:lidoRecID>
+  <lido:descriptiveMetadata xml:lang="German">
+   <lido:objectClassificationWrap>
+    <lido:objectWorkTypeWrap>
+     <lido:objectWorkType lido:type="Sachbegriff">
+      <lido:conceptID lido:type="URI">http://d-nb.info/gnd/4347758-6</lido:conceptID>
+      <lido:term lido:addedSearchTerm="no">Negativ</lido:term>
+     </lido:objectWorkType>
+    </lido:objectWorkTypeWrap>
+    <lido:classificationWrap>
+     <lido:classification lido:type="Gattung">
+      <lido:conceptID lido:type="URI">http://d-nb.info/gnd/1234567-7</lido:conceptID>
+      <lido:term lido:addedSearchTerm="no">Fotografie</lido:term>
+     </lido:classification>
+    </lido:classificationWrap>
+   </lido:objectClassificationWrap>
+   <lido:objectIdentificationWrap>
+    <lido:titleWrap>
+     <lido:titleSet>
+      <lido:appellationValue lido:label="Serientitel">Reproserie A</lido:appellationValue>
+     </lido:titleSet>
+     <lido:titleSet>
+      <lido:appellationValue lido:label="Originaltitel">Repros</lido:appellationValue>
+     </lido:titleSet>
+     <lido:titleSet>
+      <lido:appellationValue>Gemäldereproduktion</lido:appellationValue>
+     </lido:titleSet>
+    </lido:titleWrap>
+    <lido:inscriptionsWrap>
+     <lido:inscriptions>
+      <lido:inscriptionDescription>
+       <lido:descriptiveNoteValue lido:label="Signatur">U. Knipser fecit</lido:descriptiveNoteValue>
+       <lido:descriptiveNoteValue lido:label="Anbringungsort">Rückseite</lido:descriptiveNoteValue>
+      </lido:inscriptionDescription>
+      <lido:inscriptionDescription>
+       <lido:descriptiveNoteValue lido:label="Stempel">Stempel Fotografenatelier,
+        Rückseite</lido:descriptiveNoteValue>
+      </lido:inscriptionDescription>
+     </lido:inscriptions>
+    </lido:inscriptionsWrap>
+    <lido:repositoryWrap>
+     <lido:repositorySet lido:type="former">
+      <lido:repositoryName>
+       <lido:legalBodyName>
+        <lido:appellationValue>Fotosammler, Uli</lido:appellationValue>
+       </lido:legalBodyName>
+      </lido:repositoryName>
+      <lido:repositoryLocation>
+       <lido:namePlaceSet>
+        <lido:appellationValue>Dresden</lido:appellationValue>
+       </lido:namePlaceSet>
+      </lido:repositoryLocation>
+     </lido:repositorySet>
+     <lido:repositorySet lido:type="current">
+      <lido:repositoryName>
+       <lido:legalBodyName>
+        <lido:appellationValue>SLUB / Deutsche Fotothek</lido:appellationValue>
+       </lido:legalBodyName>
+      </lido:repositoryName>
+      <lido:workID lido:type="Inventarnummer">df_hauptkatalog_0000001</lido:workID>
+      <lido:repositoryLocation>
+       <lido:namePlaceSet>
+        <lido:appellationValue>Dresden</lido:appellationValue>
+       </lido:namePlaceSet>
+      </lido:repositoryLocation>
+     </lido:repositorySet>
+    </lido:repositoryWrap>
+    <lido:objectDescriptionWrap>
+     <lido:objectDescriptionSet>
+      <lido:descriptiveNoteID lido:type="URI">http://d-nb.info/gnd/12388888</lido:descriptiveNoteID>
+      <lido:descriptiveNoteValue>Mittelformat</lido:descriptiveNoteValue>
+     </lido:objectDescriptionSet>
+     <lido:objectDescriptionSet>
+      <lido:descriptiveNoteValue>Hier steht ein Freitext</lido:descriptiveNoteValue>
+     </lido:objectDescriptionSet>
+    </lido:objectDescriptionWrap>
+    <lido:objectMeasurementsWrap>
+     <lido:objectMeasurementsSet>
+      <lido:displayObjectMeasurements>Tiefe : 22 cm</lido:displayObjectMeasurements>
+     </lido:objectMeasurementsSet>
+     <lido:objectMeasurementsSet>
+      <lido:displayObjectMeasurements>Gewicht : 100 g</lido:displayObjectMeasurements>
+     </lido:objectMeasurementsSet>
+     <lido:objectMeasurementsSet>
+      <lido:displayObjectMeasurements lido:label="Höhe x Breite">9 x 12 cm
+       (Negativ)</lido:displayObjectMeasurements>
+      <lido:displayObjectMeasurements lido:label="Höhe x Breite">18 x 24 cm
+       (Karton)</lido:displayObjectMeasurements>
+      <lido:objectMeasurements>
+       <lido:shapeMeasurements>quer</lido:shapeMeasurements>
+       <lido:scaleMeasurements lido:label="Maßstab">1:10</lido:scaleMeasurements>
+      </lido:objectMeasurements>
+     </lido:objectMeasurementsSet>
+    </lido:objectMeasurementsWrap>
+   </lido:objectIdentificationWrap>
+   <lido:eventWrap>
+    <lido:eventSet>
+     <lido:displayEvent>Digitalisierung</lido:displayEvent>
+     <lido:event>
+      <lido:eventType>
+       <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00004</lido:conceptID>
+       <lido:term lido:addedSearchTerm="no">Aktivität</lido:term>
+      </lido:eventType>
+      <lido:eventDate>
+       <lido:displayDate>2015</lido:displayDate>
+      </lido:eventDate>
+      <lido:eventPlace>
+       <lido:displayPlace>Bautzen</lido:displayPlace>
+      </lido:eventPlace>
+      <lido:eventDescriptionSet>
+       <lido:descriptiveNoteValue lido:label="Projekt">Fotografen-Nachlass Erich
+        Rinka</lido:descriptiveNoteValue>
+       <lido:descriptiveNoteValue lido:label="Projektnehmer">Sorbisches
+        Institut</lido:descriptiveNoteValue>
+       <lido:descriptiveNoteValue lido:label="Förderprogramm">LDP
+        Sachsen</lido:descriptiveNoteValue>
+      </lido:eventDescriptionSet>
+     </lido:event>
+    </lido:eventSet>
+    <lido:eventSet>
+     <lido:event>
+      <lido:eventType>
+       <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00228</lido:conceptID>
+       <lido:term lido:addedSearchTerm="no">Veröffentlichung</lido:term>
+      </lido:eventType>
+      <lido:eventDescriptionSet>
+       <lido:descriptiveNoteValue lido:label="Literaturnachweis">Das große Buch der Repros, S.
+        333</lido:descriptiveNoteValue>
+      </lido:eventDescriptionSet>
+     </lido:event>
+    </lido:eventSet>
+    <lido:eventSet>
+     <lido:event>
+      <lido:eventType>
+       <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+       <lido:term lido:addedSearchTerm="no">Ausstellung</lido:term>
+      </lido:eventType>
+      <lido:eventDescriptionSet>
+       <lido:descriptiveNoteValue lido:label="Ausstellungsnachweis">Repromeister
+        2000</lido:descriptiveNoteValue>
+      </lido:eventDescriptionSet>
+     </lido:event>
+    </lido:eventSet>
+    <lido:eventSet>
+     <lido:displayEvent>Aufnahme</lido:displayEvent>
+     <lido:event>
+      <lido:eventType>
+       <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+       <lido:term lido:addedSearchTerm="no">Herstellung</lido:term>
+      </lido:eventType>
+      <lido:eventActor>
+       <lido:actorInRole>
+        <lido:actor lido:type="Körperschaft">
+         <lido:actorID lido:type="URI">http://d-nb.info/gnd/123456-7</lido:actorID>
+         <lido:nameActorSet>
+          <lido:appellationValue>Atelier Exemplum</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+        <lido:roleActor>
+         <lido:term lido:addedSearchTerm="no">Herausgeber</lido:term>
+        </lido:roleActor>
+        <lido:attributionQualifierActor>ungesichert</lido:attributionQualifierActor>
+       </lido:actorInRole>
+      </lido:eventActor>
+      <lido:eventActor>
+       <lido:actorInRole>
+        <lido:actor lido:type="Person">
+         <lido:actorID lido:type="URI">http://d-nb.info/gnd/4043974-4</lido:actorID>
+         <lido:nameActorSet>
+          <lido:appellationValue>Knipser, Udo</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+        <lido:roleActor>
+         <lido:term lido:addedSearchTerm="no">Fotograf</lido:term>
+        </lido:roleActor>
+        <lido:attributionQualifierActor>Atelier</lido:attributionQualifierActor>
+       </lido:actorInRole>
+      </lido:eventActor>
+      <lido:eventDate>
+       <lido:displayDate lido:label="Datierung">1985/1987</lido:displayDate>
+       <lido:date>
+        <lido:earliestDate>1985</lido:earliestDate>
+        <lido:latestDate>l987</lido:latestDate>
+       </lido:date>
+      </lido:eventDate>
+      <lido:eventPlace>
+       <lido:place>
+        <lido:placeID lido:type="URI">http://d-nb.info/gnd/1234567-3</lido:placeID>
+        <lido:namePlaceSet>
+         <lido:appellationValue lido:label="Aufnahmeort ">Köln</lido:appellationValue>
+        </lido:namePlaceSet>
+       </lido:place>
+      </lido:eventPlace>
+      <lido:eventMaterialsTech>
+       <lido:displayMaterialsTech>Tageslichtaufnahme</lido:displayMaterialsTech>
+       <lido:materialsTech>
+        <lido:termMaterialsTech lido:type="Technik">
+         <lido:conceptID lido:type="URI">http://d-nb.info/gnd/12345678</lido:conceptID>
+         <lido:term lido:addedSearchTerm="no">Originalnegativ</lido:term>
+        </lido:termMaterialsTech>
+        <lido:termMaterialsTech lido:type="Technik">
+         <lido:conceptID lido:type="URI">http://d-nb.info/gnd/4043974-4</lido:conceptID>
+         <lido:term lido:addedSearchTerm="no">Doppelbelichtung</lido:term>
+        </lido:termMaterialsTech>
+        <lido:termMaterialsTech lido:type="Material">
+         <lido:conceptID lido:type="URI">http://d-nb.info/gnd/4043974-4</lido:conceptID>
+         <lido:term lido:addedSearchTerm="no">Kunststoff</lido:term>
+         <lido:term lido:addedSearchTerm="no" lido:label="Produktname">Agfa Isopan F</lido:term>
+        </lido:termMaterialsTech>
+       </lido:materialsTech>
+      </lido:eventMaterialsTech>
+      <lido:relatedEventSet>
+       <lido:relatedEvent>
+        <lido:displayEvent lido:label="Anlass] ">Bolivien-Expedition 1930-1932</lido:displayEvent>
+       </lido:relatedEvent>
+       <lido:relatedEventRelType>
+        <lido:term lido:addedSearchTerm="no">Expedition</lido:term>
+       </lido:relatedEventRelType>
+      </lido:relatedEventSet>
+     </lido:event>
+    </lido:eventSet>
+   </lido:eventWrap>
+   <lido:objectRelationWrap>
+    <lido:subjectWrap>
+     <lido:subjectSet>
+      <lido:displaySubject>Reproduktionsfotografie</lido:displaySubject>
+     </lido:subjectSet>
+     <lido:subjectSet>
+      <lido:subject>
+       <lido:subjectConcept>
+        <lido:term lido:addedSearchTerm="no">Portrait</lido:term>
+        <lido:term lido:addedSearchTerm="no">Landschaft</lido:term>
+       </lido:subjectConcept>
+       <lido:subjectActor>
+        <lido:actor lido:type="Verwalter">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Institution">Museum für
+           Testbilder</lido:appellationValue>
+          <lido:appellationValue lido:label="Abteilung">Testabteilung</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Vorbesitzer">
+         <lido:nameActorSet>
+          <lido:appellationValue>Mustersammler, Max</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Ausführung">
+         <lido:nameActorSet>
+          <lido:appellationValue>Malerwerkstatt Müller (gesichtert )</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Auftraggeber">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Mäzen ">Bigspender, Igor</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Zusammenhang">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Mäzen ">Bundestiftung Schlechte
+           Malerei</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Herstellung">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Maler ">Malermeister, Willi (Werkstatt
+           )</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Entwurf">
+         <lido:nameActorSet>
+          <lido:appellationValue>Malermeister, Erster</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectDate>
+        <lido:displayDate lido:label="Datierung">1966</lido:displayDate>
+       </lido:subjectDate>
+       <lido:subjectDate>
+        <lido:displayDate lido:label="Bestellung">1964</lido:displayDate>
+       </lido:subjectDate>
+       <lido:subjectPlace>
+        <lido:place>
+         <lido:namePlaceSet>
+          <lido:appellationValue lido:label="Entstehungsort">Aachen</lido:appellationValue>
+         </lido:namePlaceSet>
+         <lido:namePlaceSet>
+          <lido:appellationValue lido:label="Sammlungsort">Köln</lido:appellationValue>
+         </lido:namePlaceSet>
+        </lido:place>
+       </lido:subjectPlace>
+       <lido:subjectObject>
+        <lido:object>
+         <lido:objectNote lido:type="Titel">Ein schönes Bild</lido:objectNote>
+         <lido:objectNote lido:type="Originaltitel">Mein schönstes Bild</lido:objectNote>
+         <lido:objectNote lido:type="Serientitel">Schöne Bilder</lido:objectNote>
+         <lido:objectNote lido:type="Beschreibung">Portrait</lido:objectNote>
+         <lido:objectNote lido:type="Beschreibung">Landschaft</lido:objectNote>
+         <lido:objectNote lido:type="Höhe x Breite">50 x 100 cm</lido:objectNote>
+         <lido:objectNote lido:type="Tiefe">20 cm</lido:objectNote>
+         <lido:objectNote lido:type="Verzeichnis">Werkverzeichnis 33a</lido:objectNote>
+         <lido:objectNote lido:type="Copyright">VG Bildkunst 2015</lido:objectNote>
+         <lido:objectNote lido:type="Maßstab">1:20</lido:objectNote>
+         <lido:objectNote lido:type="Gattung">Malerei</lido:objectNote>
+         <lido:objectNote lido:type="Sachbegriff">Gemälde</lido:objectNote>
+         <lido:objectNote lido:type="Formtyp">Oktogon</lido:objectNote>
+         <lido:objectNote lido:type="Technikbeschreibung">Acrylgespachtel auf
+          Wärmeplatte</lido:objectNote>
+         <lido:objectNote lido:label="Technik">Acrylfarbe</lido:objectNote>
+         <lido:objectNote lido:label="Technik">Leinwand</lido:objectNote>
+        </lido:object>
+       </lido:subjectObject>
+      </lido:subject>
+     </lido:subjectSet>
+     <lido:subjectSet>
+      <lido:subject>
+       <lido:subjectConcept>
+        <lido:term lido:addedSearchTerm="no">Pflanzenstudie</lido:term>
+       </lido:subjectConcept>
+       <lido:subjectActor>
+        <lido:actor lido:type="Verwalter">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Institution">Anderes Museum für
+           Testbilder</lido:appellationValue>
+          <lido:appellationValue lido:label="Abteilung">Testabteilung</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Vorbesitzer">
+         <lido:nameActorSet>
+          <lido:appellationValue>Mustersammler, Moritz</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Ausführung">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Anstreicher">Malerwerkstatt Meier
+           (gesichtert)</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Auftraggeber">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Mäzen">Bigspender, Vladi</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Zusammenhang">
+         <lido:nameActorSet>
+          <lido:appellationValue>Bundestiftung Schlechte Malerei</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Herstellung">
+         <lido:nameActorSet>
+          <lido:appellationValue lido:label="Maler">Malermeister, Harry
+           (Umkreis)</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectActor>
+        <lido:actor lido:type="Entwurf">
+         <lido:nameActorSet>
+          <lido:appellationValue>Malermeister, Dritter</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+       <lido:subjectDate>
+        <lido:displayDate lido:label="Datierung">1967</lido:displayDate>
+       </lido:subjectDate>
+       <lido:subjectDate>
+        <lido:displayDate lido:label="Bestellung">1962</lido:displayDate>
+       </lido:subjectDate>
+       <lido:subjectPlace>
+        <lido:place>
+         <lido:namePlaceSet>
+          <lido:appellationValue lido:label="Entstehungsort">Köln</lido:appellationValue>
+         </lido:namePlaceSet>
+         <lido:namePlaceSet>
+          <lido:appellationValue lido:label="Sammlungsort">Düsseldorf</lido:appellationValue>
+         </lido:namePlaceSet>
+        </lido:place>
+       </lido:subjectPlace>
+       <lido:subjectObject>
+        <lido:object>
+         <lido:objectNote lido:type="Titel">Ein noch schöneres Bild</lido:objectNote>
+         <lido:objectNote lido:type="Originaltitel">Mein allerschönstes Bild</lido:objectNote>
+         <lido:objectNote lido:type="Serientitel">Schöne Bilder</lido:objectNote>
+         <lido:objectNote lido:type="Beschreibung">Pflanzenstudie</lido:objectNote>
+         <lido:objectNote lido:type="Höhe x Breite">51 x 101 cm</lido:objectNote>
+         <lido:objectNote lido:type="Tiefe">22 cm</lido:objectNote>
+         <lido:objectNote lido:type="Verzeichnis">Werkverzeichnis 33a</lido:objectNote>
+         <lido:objectNote lido:type="Copyright">VG Bildkunst 2015</lido:objectNote>
+         <lido:objectNote lido:type="Maßstab">1:30</lido:objectNote>
+         <lido:objectNote lido:type="Gattung">Malerei</lido:objectNote>
+         <lido:objectNote lido:type="Formtyp">Oktogon</lido:objectNote>
+         <lido:objectNote lido:type="Technikbeschreibung">Kaltspachtel</lido:objectNote>
+        </lido:object>
+       </lido:subjectObject>
+      </lido:subject>
+     </lido:subjectSet>
+     <lido:subjectSet/>
+     <lido:subjectSet>
+      <lido:subject>
+       <lido:subjectActor>
+        <lido:actor>
+         <lido:actorID lido:type="URI">http://d-nb.info/gnd/765432-1</lido:actorID>
+         <lido:nameActorSet>
+          <lido:appellationValue>Sammelfuchs, Fredi</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+      </lido:subject>
+     </lido:subjectSet>
+     <lido:subjectSet>
+      <lido:subject>
+       <lido:subjectActor>
+        <lido:actor>
+         <lido:actorID lido:type="URI">http://d-nb.info/gnd/123456-7</lido:actorID>
+         <lido:nameActorSet>
+          <lido:appellationValue>Sammelfuchs, Fredi 2</lido:appellationValue>
+         </lido:nameActorSet>
+        </lido:actor>
+       </lido:subjectActor>
+      </lido:subject>
+     </lido:subjectSet>
+    </lido:subjectWrap>
+   </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+  <lido:administrativeMetadata xml:lang="German">
+   <lido:rightsWorkWrap>
+    <lido:rightsWorkSet>
+     <lido:rightsHolder>
+      <lido:legalBodyName>
+       <lido:appellationValue>Sorbisches Institut</lido:appellationValue>
+      </lido:legalBodyName>
+     </lido:rightsHolder>
+    </lido:rightsWorkSet>
+   </lido:rightsWorkWrap>
+   <lido:recordWrap>
+    <lido:recordID lido:type="local">obj 00000000-fto</lido:recordID>
+    <lido:recordType>
+     <lido:term lido:addedSearchTerm="no">Einzelobjekt</lido:term>
+    </lido:recordType>
+    <lido:recordSource>
+     <lido:legalBodyName>
+      <lido:appellationValue>SLUB / Deutsche Fotothek</lido:appellationValue>
+     </lido:legalBodyName>
+    </lido:recordSource>
+    <lido:recordRights>
+     <lido:rightsType>
+      <lido:conceptID lido:type="URI"
+       >http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+      <lido:term lido:addedSearchTerm="no">CC0 1.0 Public Domain Dedication</lido:term>
+     </lido:rightsType>
+     <lido:rightsHolder>
+      <lido:legalBodyName>
+       <lido:appellationValue>SLUB / Deutsche Fotothek</lido:appellationValue>
+      </lido:legalBodyName>
+     </lido:rightsHolder>
+    </lido:recordRights>
+    <lido:recordInfoSet>
+     <lido:recordInfoLink>http://www.deutschefotothek.de/documents/obj/00000000-fto</lido:recordInfoLink>
+    </lido:recordInfoSet>
+   </lido:recordWrap>
+   <lido:resourceWrap>
+    <lido:resourceSet>
+     <lido:resourceID lido:type="local">df_hauptkatlaog_0000001_master</lido:resourceID>
+     <lido:resourceType>
+      <lido:term lido:addedSearchTerm="no">TIF</lido:term>
+     </lido:resourceType>
+     <lido:resourceRelType>
+      <lido:term lido:addedSearchTerm="no">Master-Scan</lido:term>
+     </lido:resourceRelType>
+     <lido:resourceDescription>Scan: DDZ</lido:resourceDescription>
+     <lido:resourceDescription>(150 MB, 24 Bit)</lido:resourceDescription>
+     <lido:resourceDateTaken>
+      <lido:displayDate>2015</lido:displayDate>
+     </lido:resourceDateTaken>
+     <lido:resourceSource>
+      <lido:legalBodyName>
+       <lido:appellationValue>SLUB Dresden / Deutsche Fotothek</lido:appellationValue>
+      </lido:legalBodyName>
+     </lido:resourceSource>
+    </lido:resourceSet>
+    <lido:resourceSet>
+     <lido:resourceID lido:type="local">df_hauptkatlaog_0000001_web</lido:resourceID>
+     <lido:resourceRepresentation lido:type="image_thumb">
+      <lido:linkResource lido:formatResource="jpg"
+       >http://fotothek.slub-dresden.de/thumbs/df_hauptkatlaog_0000001_web.jgp</lido:linkResource>
+     </lido:resourceRepresentation>
+     <lido:resourceRepresentation lido:type="image_medium">
+      <lido:linkResource lido:formatResource="jpg"
+       >http://fotothek.slub-dresden.de/mids/df_hauptkatlaog_0000001_web.jpg</lido:linkResource>
+     </lido:resourceRepresentation>
+     <lido:resourceRepresentation lido:type="image_master">
+      <lido:linkResource lido:formatResource="jpg"
+       >http://fotothek.slub-dresden.de/fotos/df_hauptkatlaog_0000001_web.jpg</lido:linkResource>
+     </lido:resourceRepresentation>
+     <lido:resourceType>
+      <lido:term lido:addedSearchTerm="no">JPG</lido:term>
+     </lido:resourceType>
+     <lido:resourceRelType>
+      <lido:term lido:addedSearchTerm="no">Webscan</lido:term>
+     </lido:resourceRelType>
+     <lido:resourceDescription>Scan: DDZ</lido:resourceDescription>
+     <lido:resourceDescription>(685 KB, 24 Bit)</lido:resourceDescription>
+     <lido:resourceDateTaken>
+      <lido:displayDate>2015</lido:displayDate>
+     </lido:resourceDateTaken>
+     <lido:resourceSource>
+      <lido:legalBodyName>
+       <lido:appellationValue>SLUB Dresden / Deutsche Fotothek</lido:appellationValue>
+      </lido:legalBodyName>
+     </lido:resourceSource>
+    </lido:resourceSet>
+   </lido:resourceWrap>
+  </lido:administrativeMetadata>
+ </lido:lido>
+</lido:lidoWrap>

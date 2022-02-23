@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata original_file="metadata.txt">
+<![CDATA[<!-- MDUPDATE - updated existing metadata -->
+TEXTFILE
+Encoding-Test-Pattern: Ä--ä--Ö--ö--Ü--ü--ß
+External-Description: MDUPDATE - valid small test example with additional metadata
+External-Identifier: test-sip-valid-small
+LDP-collection: Sammlung
+LDP-funder: Kostenträger
+LDP-lender: Besitzer
+LDP-project: Projekt
+SLUBArchiv-archivalValueDescription: Archivierungsgrund
+SLUBArchiv-exportToArchiveDate: 2020-07-17T13:43:15
+SLUBArchiv-externalId: test-sip_2020-07-17_13-40-17_96152
+SLUBArchiv-externalIsilId: DE-14
+SLUBArchiv-externalWorkflow: testcases
+SLUBArchiv-hasConservationReason: false
+SLUBArchiv-rightsVersion: 1.0
+SLUBArchiv-sipVersion: v2020.1
+Title: MDUPDATE - valid small test example with additional metadata
+Bagging-Date: 2021-11-18
+Bag-Software-Agent: Archive::BagIt <https://metacpan.org/pod/Archive::BagIt>
+Payload-Oxum: 66311.10
+Bag-Size: 64.8 kB
+SLUBArchiv-lzaId: SLUB:LZA:testworkflow:testcases:test-sip_2020-07-17_13-40-17_96152
+SLUBArchiv-previous-AIP: 11111111-1111-1111-1111-111111111111]]>
+</metadata>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SLUB Archiv Rechteschema -->
+<!-- 2019-12-18: Version 1.0 -->
+
+<xs:schema
+    targetNamespace="http://slubarchiv.slub-dresden.de/rights1"
+    xmlns="http://slubarchiv.slub-dresden.de/rights1"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    version="1.0">
+    <xs:annotation>
+        <xs:documentation xml:lang="de">Schema zur Beschreibung von Rechten</xs:documentation>
+    </xs:annotation>
+    <xs:element name="rightsRecord" type="typeRightsRecord">
+        <xs:annotation>
+            <xs:documentation xml:lang="de">Rechteinformationen</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="typeRightsRecord">
+        <xs:sequence>
+            <xs:element name="copyrightStatus" minOccurs="1" maxOccurs="1" type="typeCopyrightStatus">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Aussage zum Urheberrecht des Materials.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="permissions" minOccurs="0" maxOccurs="1" type="typePermissions">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Aussage(n) zu rechtskräftigen Erlaubnissen oder Genehmigungen des Materials</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="legalRestrictions" minOccurs="0" maxOccurs="1" type="typeLegalRestrictions">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Aussage(n) zu gesetzlichen Einschränkungen des Materials</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="typePermissions">
+        <xs:sequence>
+            <xs:element name="contract" minOccurs="0" maxOccurs="unbounded" type="typeContract">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Eine kurze Beschreibung des Vertrags inklusive Vertragspartner.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="license" minOccurs="0" maxOccurs="unbounded" type="typeLicense">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Lizenz</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="orphanedWork" minOccurs="0" maxOccurs="1" type="typeStringWithOptionalLanguageDeclaration">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Das Material ist ein verwaistes Werk nach Urheberrechtsgesetz §61 (Fassung vom 01.01.2014). Optionale Aussagen sind möglich, haben aber nur informativen Charakter.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="outOfPrintWork" minOccurs="0" maxOccurs="1" type="typeStringWithOptionalLanguageDeclaration">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Das Material ist ein vergriffenes Werk nach Verwertungsgesellschaftengesetz §51 (Fassung vom 01.06.2016). Optionale Aussagen sind möglich, haben aber nur informativen Charakter.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="typeLegalRestrictions">
+        <xs:sequence>
+            <xs:element name="childProtection" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Material mit Jugendschutz-relevanten Inhalten</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="confidentialContent" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Material mit vertraulichen oder sicherheitsrelevanten Inhalten</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="other" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Eine sonstige Beschränkung, die aktuell nicht abbildbar ist.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="personalRight" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Material mit persönlichen Rechten</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="pornographicContent" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">pornografisches Material mit sittenwidrigen oder strafrechtlich verfolgten Inhalten</xs:documentation>
+                </xs:annotation>                                
+            </xs:element>
+            <xs:element name="trademark" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Material mit Markenrecht-relevanten Inhalten</xs:documentation>
+                </xs:annotation>                                
+            </xs:element>
+            <xs:element name="unconstitutionalContent" type="typeStringWithOptionalLanguageDeclaration" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Material mit verfassungswidrigen Inhalten</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="typeContract">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="date" use="required" type="xs:date">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="de">Datum des Vertrags</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="fileNumber" use="optional" type="typeNonEmptyString">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="de">Vertragsnummer oder Aktenzeichen</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="typeLicense" mixed="true">
+        <xs:simpleContent>
+            <xs:extension base="typeLicenseStrings">
+                <xs:attribute name="url" use="optional" type="xs:anyURI">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="de">URL zum Lizenztext</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="typeStringWithOptionalLanguageDeclaration">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="lang" use="optional" type="xs:language" default="de">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="de">Sprache der Beschreibung</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>        
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="typeNonEmptyStringWithOptionalLanguageDeclaration">
+        <xs:simpleContent>
+            <xs:extension base="typeNonEmptyString">
+                <xs:attribute name="lang" use="optional" type="xs:language" default="de">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="de">Sprache der Beschreibung</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>        
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:simpleType name="typeCopyrightStatus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="publicdomain">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Das Material ist gemeinfrei und nicht urheberrechtsbehaftet nach deutschem Recht.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="copyrighted">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Das Material ist urheberrechtsbehaftet nach deutschem Recht. Es gilt das Urheberrechtsgesetz (in der Fassung vom 01.01.2019).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="undefined">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Die Urheberrechte des Materials sind ungeklärt. Eine Prüfung läuft gerade oder hat noch nicht stattgefunden.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="typeLicenseStrings">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="CC0 1.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: CC0 1.0 Universell - Public Domain Dedication</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY 3.0 DE">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung 3.0 Deutschland</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY 4.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung 4.0 International</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-SA 3.0 DE">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-SA 4.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-ND 3.0 DE">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Keine Bearbeitung 3.0 Deutschland</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-ND 4.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Keine Bearbeitung 4.0 International</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-NC 3.0 DE">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Nicht kommerziell 3.0 Deutschland</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-NC 4.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Nicht kommerziell 4.0 International</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-NC-SA 3.0 DE">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Nicht kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Deutschland</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-NC-SA 4.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Nicht kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-NC-ND 3.0 DE">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Nicht kommerziell - Keine Bearbeitung 3.0 Deutschland</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CC BY-NC-ND 4.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Creative Commons: Namensnennung - Nicht kommerziell - Keine Bearbeitung 4.0 International</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DL-DE BY 1.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Datenlizenz Deutschland - Namensnennung - Version 1.0</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DL-DE BY-NC 1.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Datenlizenz Deutschland - Namensnennung - nicht kommerziell - Version 1.0</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DL-DE BY 2.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Datenlizenz Deutschland - Namensnennung - Version 2.0</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="DL-DE Zero 2.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Datenlizenz Deutschland - Zero - Version 2.0</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="GNU FDL 1.3">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">GNU Free Documentation License 1.3</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="other">
+                <xs:annotation>
+                    <xs:documentation xml:lang="de">Eine sonstige Lizenz, die aktuell nicht abbildbar ist.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="typeNonEmptyString">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"></xs:minLength>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

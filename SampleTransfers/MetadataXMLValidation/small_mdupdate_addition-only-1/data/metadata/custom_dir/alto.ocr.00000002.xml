@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- MDUPDATE - new added metadata -->
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2020-06-15</processingDateTime><processingSoftware><softwareCreator>MDUPDATE - new added metadata, ABBZZ</softwareCreator><softwareName>ABBZZ FineReader Engine</softwareName><softwareVersion>12</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="5602" WIDTH="4179">
+<TopMargin HEIGHT="231" WIDTH="4179" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="5014" WIDTH="233" VPOS="231" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="5014" WIDTH="532" VPOS="231" HPOS="3647">
+</RightMargin>
+<BottomMargin HEIGHT="357" WIDTH="4179" VPOS="5245" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="5014" WIDTH="3414" VPOS="231" HPOS="233">
+<TextBlock ID="Page1_Block1" HEIGHT="1176" WIDTH="3257" VPOS="299" HPOS="286" language="de">
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>
