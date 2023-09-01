@@ -1,14 +1,11 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 """To run the tests::
 
     $ python -m unittest tests.test_createtransfers
 """
-from pathlib import Path
-import unittest
 import tempfile
-from unittest import mock
+import unittest
+from pathlib import Path
 
 import createtransfers
 

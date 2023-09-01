@@ -1,8 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 # pylint: disable=invalid-name
-
 """This executable creates Archivematica sample and/or test transfers.
 
 Possible reasons for creating transfers dynamically instead of just including
@@ -17,13 +14,11 @@ Usage:
     python createtransfers.py -h
 
 """
-
-from __future__ import division
-
-from collections import namedtuple, OrderedDict
 import os
-import sys
 import shutil
+import sys
+from collections import namedtuple
+from collections import OrderedDict
 
 import createtransfersargs
 import loggingconfig
@@ -58,12 +53,12 @@ VARIOUS_ENCODINGS = (
         "dir_name": "emoji",
         "encoding": "utf-16",
         "file_name": (
-            "hearts-{0}.txt".format(
+            "hearts-{}.txt".format(
                 "\u2764\uD83D\uDC96\uD83D\uDC99"
                 "\uD83D\uDC9A\uD83D\uDC9B\uD83D"
                 "\uDC9C\uD83D\uDC9D"
             ),
-            "chess-{0}.txt".format(
+            "chess-{}.txt".format(
                 "\u2655\u2656\u2657\u2658\u2659"
                 "\u265A\u265B\u265C\u265D\u265E"
                 "\u265F"
@@ -96,8 +91,8 @@ def create_file_and_write(file_name, file_path, encoding, dirs=False):
                 )
             fout.write(msg)
             LOGGER.info("Created: %s", file_path)
-    except (OSError, IOError) as err:
-        ret = "Failed to open file: {0}, error: {1}".format(file_path, err)
+    except OSError as err:
+        ret = f"Failed to open file: {file_path}, error: {err}"
         raise CreateTransferException(ret)
 
 
@@ -109,7 +104,7 @@ def rm_dirs_and_create(dir_path):
     try:
         os.makedirs(dir_path)
     except OSError as err:
-        ret = "Failed to make directory: {0} {1}".format(dir_path, err)
+        ret = f"Failed to make directory: {dir_path} {err}"
         raise CreateTransferException(ret)
 
 
@@ -119,7 +114,7 @@ def rm_dirs(dir_path):
         try:
             shutil.rmtree(dir_path)
         except OSError as err:
-            ret = "Failed to remove dirtree: {0} {1}".format(dir_path, err)
+            ret = f"Failed to remove dirtree: {dir_path} {err}"
             raise CreateTransferException(ret)
 
 
@@ -155,7 +150,7 @@ def copy_media_location(copy_media_path, new_media_dir, media_n, media_ext):
     user in the argument media_n.
     """
     for i in range(media_n):
-        new_media_fname = "mediafile_{0}.{1}".format(i, media_ext)
+        new_media_fname = f"mediafile_{i}.{media_ext}"
         new_media_path = os.path.join(new_media_dir, new_media_fname)
         shutil.copyfile(copy_media_path, new_media_path)
     LOGGER.info("%s files created at %s", media_n, new_media_dir)
@@ -167,7 +162,7 @@ def stat_file(file_path, files_n):
     useful if the files are available.
     """
     if not os.path.exists(file_path):
-        ret = "Cannot find media file at location {0}".format(file_path)
+        ret = f"Cannot find media file at location {file_path}"
         raise CreateTransferException(ret)
     LOGGER.info(
         ("%s duplicated %s times " "will take up %sGB disk space"),
@@ -236,7 +231,7 @@ def create_variously_encoded_dir_names(zip_path=None):
             encoding = encoding_info["encoding"]
             try:
                 create_file_and_write(
-                    "{}_encoded_dirs.txt".format(encoding),
+                    f"{encoding}_encoded_dirs.txt",
                     encoding_dir_path,
                     encoding,
                     dirs=True,
@@ -349,7 +344,7 @@ def create_zip_dance(base_directory):
         # Make an archive from our directory.
         shutil.make_archive(dir_, "zip", sample_package)
         # Move the zip file from our temporary folder.
-        move_from = "{}.zip".format(dir_)
+        move_from = f"{dir_}.zip"
         shutil.move(move_from, dir_)
         # Finally remove the temporary folder.
         rm_dirs(sample_package)
@@ -427,12 +422,10 @@ def create_dir_and_fname_string(folder_no, ext=None):
     """
     zero_fill = 5
     if ext is None:
-        return "{0}".format(hex(folder_no + 1)).replace("0x", "").zfill(zero_fill)
+        return f"{hex(folder_no + 1)}".replace("0x", "").zfill(zero_fill)
 
-    return (
-        "{0}.{1}".format(hex(folder_no + 1), ext)
-        .replace("0x", "")
-        .zfill(zero_fill + len(ext) + 1)
+    return f"{hex(folder_no + 1)}.{ext}".replace("0x", "").zfill(
+        zero_fill + len(ext) + 1
     )
 
 
@@ -501,7 +494,7 @@ def create_structure(target, structure, default_file):
         folder_list = create_folder_paths(folder_list, structure)
         # Create a placeholder in our dict for the structure we created.
         # folder_no+1 as we already have a [0] level described.
-        folder_dict["l{0}".format(folder_no + 1)] = folder_list
+        folder_dict[f"l{folder_no + 1}"] = folder_list
 
     # Order the dictionary to make sure that we output the folders
     # as we created them.
