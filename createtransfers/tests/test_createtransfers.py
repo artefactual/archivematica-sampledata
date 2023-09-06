@@ -1,19 +1,27 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """To run the tests::
 
     $ python -m unittest tests.test_createtransfers
 """
+import os
+import tempfile
 import unittest
+import shutil
 
 import createtransfers
 
 
 class TestCreateTransfers(unittest.TestCase):
+    def setUp(self):
+        self.dirname = tempfile.mkdtemp()
+
+    def tearDown(self):
+        shutil.rmtree(self.dirname)
 
     def test_calculate_total_size(self):
-        """ We want to be able to provide some useful feedback about what
+        """We want to be able to provide some useful feedback about what
         users will be creating when they run this function. The values used
         are fairly sensitive and can become quite high if used without care.
         """
@@ -30,17 +38,16 @@ class TestCreateTransfers(unittest.TestCase):
         # dirs = (no_dirs^depth) + (no_dirs^depth-1) + (no_dirs^depth-n...)
         # files = no_files * dirs
         #
-        res = [{"input": structure(5, 3, 4),
-                "output": structure(5, 363, 1452)},
-               {"input": structure(2, 3, 2),
-                "output": structure(2, 12, 24)},
-               {"input": structure(10, 2, 1),
-                "output": structure(10, 2046, 2046)},
-               {"input": structure(2, 2, 2),
-                "output": structure(2, 6, 12)},
-               {"input": structure(8, 12, 3),
-                "output": structure(8, 469070940, 1407212820)},
-               ]
+        res = [
+            {"input": structure(5, 3, 4), "output": structure(5, 363, 1452)},
+            {"input": structure(2, 3, 2), "output": structure(2, 12, 24)},
+            {"input": structure(10, 2, 1), "output": structure(10, 2046, 2046)},
+            {"input": structure(2, 2, 2), "output": structure(2, 6, 12)},
+            {
+                "input": structure(8, 12, 3),
+                "output": structure(8, 469070940, 1407212820),
+            },
+        ]
 
         testfunc = createtransfers.calculate_total_size
 
@@ -51,6 +58,18 @@ class TestCreateTransfers(unittest.TestCase):
             self.assertEqual(output.files, r["output"].files)
             self.assertEqual(output.depth, r["output"].depth)
 
+    def test_create_variously_encoded_dir_names(self):
+        createtransfers.create_variously_encoded_dir_names(self.dirname)
 
-if __name__ == '__main__':
+        # One directory was created for each item in VARIOUS_ENCODINGS
+        assert sorted(os.listdir(self.dirname)) == [
+            "big5",
+            "cp437",
+            "emoji",
+            "shift_jis",
+            "windows_1252",
+        ]
+
+
+if __name__ == "__main__":
     unittest.main()

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # pylint: disable=invalid-name
@@ -34,6 +34,7 @@ SAMPLE_PACKAGES = "sample-zip-packages"
 
 class CreateTransferException(Exception):
     """Custom exception to aid with robust handling within this script."""
+
     pass
 
 
@@ -46,58 +47,57 @@ LOGGER = loggingconfig.setup("INFO", "createtransfers")
 
 # Configuration structure to retrieve filenames and encodings from.
 VARIOUS_ENCODINGS = (
+    {"dir_name": "windows_1252", "encoding": "cp1252", "file_name": u"s\xf8ster"},
     {
-        'dir_name': 'windows_1252',
-        'encoding': 'cp1252',
-        'file_name': u's\xf8ster'
-    }, {
-        'dir_name': 'shift_jis',
-        'encoding': 'shift-jis',
-        'file_name': u'\u307d\u3063\u3077\u308b\u30e1\u30a4\u30eb'
-    }, {
-        'dir_name': 'big5',
-        'encoding': 'big5',
-        'file_name': u'\u5ee3\u5dde'
-    }, {
-        'dir_name': 'emoji',
-        'encoding': 'utf-8',
-        'file_name': (
-            u'hearts-{0}.txt'.format(
-                u'\u2764\uD83D\uDC96\uD83D\uDC99'
-                u'\uD83D\uDC9A\uD83D\uDC9B\uD83D'
-                u'\uDC9C\uD83D\uDC9D'),
-            u'chess-{0}.txt'.format(
-                u'\u2655\u2656\u2657\u2658\u2659'
-                u'\u265A\u265B\u265C\u265D\u265E'
-                u'\u265F'))
-    }, {
-        'dir_name': 'cp437',
-        'encoding': 'cp437',
-        'file_name': (u'caf\xe9', u'a\xf1o')
-    }
+        "dir_name": "shift_jis",
+        "encoding": "shift-jis",
+        "file_name": u"\u307d\u3063\u3077\u308b\u30e1\u30a4\u30eb",
+    },
+    {"dir_name": "big5", "encoding": "big5", "file_name": u"\u5ee3\u5dde"},
+    {
+        "dir_name": "emoji",
+        "encoding": "utf-16",
+        "file_name": (
+            u"hearts-{0}.txt".format(
+                u"\u2764\uD83D\uDC96\uD83D\uDC99"
+                u"\uD83D\uDC9A\uD83D\uDC9B\uD83D"
+                u"\uDC9C\uD83D\uDC9D"
+            ),
+            u"chess-{0}.txt".format(
+                u"\u2655\u2656\u2657\u2658\u2659"
+                u"\u265A\u265B\u265C\u265D\u265E"
+                u"\u265F"
+            ),
+        ),
+    },
+    {"dir_name": "cp437", "encoding": "cp437", "file_name": (u"caf\xe9", u"a\xf1o")},
 )
+
+
+def encode_path(s, encoding="utf-16"):
+    return s.encode(encoding, "surrogatepass").decode(encoding)
 
 
 def create_file_and_write(file_name, file_path, encoding, dirs=False):
     """Given a filename and encoding write a file with self descriptive
     content to disk.
     """
-    file_name_unicode = file_name
-    file_name_bytes = file_name_unicode.encode(encoding)
-    file_path_bytes = os.path.join(file_path, file_name_bytes)
+    file_path = os.path.join(file_path, file_name)
     try:
-        with open(file_path_bytes, 'w') as fout:
-            msg = (u'The name of this file is encoded with {} '
-                   'encoding.\n'.format(encoding))
+        with open(file_path, "w") as fout:
+            msg = u"The name of this file is encoded with {} " "encoding.\n".format(
+                encoding
+            )
             if dirs:
-                msg = (u'Part of the directory structure that this '
-                       'file sits within has been encoded with {} encoding.'
-                       '\n'.format(encoding))
+                msg = (
+                    u"Part of the directory structure that this "
+                    "file sits within has been encoded with {} encoding."
+                    "\n".format(encoding)
+                )
             fout.write(msg)
-            LOGGER.info("Created: %s", file_path_bytes)
+            LOGGER.info("Created: %s", file_path)
     except (OSError, IOError) as err:
-        ret = "Failed to open file: {0}, error: {1}".format(file_path_bytes,
-                                                            err)
+        ret = "Failed to open file: {0}, error: {1}".format(file_path, err)
         raise CreateTransferException(ret)
 
 
@@ -123,9 +123,9 @@ def rm_dirs(dir_path):
             raise CreateTransferException(ret)
 
 
-def create_transfer_collection(collection_path, media_path,
-                               media_n, new_media_dirname,
-                               media_ext):
+def create_transfer_collection(
+    collection_path, media_path, media_n, new_media_dirname, media_ext
+):
     """To create our transfers we are copying from elsewhere within the
     sample data repository to generate a new collection.
     """
@@ -155,7 +155,7 @@ def copy_media_location(copy_media_path, new_media_dir, media_n, media_ext):
     user in the argument media_n.
     """
     for i in range(media_n):
-        new_media_fname = 'mediafile_{0}.{1}'.format(i, media_ext)
+        new_media_fname = "mediafile_{0}.{1}".format(i, media_ext)
         new_media_path = os.path.join(new_media_dir, new_media_fname)
         shutil.copyfile(copy_media_path, new_media_path)
     LOGGER.info("%s files created at %s", media_n, new_media_dir)
@@ -169,38 +169,38 @@ def stat_file(file_path, files_n):
     if not os.path.exists(file_path):
         ret = "Cannot find media file at location {0}".format(file_path)
         raise CreateTransferException(ret)
-    LOGGER.info(("%s duplicated %s times "
-                 "will take up %sGB disk space"), file_path, files_n,
-                ((os.path.getsize(file_path)
-                  * files_n) / 1024.0) / 1024.0 / 1024.0)
+    LOGGER.info(
+        ("%s duplicated %s times " "will take up %sGB disk space"),
+        file_path,
+        files_n,
+        ((os.path.getsize(file_path) * files_n) / 1024.0) / 1024.0 / 1024.0,
+    )
 
 
 def create_variously_encoded_files(zip_path=None):
     """Create files with strange (non-UTF8) encodings under
     TestTransfers/files_with_various_encodings/
     """
-    sub_dir = 'files_with_various_encodings'
+    sub_dir = "files_with_various_encodings"
     target_path = os.path.join(HERE, TEST_TRANSFERS, sub_dir)
     if zip_path:
         target_path = zip_path
     LOGGER.info("Transfer target path: %s", target_path)
     for encoding_info in VARIOUS_ENCODINGS:
-        encoding_dir_path = os.path.join(
-            target_path, encoding_info['dir_name'])
+        encoding_dir_path = os.path.join(target_path, encoding_info["dir_name"])
         try:
             rm_dirs_and_create(encoding_dir_path)
         except CreateTransferException as err:
             LOGGER.error(err)
             return
-        encoding = encoding_info['encoding']
-        file_names = encoding_info['file_name']
+        encoding = encoding_info["encoding"]
+        file_names = encoding_info["file_name"]
         if not isinstance(file_names, (tuple, list)):
             file_names = (file_names,)
         for fname in file_names:
+            fname = encode_path(fname, encoding_info["encoding"])
             try:
-                create_file_and_write(fname,
-                                      encoding_dir_path,
-                                      encoding)
+                create_file_and_write(fname, encoding_dir_path, encoding)
             except CreateTransferException as err:
                 LOGGER.error(err)
                 return
@@ -210,7 +210,7 @@ def create_variously_encoded_dir_names(zip_path=None):
     """Create folders with strange (non-UTF8) encodings under
     TestTransfers/dirs_with_various_encodings/
     """
-    sub_dir = 'dirs_with_various_encodings'
+    sub_dir = "dirs_with_various_encodings"
     target_path = os.path.join(HERE, TEST_TRANSFERS, sub_dir)
     if zip_path:
         target_path = zip_path
@@ -218,24 +218,29 @@ def create_variously_encoded_dir_names(zip_path=None):
     for encoding_info in VARIOUS_ENCODINGS:
         # Use the filename from the VARIOUS_ENCODINGS tuples minus the file
         # extension to give us something that looks like a directory name.
-        dir_names = encoding_info['file_name']
+        dir_names = encoding_info["file_name"]
         if not isinstance(dir_names, (tuple, list)):
             dir_names = (dir_names,)
         for dir_ in dir_names:
+            dir_ = encode_path(dir_)
             encoding_dir_path = os.path.join(
-                target_path, encoding_info['dir_name'],
-                os.path.splitext(os.path.basename(dir_))[0])
+                target_path,
+                encoding_info["dir_name"],
+                os.path.splitext(os.path.basename(dir_))[0],
+            )
             try:
                 rm_dirs_and_create(encoding_dir_path)
             except CreateTransferException as err:
                 LOGGER.error(err)
                 return
-            encoding = encoding_info['encoding']
+            encoding = encoding_info["encoding"]
             try:
-                create_file_and_write("{}_encoded_dirs.txt".format(encoding),
-                                      encoding_dir_path,
-                                      encoding,
-                                      dirs=True)
+                create_file_and_write(
+                    "{}_encoded_dirs.txt".format(encoding),
+                    encoding_dir_path,
+                    encoding,
+                    dirs=True,
+                )
             except CreateTransferException as err:
                 LOGGER.error(err)
                 return
@@ -251,8 +256,9 @@ def create_zip_packages_with_var_encoded_dirs():
     var_encoded_dirs = "variously-encoded-dirs"
 
     # Create zips with different directory name encodings in each.
-    zip_path_dirs = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
-                                 var_encoded_dirs)
+    zip_path_dirs = os.path.join(
+        HERE, TEST_TRANSFERS, SAMPLE_PACKAGES, var_encoded_dirs
+    )
     create_variously_encoded_dir_names(zip_path_dirs)
     create_zip_dance(zip_path_dirs)
 
@@ -267,35 +273,37 @@ def create_zip_packages_with_var_encoded_fnames():
     var_encoded_files = "variously-encoded-files"
 
     # Create zips with different file name encodings in each.
-    zip_path_files = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
-                                  var_encoded_files)
+    zip_path_files = os.path.join(
+        HERE, TEST_TRANSFERS, SAMPLE_PACKAGES, var_encoded_files
+    )
     create_variously_encoded_files(zip_path_files)
     create_zip_dance(zip_path_files)
 
 
 def create_deep_zip_packages():
-    """Create zipped packages based on the auto-generated deep-transfer set.
-    """
+    """Create zipped packages based on the auto-generated deep-transfer set."""
 
     # Control the name of these top-level folders so that we know that we can
     # recurse into them to zip the various contents.
     deep_transfer = "deep-transfer"
-    deep_zip_transfer = os.path.join(deep_transfer,
-                                     "deep_zip_transfer")
+    deep_zip_transfer = os.path.join(deep_transfer, "deep_zip_transfer")
 
-    zip_path_deep = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
-                                 deep_zip_transfer)
+    zip_path_deep = os.path.join(
+        HERE, TEST_TRANSFERS, SAMPLE_PACKAGES, deep_zip_transfer
+    )
 
     create_deep_transfers(
         zip_path=zip_path_deep,
         recursion_depth=createtransfersargs.DEFAULT_DEPTH,
         number_of_directories=createtransfersargs.DEFAULT_NUMBER_DIRS,
-        number_of_files=createtransfersargs.DEFAULT_NUMBER_FILES)
+        number_of_files=createtransfersargs.DEFAULT_NUMBER_FILES,
+    )
     # The first directory above is deliberately made one additional directory
     # down so that it can be zipped as one. First we have to come back up a
     # level which we do here.
-    one_deep_zip_path = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
-                                     deep_transfer)
+    one_deep_zip_path = os.path.join(
+        HERE, TEST_TRANSFERS, SAMPLE_PACKAGES, deep_transfer
+    )
     create_zip_dance(one_deep_zip_path)
 
 
@@ -307,20 +315,19 @@ def create_large_zip_packages():
     # Create a single zip with one deep directory structure inside using the
     # application defaults.
     large_transfer = "large-transfer"
-    large_zip_transfer = os.path.join(large_transfer,
-                                      "large_zip_transfer")
+    large_zip_transfer = os.path.join(large_transfer, "large_zip_transfer")
 
     # Create a path where we will create a large zipped transfer folder.
-    zip_path_large = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
-                                  large_zip_transfer)
+    zip_path_large = os.path.join(
+        HERE, TEST_TRANSFERS, SAMPLE_PACKAGES, large_zip_transfer
+    )
     # Override the defaults to create a modest 1.1GB zip.
-    create_large_test_transfers(performance_path=zip_path_large,
-                                image_n=35,
-                                video_n=35)
+    create_large_test_transfers(performance_path=zip_path_large, image_n=35, video_n=35)
     # Like the deep transfer, we deliberately drop the large transfers down a
     # folder level. We come back a level here to zip it all at once.
-    one_large_zip_path = os.path.join(HERE, TEST_TRANSFERS, SAMPLE_PACKAGES,
-                                      large_transfer)
+    one_large_zip_path = os.path.join(
+        HERE, TEST_TRANSFERS, SAMPLE_PACKAGES, large_transfer
+    )
     create_zip_dance(one_large_zip_path)
 
 
@@ -328,8 +335,7 @@ def create_zip_dance(base_directory):
     """Perform various manoeuvers to create zip files from our content and move
     them into a suitable directory structure.
     """
-    subdirs = [f for f in os.listdir(base_directory)
-               if os.path.isdir(base_directory)]
+    subdirs = [f for f in os.listdir(base_directory) if os.path.isdir(base_directory)]
     for dir_ in subdirs:
         # Create a temporary folder to provide structure inside our zip.
         sample_package = os.path.join(base_directory, "sample-package")
@@ -341,7 +347,7 @@ def create_zip_dance(base_directory):
         # file into here.
         rm_dirs_and_create(dir_)
         # Make an archive from our directory.
-        shutil.make_archive(dir_, 'zip', sample_package)
+        shutil.make_archive(dir_, "zip", sample_package)
         # Move the zip file from our temporary folder.
         move_from = "{}.zip".format(dir_)
         shutil.move(move_from, dir_)
@@ -349,8 +355,7 @@ def create_zip_dance(base_directory):
         rm_dirs(sample_package)
 
 
-def create_large_test_transfers(performance_path=None, image_n=113,
-                                video_n=669):
+def create_large_test_transfers(performance_path=None, image_n=113, video_n=669):
     """Create large test transfers by copying existing sampledata files
     multiple times to specific subdirectories of
     TestTransfers/acceptance-tests/performance/
@@ -358,7 +363,8 @@ def create_large_test_transfers(performance_path=None, image_n=113,
     # Create a location for our large transfer.
     if not performance_path:
         performance_path = os.path.join(
-            HERE, TEST_TRANSFERS, 'acceptance-tests', 'performance')
+            HERE, TEST_TRANSFERS, "acceptance-tests", "performance"
+        )
     try:
         rm_dirs_and_create(performance_path)
     except CreateTransferException as err:
@@ -367,24 +373,24 @@ def create_large_test_transfers(performance_path=None, image_n=113,
 
     # Create dir images-17M-each-2G-total/ containing 2G of 17M image files.
     image_path = os.path.join(
-        HERE, TEST_TRANSFERS, 'manualNormalization', 'manualNormalization',
-        'preservation', 'image_8.tif')
+        HERE,
+        TEST_TRANSFERS,
+        "manualNormalization",
+        "manualNormalization",
+        "preservation",
+        "image_8.tif",
+    )
 
-    create_transfer_collection(performance_path,
-                               image_path,
-                               image_n,
-                               'images-17M-each',
-                               'tif')
+    create_transfer_collection(
+        performance_path, image_path, image_n, "images-17M-each", "tif"
+    )
 
     # Create dir video-14M-each-10G-total/ containing 10G of 14M video files.
-    video_path = os.path.join(
-        HERE, 'SampleTransfers', 'Multimedia', 'MakeUp.mov')
+    video_path = os.path.join(HERE, "SampleTransfers", "Multimedia", "MakeUp.mov")
 
-    create_transfer_collection(performance_path,
-                               video_path,
-                               video_n,
-                               'video-14M-each',
-                               'mov')
+    create_transfer_collection(
+        performance_path, video_path, video_n, "video-14M-each", "mov"
+    )
 
 
 def create_default_file(target_path):
@@ -395,15 +401,19 @@ def create_default_file(target_path):
 
     default_file_path = os.path.join(target_path, "README.md")
 
-    default_string = ("# Archivematica Deep Transfer Sample Set\n\n"
-                      "An arbitrarily generated depth of folders and files\n"
-                      "to test the recursive limits of Archivematica and its\n"
-                      "capability to generate metadata.\n")
+    default_string = (
+        "# Archivematica Deep Transfer Sample Set\n\n"
+        "An arbitrarily generated depth of folders and files\n"
+        "to test the recursive limits of Archivematica and its\n"
+        "capability to generate metadata.\n"
+    )
 
-    LOGGER.info("Creating default file to copy into deep "
-                "transfer locations, %s", default_file_path)
+    LOGGER.info(
+        "Creating default file to copy into deep " "transfer locations, %s",
+        default_file_path,
+    )
 
-    with open(default_file_path, 'w') as fout:
+    with open(default_file_path, "w") as fout:
         fout.write(default_string)
 
     return default_file_path
@@ -417,17 +427,16 @@ def create_dir_and_fname_string(folder_no, ext=None):
     """
     zero_fill = 5
     if ext is None:
-        return "{0}".format(hex(folder_no
-                                + 1)).replace('0x',
-                                              '').zfill(zero_fill)
+        return "{0}".format(hex(folder_no + 1)).replace("0x", "").zfill(zero_fill)
 
-    return "{0}.{1}".format(hex(folder_no
-                                + 1), ext).replace('0x',
-                                                   '').zfill(zero_fill
-                                                             + len(ext) + 1)
+    return (
+        "{0}.{1}".format(hex(folder_no + 1), ext)
+        .replace("0x", "")
+        .zfill(zero_fill + len(ext) + 1)
+    )
 
 
-FolderStructure = namedtuple('Structure', 'depth dirs files')
+FolderStructure = namedtuple("Structure", "depth dirs files")
 
 
 def calculate_total_size(structure):
@@ -439,20 +448,23 @@ def calculate_total_size(structure):
     """
     total_dirs = 0
     for dir_no in range(structure.depth):
-        total_dirs = total_dirs + structure.dirs**(dir_no + 1)
+        total_dirs = total_dirs + structure.dirs ** (dir_no + 1)
 
     total_files = structure.files * total_dirs
 
-    LOGGER.info("Received %s depth, %s dirs, and %s files. "
-                "Outputting %s folders, and %s files.",
-                structure.depth, structure.dirs, structure.files,
-                total_dirs, total_files)
+    LOGGER.info(
+        "Received %s depth, %s dirs, and %s files. "
+        "Outputting %s folders, and %s files.",
+        structure.depth,
+        structure.dirs,
+        structure.files,
+        total_dirs,
+        total_files,
+    )
 
     # We return this structure as an output of the unit testing developed
     # to understand the structure that we should output here.
-    return FolderStructure(depth=structure.depth,
-                           dirs=total_dirs,
-                           files=total_files)
+    return FolderStructure(depth=structure.depth, dirs=total_dirs, files=total_files)
 
 
 def create_folder_paths(folder_list, structure):
@@ -507,19 +519,20 @@ def create_structure(target, structure, default_file):
                 return
 
             for i in range(structure.files):
-                new_path = os.path.join(path,
-                                        create_dir_and_fname_string(i, "md"))
+                new_path = os.path.join(path, create_dir_and_fname_string(i, "md"))
                 shutil.copyfile(default_file, new_path)
 
 
 def create_deep_transfers(**kwargs):
     """Entry point for our function to create deep transfers."""
-    folder_structure = FolderStructure(depth=kwargs["recursion_depth"],
-                                       dirs=kwargs["number_of_directories"],
-                                       files=kwargs["number_of_files"])
+    folder_structure = FolderStructure(
+        depth=kwargs["recursion_depth"],
+        dirs=kwargs["number_of_directories"],
+        files=kwargs["number_of_files"],
+    )
     # create a default folder from which to work from clear of the rest of
     # our environment.
-    sub_dir = 'deep_transfer'
+    sub_dir = "deep_transfer"
     target_path = os.path.join(HERE, TEST_TRANSFERS, sub_dir)
     if kwargs.get("zip_path"):
         target_path = kwargs.get("zip_path")
@@ -533,38 +546,36 @@ def create_deep_transfers(**kwargs):
 
 def main():
     """Entrypoint for createtransfers.py"""
-    cmd_deep = 'create-deep-transfers'
-    cmd_large = 'create-large-test-transfers'
-    cmd_encodings = 'create-variously-encoded-files'
-    cmd_dirs = 'create-variously-encoded-dir-names'
-    cmd_large_zips = 'create-large-zip-packages'
-    cmd_deep_zips = 'create-deep-zip-packages'
-    cmd_fname_zips = 'create-zip-packages-with-var-encoded-fnames'
-    cmd_dir_zips = 'create-zip-packages-with-var-encoded-dirs'
+    cmd_deep = "create-deep-transfers"
+    cmd_large = "create-large-test-transfers"
+    cmd_encodings = "create-variously-encoded-files"
+    cmd_dirs = "create-variously-encoded-dir-names"
+    cmd_large_zips = "create-large-zip-packages"
+    cmd_deep_zips = "create-deep-zip-packages"
+    cmd_fname_zips = "create-zip-packages-with-var-encoded-fnames"
+    cmd_dir_zips = "create-zip-packages-with-var-encoded-dirs"
 
     # Create a named tuple to help us control what is passed
     # to each of the various commands.
-    Command = namedtuple('Command', 'cmd_name use_kwargs')
+    Command = namedtuple("Command", "cmd_name use_kwargs")
 
     commands = {
-        cmd_deep: Command(cmd_name=create_deep_transfers,
-                          use_kwargs=True),
-        cmd_large: Command(cmd_name=create_large_test_transfers,
-                           use_kwargs=False),
-        cmd_encodings: Command(cmd_name=create_variously_encoded_files,
-                               use_kwargs=False),
-        cmd_dirs: Command(cmd_name=create_variously_encoded_dir_names,
-                          use_kwargs=False),
-        cmd_large_zips: Command(cmd_name=create_large_zip_packages,
-                                use_kwargs=False),
-        cmd_deep_zips: Command(cmd_name=create_deep_zip_packages,
-                               use_kwargs=False),
+        cmd_deep: Command(cmd_name=create_deep_transfers, use_kwargs=True),
+        cmd_large: Command(cmd_name=create_large_test_transfers, use_kwargs=False),
+        cmd_encodings: Command(
+            cmd_name=create_variously_encoded_files, use_kwargs=False
+        ),
+        cmd_dirs: Command(
+            cmd_name=create_variously_encoded_dir_names, use_kwargs=False
+        ),
+        cmd_large_zips: Command(cmd_name=create_large_zip_packages, use_kwargs=False),
+        cmd_deep_zips: Command(cmd_name=create_deep_zip_packages, use_kwargs=False),
         cmd_fname_zips: Command(
-            cmd_name=create_zip_packages_with_var_encoded_fnames,
-            use_kwargs=False),
+            cmd_name=create_zip_packages_with_var_encoded_fnames, use_kwargs=False
+        ),
         cmd_dir_zips: Command(
-            cmd_name=create_zip_packages_with_var_encoded_dirs,
-            use_kwargs=False),
+            cmd_name=create_zip_packages_with_var_encoded_dirs, use_kwargs=False
+        ),
     }
 
     argparser = createtransfersargs.get_parser(
@@ -576,7 +587,7 @@ def main():
         CMD_DEEP_ZIPS=cmd_deep_zips,
         CMD_FNAME_ZIPS=cmd_fname_zips,
         CMD_DIR_ZIPS=cmd_dir_zips,
-        )
+    )
 
     if len(sys.argv) < 2:
         argparser.print_help()
@@ -588,5 +599,5 @@ def main():
     return commands[args.subcommand].cmd_name()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
