@@ -15,29 +15,28 @@ def setup(log_level, log_name):
     """
 
     # Log format string for flake8 compliance
-    log_fmt = ('%(levelname)-8s  %(asctime)s%(filename)s:%(lineno)-4s '
-               '%(message)s')
+    log_fmt = "%(levelname)-8s  %(asctime)s%(filename)s:%(lineno)-4s " "%(message)s"
 
     # Configure logging
     config = {
-        'version': 1,
-        'disable_existing_loggers': False,
-        'formatters': {
-            'default': {
-                'format': log_fmt,
-                'datefmt': '%Y-%m-%d %H:%M:%S',
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {
+            "default": {
+                "format": log_fmt,
+                "datefmt": "%Y-%m-%d %H:%M:%S",
             },
         },
-        'handlers': {
-            'console': {
-                'class': 'logging.StreamHandler',
-                'formatter': 'default',
+        "handlers": {
+            "console": {
+                "class": "logging.StreamHandler",
+                "formatter": "default",
             },
         },
-        'loggers': {
-            'createtransfers': {
-                'level': log_level,
-                'handlers': ['console'],
+        "loggers": {
+            "createtransfers": {
+                "level": log_level,
+                "handlers": ["console"],
             },
         },
     }
@@ -50,10 +49,10 @@ def setup(log_level, log_name):
 def set_log_level(log_level, quiet, verbose):
     """Set the log level for this logger."""
     log_levels = {
-        2: 'ERROR',
-        1: 'WARNING',
-        0: 'INFO',
-        -1: 'DEBUG',
+        2: "ERROR",
+        1: "WARNING",
+        0: "INFO",
+        -1: "DEBUG",
     }
     if log_level is None:
         level = quiet - verbose
