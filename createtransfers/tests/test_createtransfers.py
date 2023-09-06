@@ -1,16 +1,25 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """To run the tests::
 
     $ python -m unittest tests.test_createtransfers
 """
+import os
+import tempfile
 import unittest
+import shutil
 
 import createtransfers
 
 
 class TestCreateTransfers(unittest.TestCase):
+    def setUp(self):
+        self.dirname = tempfile.mkdtemp()
+
+    def tearDown(self):
+        shutil.rmtree(self.dirname)
+
     def test_calculate_total_size(self):
         """We want to be able to provide some useful feedback about what
         users will be creating when they run this function. The values used
@@ -48,6 +57,18 @@ class TestCreateTransfers(unittest.TestCase):
             self.assertEqual(output.dirs, r["output"].dirs)
             self.assertEqual(output.files, r["output"].files)
             self.assertEqual(output.depth, r["output"].depth)
+
+    def test_create_variously_encoded_dir_names(self):
+        createtransfers.create_variously_encoded_dir_names(self.dirname)
+
+        # One directory was created for each item in VARIOUS_ENCODINGS
+        assert sorted(os.listdir(self.dirname)) == [
+            "big5",
+            "cp437",
+            "emoji",
+            "shift_jis",
+            "windows_1252",
+        ]
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # pylint: disable=invalid-name
@@ -56,7 +56,7 @@ VARIOUS_ENCODINGS = (
     {"dir_name": "big5", "encoding": "big5", "file_name": u"\u5ee3\u5dde"},
     {
         "dir_name": "emoji",
-        "encoding": "utf-8",
+        "encoding": "utf-16",
         "file_name": (
             u"hearts-{0}.txt".format(
                 u"\u2764\uD83D\uDC96\uD83D\uDC99"
@@ -74,15 +74,17 @@ VARIOUS_ENCODINGS = (
 )
 
 
+def encode_path(s, encoding="utf-16"):
+    return s.encode(encoding, "surrogatepass").decode(encoding)
+
+
 def create_file_and_write(file_name, file_path, encoding, dirs=False):
     """Given a filename and encoding write a file with self descriptive
     content to disk.
     """
-    file_name_unicode = file_name
-    file_name_bytes = file_name_unicode.encode(encoding)
-    file_path_bytes = os.path.join(file_path, file_name_bytes)
+    file_path = os.path.join(file_path, file_name)
     try:
-        with open(file_path_bytes, "w") as fout:
+        with open(file_path, "w") as fout:
             msg = u"The name of this file is encoded with {} " "encoding.\n".format(
                 encoding
             )
@@ -93,9 +95,9 @@ def create_file_and_write(file_name, file_path, encoding, dirs=False):
                     "\n".format(encoding)
                 )
             fout.write(msg)
-            LOGGER.info("Created: %s", file_path_bytes)
+            LOGGER.info("Created: %s", file_path)
     except (OSError, IOError) as err:
-        ret = "Failed to open file: {0}, error: {1}".format(file_path_bytes, err)
+        ret = "Failed to open file: {0}, error: {1}".format(file_path, err)
         raise CreateTransferException(ret)
 
 
@@ -196,6 +198,7 @@ def create_variously_encoded_files(zip_path=None):
         if not isinstance(file_names, (tuple, list)):
             file_names = (file_names,)
         for fname in file_names:
+            fname = encode_path(fname, encoding_info["encoding"])
             try:
                 create_file_and_write(fname, encoding_dir_path, encoding)
             except CreateTransferException as err:
@@ -219,6 +222,7 @@ def create_variously_encoded_dir_names(zip_path=None):
         if not isinstance(dir_names, (tuple, list)):
             dir_names = (dir_names,)
         for dir_ in dir_names:
+            dir_ = encode_path(dir_)
             encoding_dir_path = os.path.join(
                 target_path,
                 encoding_info["dir_name"],
