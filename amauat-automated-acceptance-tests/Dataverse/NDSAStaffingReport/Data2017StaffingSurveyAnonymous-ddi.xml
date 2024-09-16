@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns="http://www.icpsr.umich.edu/DDI" version="2.0">
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Replication Data for: Staffing for Effective Digital Preservation 2017: An NDSA Report</titl>
+        <IDNo agency="doi">10.7910/DVN/XBMAXP</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>NDSA Staffing Survey Working Group</AuthEnty>
+      </rspStmt>
+      <biblCit>NDSA Staffing Survey Working Group, 2017, "Replication Data for: Staffing for Effective Digital Preservation 2017: An NDSA Report", https://doi.org/10.7910/DVN/XBMAXP, Harvard Dataverse, DRAFT VERSION, UNF:6:UDt9tttqQKQvJoy72s+N+g== [fileUNF]</biblCit>
+    </citation>
+  </stdyDscr>
+  <fileDscr ID="f3061440">
+    <fileTxt>
+      <fileName>Data2017StaffingSurveyAnonymous.tab</fileName>
+      <dimensns>
+        <caseQnty>173</caseQnty>
+        <varQnty>136</varQnty>
+      </dimensns>
+      <fileType>text/tab-separated-values</fileType>
+    </fileTxt>
+    <notes level="file" type="VDC:UNF" subject="Universal Numeric Fingerprint">UNF:6:UDt9tttqQKQvJoy72s+N+g==</notes>
+  </fileDscr>
+  <dataDscr>
+    <var ID="v18173249" name="StartDate" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">StartDate</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:bo0BTfxM+g8cs2dm2j3Thg==</notes>
+    </var>
+    <var ID="v18173253" name="EndDate" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">EndDate</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:kCx1+atMQtr5tBJpI/QWRg==</notes>
+    </var>
+    <var ID="v18173227" name="Status" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Status</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:zBCe9rBo3sJmEMhAja2rww==</notes>
+    </var>
+    <var ID="v18173269" name="IPAddress" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">IPAddress</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:BnsN/zB3wwifHS9e+xPSig==</notes>
+    </var>
+    <var ID="v18173178" name="Progress" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Progress</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:1TgrhxyfAEci1epnk8KhNg==</notes>
+    </var>
+    <var ID="v18173236" name="Duration (in seconds)" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Duration (in seconds)</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:ae8GT7vS/M7vOpFQyh/4vA==</notes>
+    </var>
+    <var ID="v18173261" name="Finished" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Finished</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:UduSAmFtftNuZUJSsMM4xQ==</notes>
+    </var>
+    <var ID="v18173205" name="RecordedDate" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">RecordedDate</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:cSSaZTgU9rjdiMY4DDy6IA==</notes>
+    </var>
+    <var ID="v18173186" name="ResponseId" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">ResponseId</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:oSV/wGgmG1wOOQJwtbhn6g==</notes>
+    </var>
+    <var ID="v18173282" name="RecipientLastName" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">RecipientLastName</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:0978ayQ0u6LpXETXNR4p0A==</notes>
+    </var>
+    <var ID="v18173175" name="RecipientFirstName" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">RecipientFirstName</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:/PX60AltcuAsYF5zWpM3iw==</notes>
+    </var>
+    <var ID="v18173221" name="RecipientEmail" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">RecipientEmail</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:upzJc1vPnQckuGPAHqyjBg==</notes>
+    </var>
+    <var ID="v18173277" name="ExternalReference" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">ExternalReference</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:K1oYvy0P5xglat0CH/Bm6A==</notes>
+    </var>
+    <var ID="v18173290" name="LocationLatitude" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">LocationLatitude</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:62JX9bz7jLOHPg21S669FA==</notes>
+    </var>
+    <var ID="v18173288" name="LocationLongitude" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">LocationLongitude</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:2dgGUjehCPCwJHYUpRbkXA==</notes>
+    </var>
+    <var ID="v18173260" name="DistributionChannel" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">DistributionChannel</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:rb5CibggQEl5QLAcq9+rZQ==</notes>
+    </var>
+    <var ID="v18173232" name="Q2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:QB7K/tlxps9y/fMslCRlUA==</notes>
+    </var>
+    <var ID="v18173208" name="Q3" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q3</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:l+jx8TYOLk0Y26qHFvlaYw==</notes>
+    </var>
+    <var ID="v18173169" name="Q4" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q4</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:zJm90wT52rR6bHyyMX3I2g==</notes>
+    </var>
+    <var ID="v18173246" name="Q4_16_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q4_16_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:i+KIPDVqBaXC3uGrsDlC2A==</notes>
+    </var>
+    <var ID="v18173267" name="Q5" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q5</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:Q0A0Yn+LLIeSwuj6ASnN1Q==</notes>
+    </var>
+    <var ID="v18173272" name="Q6" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q6</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:iSYyRgC3wolcF0A6r6ZEQg==</notes>
+    </var>
+    <var ID="v18173222" name="Q6_5_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q6_5_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:jW1SfRt/xzUXlSZx8pOhng==</notes>
+    </var>
+    <var ID="v18173242" name="Q7" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q7</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:7D1cYIJ1/moztJUEW+rbag==</notes>
+    </var>
+    <var ID="v18173264" name="Q8_4" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_4</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:f4mpXzl9CTKC+CYbNHcKlw==</notes>
+    </var>
+    <var ID="v18173173" name="Q8_10" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_10</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:D5WQrxWBmZmtpZV64LivkA==</notes>
+    </var>
+    <var ID="v18173223" name="Q8_9" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_9</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:/ESCaa9XyYsy/Qzt/mbgVA==</notes>
+    </var>
+    <var ID="v18173179" name="Q8_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:y82eBXv5Xqojl+FlVUXDpg==</notes>
+    </var>
+    <var ID="v18173192" name="Q8_3" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_3</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:mGSTJV6LELhWq3dtUIsQgA==</notes>
+    </var>
+    <var ID="v18173281" name="Q8_7" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_7</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:ERU6HFDT9hpIslb5KSl1Ng==</notes>
+    </var>
+    <var ID="v18173218" name="Q8_8" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_8</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:yB+vpqcH2DmwFu5WlEkWTA==</notes>
+    </var>
+    <var ID="v18173156" name="Q8_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:MuX6702IcGT8c2Z/cBxbGA==</notes>
+    </var>
+    <var ID="v18173200" name="Q8_6" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_6</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:LZP8/kr1OkxsaDXcrS3gsw==</notes>
+    </var>
+    <var ID="v18173252" name="Q8_5" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_5</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:oF6WMcMz6Ds89wcGDvB1UA==</notes>
+    </var>
+    <var ID="v18173176" name="Q8_11" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_11</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:xkv+WIqKVyuVqeDA7Fhs5w==</notes>
+    </var>
+    <var ID="v18173276" name="Q8_11_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q8_11_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:kUxaMbhg3B6LCQTJCdFV/w==</notes>
+    </var>
+    <var ID="v18173229" name="Q9" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q9</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:WbJ3b+ccq92+rCOFI65Yeg==</notes>
+    </var>
+    <var ID="v18173268" name="Q9_1_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q9_1_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:0HjEdeL32g4aL1Z6D8uBKw==</notes>
+    </var>
+    <var ID="v18173289" name="Q29" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q29</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:GOy1Cxr8H1rFv5upmfrytg==</notes>
+    </var>
+    <var ID="v18173198" name="Q29_7_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q29_7_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:O+8O6/v31pLsdoTicgpsKA==</notes>
+    </var>
+    <var ID="v18173204" name="Q28_12" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_12</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:hQGl39xz+HBgUl9kPh+Chw==</notes>
+    </var>
+    <var ID="v18173195" name="Q28_6" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_6</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:4M7GDmRdW1sVgQkquc2dtw==</notes>
+    </var>
+    <var ID="v18173172" name="Q28_4" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_4</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:KeyhLK6MKYiNdyXJl4cWSw==</notes>
+    </var>
+    <var ID="v18173157" name="Q28_15" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_15</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:TiH7KVabNlRljraquAoNDA==</notes>
+    </var>
+    <var ID="v18173287" name="Q28_18" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_18</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:fjtq8FxyPPEONpKE7BQAtg==</notes>
+    </var>
+    <var ID="v18173280" name="Q28_17" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_17</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:vTuHut0tIO6eXgHd+qlhVw==</notes>
+    </var>
+    <var ID="v18173243" name="Q28_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:KhUQE59jYMZNHFXaYGll8w==</notes>
+    </var>
+    <var ID="v18173181" name="Q28_11" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_11</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:xBhzHQ9Hw/HIUr+AVjrukQ==</notes>
+    </var>
+    <var ID="v18173217" name="Q28_9" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_9</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:8/bcLlC6vwPN7ZGXpQkOMg==</notes>
+    </var>
+    <var ID="v18173189" name="Q28_10" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_10</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:EmaxG46fjrleuIFgULBCoA==</notes>
+    </var>
+    <var ID="v18173171" name="Q28_8" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_8</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:5fZER5aYMe15xwmv1kEeYg==</notes>
+    </var>
+    <var ID="v18173271" name="Q28_3" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_3</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:AIpUiLer+1nPBDA0gU25Bg==</notes>
+    </var>
+    <var ID="v18173265" name="Q28_7" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_7</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:eRGNe41vVqY4ryr1Hlmepw==</notes>
+    </var>
+    <var ID="v18173207" name="Q28_20" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_20</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:1g67qyCzwjGGqNJWc4DxRQ==</notes>
+    </var>
+    <var ID="v18173283" name="Q28_16" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_16</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:N/NNv/WM0kYgaOjrjFkE3A==</notes>
+    </var>
+    <var ID="v18173209" name="Q28_19" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_19</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:Gxeq5028rn2HGAU68vqiiA==</notes>
+    </var>
+    <var ID="v18173251" name="Q28_13" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_13</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:9z9ou2ZizcpwA1FBMTr/zg==</notes>
+    </var>
+    <var ID="v18173262" name="Q28_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:gE6ZFSltnzCBkWLgEDc9+Q==</notes>
+    </var>
+    <var ID="v18173183" name="Q28_14" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_14</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:ou5IO/w4x4Dx8Eitqw90DQ==</notes>
+    </var>
+    <var ID="v18173285" name="Q28_5" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_5</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:N88v+yD1lRmxNoHQZqeXtg==</notes>
+    </var>
+    <var ID="v18173160" name="Q28_21" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_21</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:VSfsNd3Z0B6U/2Kei9CDAQ==</notes>
+    </var>
+    <var ID="v18173237" name="Q28_21_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q28_21_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:25Bs3KivBivW6HXN0yxbgw==</notes>
+    </var>
+    <var ID="v18173219" name="Q13" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q13</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:0TYfJXUduau7b7RaoMSXWg==</notes>
+    </var>
+    <var ID="v18173196" name="Q13_1_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q13_1_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:869TJBaihgsi82hRhGznNQ==</notes>
+    </var>
+    <var ID="v18173161" name="Q13_3_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q13_3_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:JQhATq2qWyt4bCbTTaVZPA==</notes>
+    </var>
+    <var ID="v18173220" name="Q14" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q14</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:CBuxlVf9Js2Apb5RJJNAOg==</notes>
+    </var>
+    <var ID="v18173210" name="Q14_4_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q14_4_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:LITDCkIDiOuz29i997r/RA==</notes>
+    </var>
+    <var ID="v18173165" name="Q15_16_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_16_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:PllRBXF7a2zi+0WECrClUw==</notes>
+    </var>
+    <var ID="v18173231" name="Q15_16_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_16_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:Xp+Pgf6rMKFN9RHtk2G0TQ==</notes>
+    </var>
+    <var ID="v18173159" name="Q15_14_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_14_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:qsXqfLZXetLaLSLbdY7i3w==</notes>
+    </var>
+    <var ID="v18173199" name="Q15_14_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_14_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:SLWY29TUeGyNoY7SvU9VTg==</notes>
+    </var>
+    <var ID="v18173193" name="Q15_10_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_10_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:iNfF3zVJYMgnRGu5WLqgyg==</notes>
+    </var>
+    <var ID="v18173273" name="Q15_10_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_10_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:9XZR4hotFV5lllAk4zjgfA==</notes>
+    </var>
+    <var ID="v18173166" name="Q15_6_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_6_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:s2+L0wiH47ev+32lYo9xwA==</notes>
+    </var>
+    <var ID="v18173158" name="Q15_6_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_6_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:pUFFXae42dca84M0LRPIfQ==</notes>
+    </var>
+    <var ID="v18173211" name="Q15_8_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_8_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:IO3nKWTEWL/Rjphw75Hcgw==</notes>
+    </var>
+    <var ID="v18173226" name="Q15_8_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_8_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:y7UVsO/T+WwKJSqoaqE5ZQ==</notes>
+    </var>
+    <var ID="v18173247" name="Q15_9_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_9_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:bntTKQUV390fzwChPGS/QQ==</notes>
+    </var>
+    <var ID="v18173188" name="Q15_9_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_9_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:VkuxfDtPpFB/xpvRXO1+mA==</notes>
+    </var>
+    <var ID="v18173167" name="Q15_20_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_20_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:R2haT9mtbljDCzHuR57vng==</notes>
+    </var>
+    <var ID="v18173258" name="Q15_20_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_20_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:Olr5x8yDtDA6XtZoBYSIAQ==</notes>
+    </var>
+    <var ID="v18173234" name="Q15_15_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_15_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:M42MGxQGOOboIJvvonxnMg==</notes>
+    </var>
+    <var ID="v18173184" name="Q15_15_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_15_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:jDKkrXyRe4z6/qFB0vbRwQ==</notes>
+    </var>
+    <var ID="v18173162" name="Q15_1_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_1_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:jjpYeM7VBYWIWyhbT6pVIw==</notes>
+    </var>
+    <var ID="v18173164" name="Q15_1_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_1_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:MbDc1sSoX1QREmh9wSDvrA==</notes>
+    </var>
+    <var ID="v18173256" name="Q15_11_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_11_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:p1QeoZGDSNzlu9ZIb900yg==</notes>
+    </var>
+    <var ID="v18173275" name="Q15_11_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_11_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:A57X4weUvuMy/YPsnV3Ang==</notes>
+    </var>
+    <var ID="v18173203" name="Q15_13_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_13_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:SBjJzS/qQYRSMGK8F3R+PA==</notes>
+    </var>
+    <var ID="v18173270" name="Q15_13_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_13_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:2E7MeJqS7IsQHb7g09exsQ==</notes>
+    </var>
+    <var ID="v18173163" name="Q15_4_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_4_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:DTWcS6pMogs/dozvCfomdQ==</notes>
+    </var>
+    <var ID="v18173180" name="Q15_4_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_4_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:cb7gOZYqUcNSzs+ujFSMqw==</notes>
+    </var>
+    <var ID="v18173240" name="Q15_17_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_17_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:8vzk4a6ILA2jRetn046SFQ==</notes>
+    </var>
+    <var ID="v18173197" name="Q15_17_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_17_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:rM9xSNZgGU6+f27uRqoO8A==</notes>
+    </var>
+    <var ID="v18173225" name="Q15_7_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_7_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:tx1v/alJQ49pn4bKGyGdHQ==</notes>
+    </var>
+    <var ID="v18173278" name="Q15_7_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_7_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:o69q+A/hnF/p2Ej9Ja5Cjg==</notes>
+    </var>
+    <var ID="v18173241" name="Q15_18_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_18_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:rLPKVbnnoVv9lpVMn5HI7g==</notes>
+    </var>
+    <var ID="v18173263" name="Q15_18_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_18_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:BJIysHT6wxip92TyofOz3Q==</notes>
+    </var>
+    <var ID="v18173248" name="Q15_2_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_2_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:DNhvZUqCb6t4VoPxXsV3tg==</notes>
+    </var>
+    <var ID="v18173286" name="Q15_2_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_2_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:CB2GGRaMFLIGkMkcVy9C1A==</notes>
+    </var>
+    <var ID="v18173239" name="Q15_3_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_3_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:NkTJ7GQk8T4Ty4JSJeZqrg==</notes>
+    </var>
+    <var ID="v18173182" name="Q15_3_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_3_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:e8PIgqLs8l5tyZ+cqu0vpg==</notes>
+    </var>
+    <var ID="v18173228" name="Q15_19_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_19_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:22WozkuE0u22l4xvCdYmug==</notes>
+    </var>
+    <var ID="v18173190" name="Q15_19_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_19_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:tpPQgqbjLDS1otR5eWkLkA==</notes>
+    </var>
+    <var ID="v18173254" name="Q15_5_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_5_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:BJ9Rikv0L/V8XHxuLWSqHQ==</notes>
+    </var>
+    <var ID="v18173215" name="Q15_5_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_5_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:q7N0ATtp/q+dI3Ai9ktYvw==</notes>
+    </var>
+    <var ID="v18173194" name="Q15_12_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_12_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:kXiRr+GKg1E65xu5ugVE2Q==</notes>
+    </var>
+    <var ID="v18173274" name="Q15_12_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_12_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:F/CXaQtuwanvooC8Qf+B3g==</notes>
+    </var>
+    <var ID="v18173259" name="Q15_21_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_21_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:S3kK2PAPWJaO+GT/vzZ1qg==</notes>
+    </var>
+    <var ID="v18173233" name="Q15_21_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_21_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:CI1WUQlfy7Tny8+N6Qttrw==</notes>
+    </var>
+    <var ID="v18173202" name="Q15_21_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q15_21_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:9hcPPCMmwKQgBWpEOfdjGQ==</notes>
+    </var>
+    <var ID="v18173155" name="Q16" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q16</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:k376S2KKm3g/zE3SMXIVbA==</notes>
+    </var>
+    <var ID="v18173279" name="Q17" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q17</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:LaHcR/FoXEOKeZ/RkeuvTA==</notes>
+    </var>
+    <var ID="v18173245" name="Q17_3_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q17_3_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:4eQrMIDq1OSStzcPHdqzfg==</notes>
+    </var>
+    <var ID="v18173216" name="Q18_13" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_13</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:nC8Hch9gvB9p3skCKE7wJA==</notes>
+    </var>
+    <var ID="v18173284" name="Q18_9" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_9</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:2nBMwZUnUjcelmM/VUikFg==</notes>
+    </var>
+    <var ID="v18173170" name="Q18_3" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_3</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:k1K3gfRvoPnPWX46cXkKsQ==</notes>
+    </var>
+    <var ID="v18173185" name="Q18_12" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_12</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:zT/jN/iS1se54BvW2n7ixg==</notes>
+    </var>
+    <var ID="v18173213" name="Q18_8" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_8</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:olhMxfaGbqzcqlsvaPeLbQ==</notes>
+    </var>
+    <var ID="v18173201" name="Q18_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:y5NP8JM2I7OYFXPH7Y9xkQ==</notes>
+    </var>
+    <var ID="v18173244" name="Q18_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:bpu9quJ4E9HoYxq3AbnrVw==</notes>
+    </var>
+    <var ID="v18173250" name="Q18_5" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_5</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:KwI4lFfjHJ5Ri5LnvMmalQ==</notes>
+    </var>
+    <var ID="v18173212" name="Q18_7" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_7</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:N4gJXfjxatqb051U/uK1Rg==</notes>
+    </var>
+    <var ID="v18173214" name="Q18_14" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_14</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:hSWsfDY6rKGLqAIbL4mtUQ==</notes>
+    </var>
+    <var ID="v18173224" name="Q18_11" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_11</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:n/w4gBG+6eWzRGb+mqIDgA==</notes>
+    </var>
+    <var ID="v18173257" name="Q18_4" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_4</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:8D1Ter4mJKG5NKCv0iuuAw==</notes>
+    </var>
+    <var ID="v18173235" name="Q18_10" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_10</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:qJMSZZ8Hs1XKwhQEOZKdnw==</notes>
+    </var>
+    <var ID="v18173266" name="Q18_6" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_6</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:y1EDReJjsS3lAssyw4duqg==</notes>
+    </var>
+    <var ID="v18173187" name="Q18_15" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_15</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:5Uv+Pzw6PEUNZfIMQbEvAg==</notes>
+    </var>
+    <var ID="v18173206" name="Q18_15_TEXT" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q18_15_TEXT</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:if9rvODPzWq5aUH/TiDdIg==</notes>
+    </var>
+    <var ID="v18173230" name="Q19" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q19</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:0hKdiRdn0UoX8aWQGEzVLw==</notes>
+    </var>
+    <var ID="v18173174" name="Q20" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q20</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:RJNZz0nQEWBNYkIeDkl6CQ==</notes>
+    </var>
+    <var ID="v18173238" name="Q21" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q21</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:IEhw4N7mqlUH0AUUZ0GmAg==</notes>
+    </var>
+    <var ID="v18173177" name="Q22_1" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q22_1</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:WrMnPLe1BEtisT+EYcjH3g==</notes>
+    </var>
+    <var ID="v18173168" name="Q22_2" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q22_2</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:1cqhv9MeNZd56h4omOM3bQ==</notes>
+    </var>
+    <var ID="v18173255" name="Q22_3" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q22_3</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:GvF5yETRAmM6QA5DhCiLOw==</notes>
+    </var>
+    <var ID="v18173191" name="Q22_4" intrvl="discrete">
+      <location fileid="f3061440"/>
+      <labl level="variable">Q22_4</labl>
+      <varFormat type="character"/>
+      <notes subject="Universal Numeric Fingerprint" level="variable" type="VDC:UNF">UNF:6:4qMR/auQ47EnRnuRkYZziw==</notes>
+    </var>
+  </dataDscr>
+</codeBook>
