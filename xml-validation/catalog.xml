@@ -20,6 +20,10 @@
       systemId="http://schemas.opengis.net/gml/3.1.1/smil/smil20.xsd"
       uri="./schemas/catalog/gml/smil/smil20.xsd" />
 
+    <system
+      systemId="http://dublincore.org/schemas/xmls/simpledc20021212.xsd"
+      uri="./schemas/catalog/xmls/simpledc20021212.xsd" />
+
   </group>
 
 </catalog>
