@@ -1,0 +1,15 @@
+FIELD_SOURCE_ORGANIZATION: Artefactual Systems
+FIELD_ORGANIZATION_ADDRESS: Suite 201 - 301 6th Street
+   
+   New Westminster, BC
+   
+   Canada
+FIELD_CONTACT_NAME: A. R. Chivist
+FIELD_CONTACT_EMAIL: archivist@example.com
+FIELD_EXTERNAL_DESCRIPTION: These images of carnivorous plants are used to test
+   the unzipped and zipped bag functionality in Archivematica.
+FIELD_BAGGING_DATE: 2019-08-06
+FIELD_BAG_SIZE: 63.1 KB
+Payload-Oxum: 63140.2
+Bagging-Date: 2019-08-06
+Bag-Size: 62.2 KB

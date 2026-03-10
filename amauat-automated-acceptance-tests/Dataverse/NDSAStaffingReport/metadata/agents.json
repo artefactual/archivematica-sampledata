@@ -1,0 +1,8 @@
+[
+    {
+        "agentIdentifierType": "URI",
+        "agentIdentifierValue": "https://dataverse.harvard.edu",
+        "agentName": "Archivematica Test Dataverse",
+        "agentType": "Dataverse Application"
+    }
+]
