@@ -1,0 +1,4 @@
+file,basis,terms,grant_act,grant_restriction
+objects/,license,Transfer license terms.,use,Allow
+objects,license,Duplicate license terms.,use,Allow
+objects/first.txt,license,Additional file license terms.,use,Allow
